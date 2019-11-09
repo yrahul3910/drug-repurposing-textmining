@@ -1,0 +1,1 @@
+from drugdiscovery.classification.flair_classifier import FlairClassifier
