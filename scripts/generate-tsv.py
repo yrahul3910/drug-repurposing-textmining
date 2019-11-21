@@ -13,3 +13,4 @@ words = '\n'.join(['\tB\n'.join(passage.split()) for passage in passages])
 
 with open('../biobert-data/extracted.tsv', 'w') as f:
     f.write(words)
+    f.write('\n')
