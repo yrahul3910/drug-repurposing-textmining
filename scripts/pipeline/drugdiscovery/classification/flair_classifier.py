@@ -15,14 +15,14 @@ class FlairClassifier:
     def __init__(self, save_dir='../ner/models/v1/'):
         self.save_dir = save_dir
 
-    def train(self, dataset='bc5cdr', bs=4, lr=0.1, epochs=150):
+    def train(self, dataset: str = 'bc5cdr', bs: int = 4, lr: float = 0.1, epochs: int = 150) -> None:
         """
         Trains the model. Code adapted from https://github.com/shreyashub/BioFLAIR.
         :param dataset - The dataset to train on. Must be present in the data/ folder.
         :param bs - The batch size to use.
         :param lr - The learning rate to use.
         :param epochs - The maximum number of epochs to run for.
-        :return:
+        :return: None
         """
         columns = {0: 'text', 3: 'ner'}
 

@@ -12,6 +12,7 @@ filtered = term_remover.remove()
 
 print('(3 / 5) Classifying')
 classifier = FlairClassifier()
+# classifier.train()
 medical_term_strings = classifier.classify(filtered)
 
 print('(4 / 5) Removing duplicates')
