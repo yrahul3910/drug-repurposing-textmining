@@ -11,7 +11,7 @@ term_remover = IrrelevantTermRemover(pruned)
 filtered = term_remover.remove()
 
 print('(3 / 5) Classifying')
-classifier = FlairClassifier()
+classifier = FlairClassifier(save_dir='../../bioflair-trained/trained-model/v1/')
 # classifier.train()
 medical_term_strings = classifier.classify(filtered)
 
