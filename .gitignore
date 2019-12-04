@@ -5,3 +5,7 @@ drug-names.txt
 extracted.json
 papers/
 pretrained/
+.DS_Store
+bioflair-trained/
+__pycache__/
+deliverables.zip

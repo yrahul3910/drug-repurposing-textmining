@@ -9,3 +9,5 @@
 * `biobert/`: Code for the BioBERT model
 * `biobert-data/`: Data formatted for BioBERT (`test.tsv`), along with some preprocessed datasets provided by BioBERT authors (`NERdata/`), and a development set taken from one of those datasets (`devel.tsv`)
 * `pretrained/`: Pretrained BioBERT model
+* `bioflair/`: The BioFLAIR code and data, with small tweaks. Code from [this repo](https://github.com/shreyashub/BioFLAIR)
+* `bioflair-trained/`: The trained BioFLAIR model, for 81 epochs on the `bc5cdr` dataset.
