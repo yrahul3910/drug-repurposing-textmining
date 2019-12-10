@@ -101,6 +101,8 @@ In the meantime, I found another language model called [FLAIR](https://github.co
 
 I was able to use the BioFLAIR code and adapt it to our needs. I trained the model on the `bc5cdr` dataset (provided by the BioFLAIR authors) on a machine with an NVIDIA T4 GPU with 12 GB RAM. Training took 6h 12m. I incorporated training and classification code into the pipeline code.
 
+The trained models are available on [Google Drive](https://drive.google.com/drive/folders/1xfY4k0Sm7Oro4DRepvSyXnhRZnkUkUmd?usp=sharing).
+
 ## Current Progress
 
 - [x] **Low confidence text pruning:** Currently achieved by `drugdiscovery.preprocessing.LowConfidencePruner`.
@@ -109,6 +111,8 @@ I was able to use the BioFLAIR code and adapt it to our needs. I trained the mod
 - [x] **Adjacent duplicate remover:** Achieved by `drugdiscovery.postprocessing.DuplicateRemover`.
 - [x] **Pair formation:** Achieved by `drugdiscovery.postprocessing.PairFormer`.
 - [ ] **Validation:** We currently do not have a method for doing this.
+
+The code is available on the [NCSU GitHub](https://github.ncsu.edu/ryedida/drug-disease-predictor) publicly, and the standard [GitHub](https://github.com/yrahul3910/csc830-drug-disease-discovery/) as a private repository shared with Saad.
 
 ## Sample run of pipeline
 
