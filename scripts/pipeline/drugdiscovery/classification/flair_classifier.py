@@ -58,7 +58,7 @@ class FlairClassifier:
                       mini_batch_size=bs,
                       max_epochs=epochs)
 
-    def classify(self, sentences: list) -> list:
+    def classify(self, sentences: list, verbose=False) -> list:
         """
         Classifies a list of sentences, returning NER results.
         :return List of medical term strings
@@ -72,5 +72,8 @@ class FlairClassifier:
 
             tokens = [token.text for token in flair_sentence.get_spans('ner') if token.tag == 'Entity']
             results.append(tokens)
+
+        if verbose:
+            print([token for token in flair_sentence.get_spans('ner')])
 
         return results
