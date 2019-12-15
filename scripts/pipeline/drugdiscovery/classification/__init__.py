@@ -1,1 +1,2 @@
 from drugdiscovery.classification.flair_classifier import FlairClassifier
+from drugdiscovery.classification.twin_classifier import TwinClassifier
