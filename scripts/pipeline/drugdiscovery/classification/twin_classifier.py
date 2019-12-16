@@ -54,7 +54,8 @@ class TwinClassifier:
         pairs = pf.pair()
 
         # Get medical terms
-        diseases = set(diseases)
+        diseases = [item for sublist in diseases for item in sublist]
+        diseases = list(set(diseases))
 
         for pair in pairs:
             # Check if both are diseases
@@ -66,3 +67,5 @@ class TwinClassifier:
                 continue
 
             final_pairs.append(pair)
+
+        return final_pairs

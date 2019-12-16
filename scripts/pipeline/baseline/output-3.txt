@@ -1,0 +1,952 @@
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+(1 / 5) Pruning low confidence excerpts
+(2 / 5) Removing irrelevant terms
+(3 / 5) Classifying
+Classifying 10681 terms
+
+
+....Batch 515 / 667 
+------------------
+2019-12-16 00:16:16,592 loading file ../../../best-model.pt
+[('trauma', 'traumatic stress'), ('traumatic stress', 'trauma'), ('trauma', 'urea'), ('urea', 'cancer'), ('cancer', 'squamous cell carcinoma'), ('squamous cell carcinoma', 'skin cancer'), ('skin cancer', 'basal cell carcinoma'), ('basal cell carcinoma', 'cutaneous squamous cell carcinoma'), ('cutaneous squamous cell carcinoma', 'melanoma'), ('melanoma', 'skin cancer'), ('skin cancer', 'diabetes colon cancer'), ('diabetes colon cancer', 'breast cancer heart'), ('breast cancer heart', 'Strokes'), ('Strokes', 'dementia'), ('dementia', 'cognitive impairment'), ('cognitive impairment', "Alzheimer's disease"), ("Alzheimer's disease", 'cognitive impairment'), ('cognitive impairment', 'obese diabetes'), ('obese diabetes', 'inflammation'), ('inflammation', 'heart disease cancer'), ('heart disease cancer', "Alzheimer's disease"), ("Alzheimer's disease", 'diabetes'), ('diabetes', 'Omega RX'), ('Omega RX', 'fish oil'), ('fish oil', 'polyphenol'), ('polyphenol', 'bacterial infection'), ('bacterial infection', 'polyphenols'), ('polyphenols', 'polyphenol')]
+
+
+....Batch 516 / 667 
+------------------
+2019-12-16 00:16:35,461 loading file ../../../best-model.pt
+[('alcohol', 'polyphenols'), ('polyphenols', 'omega-3 fatty acids'), ('omega-3 fatty acids', 'cod liver'), ('cod liver', 'fatty acids'), ('fatty acids', "fatty acids let's"), ("fatty acids let's", 'omega-3 fatty acids'), ('omega-3 fatty acids', 'fatty acids'), ('fatty acids', 'inflammation'), ('inflammation', 'fatty acids'), ('fatty acids', 'inflammation'), ('inflammation', 'statins'), ('statins', 'inflammation'), ('inflammation', 'fatty acids'), ('fatty acids', 'fatty acid'), ('fatty acid', 'adonic acid'), ('adonic acid', 'inflammation'), ('inflammation', 'fatty acid'), ('fatty acid', 'pentanoic acid'), ('pentanoic acid', 'EPA'), ('EPA', 'inflammation'), ('inflammation', 'fatty acids'), ('fatty acids', 'heart disease'), ('heart disease', 'depression')]
+
+
+....Batch 517 / 667 
+------------------
+2019-12-16 00:16:48,829 loading file ../../../best-model.pt
+[('rock adonic acid', 'EPA'), ('EPA', 'arachidonic acid'), ('arachidonic acid', 'AAA'), ('AAA', 'pentanoic acid'), ('pentanoic acid', 'EPA'), ('EPA', 'AA'), ('AA', 'EPA'), ('EPA', 'glucose'), ('glucose', 'cholesterol'), ('cholesterol', 'triglycerides'), ('triglycerides', 'hypoglycemia'), ('hypoglycemia', 'sugar'), ('sugar', 'diabetes'), ('diabetes', 'Diabetes'), ('Diabetes', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'pain'), ('pain', 'polyphenols'), ('polyphenols', 'fatty acids'), ('fatty acids', 'fish oil')]
+
+
+....Batch 518 / 667 
+------------------
+2019-12-16 00:17:02,038 loading file ../../../best-model.pt
+[('Mercury', 'dioxane'), ('dioxane', 'fatty acids'), ('fatty acids', 'itching'), ('itching', 'fatty acids'), ('fatty acids', 'carbon monoxide'), ('carbon monoxide', 'heart failure kidney failure liver failure'), ('heart failure kidney failure liver failure', 'brain failure'), ('brain failure', 'inflammation'), ('inflammation', 'fatty acids'), ('fatty acids', 'urea'), ('urea', 'statins'), ('statins', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'heart attack'), ('heart attack', 'heart disease'), ('heart disease', 'Statin'), ('Statin', 'atorvastatin rosuvastatin'), ('atorvastatin rosuvastatin', 'simvastatin'), ('simvastatin', 'statins'), ('statins', 'heart disease'), ('heart disease', 'statins'), ('statins', 'disabilities'), ('disabilities', 'kidney failure'), ('kidney failure', 'pain'), ('pain', 'naproxen'), ('naproxen', 'esomeprazole'), ('esomeprazole', 'captopril'), ('captopril', 'digoxin'), ('digoxin', 'vitamin B12 cyanocobalamin'), ('vitamin B12 cyanocobalamin', 'schizophrenia'), ('schizophrenia', 'cholesterol'), ('cholesterol', 'Hepatitis C'), ('Hepatitis C', 'infection'), ('infection', 'Clostridium difficile'), ('Clostridium difficile', 'diarrhea'), ('diarrhea', 'inflammation'), ('inflammation', 'hypertension'), ('hypertension', "Alzheimer's"), ("Alzheimer's", 'hypertension'), ('hypertension', 'flavanols'), ('flavanols', 'flavonoids'), ('flavonoids', 'hypertensive')]
+
+
+....Batch 519 / 667 
+------------------
+2019-12-16 00:17:14,813 loading file ../../../best-model.pt
+[('flavonoids', 'cocoa flavonoids'), ('cocoa flavonoids', 'cholesterol'), ('cholesterol', 'cocoa flavonoids'), ('cocoa flavonoids', 'blood clot'), ('blood clot', 'heart attack'), ('heart attack', 'nitrous oxide'), ('nitrous oxide', 'cholesterol'), ('cholesterol', 'fish oil'), ('fish oil', 'Resveratrol'), ('Resveratrol', 'nitric oxide'), ('nitric oxide', 'hypertensive'), ('hypertensive', 'overweight overweight'), ('overweight overweight', 'cancers'), ('cancers', 'cancer heart disease diabetes'), ('cancer heart disease diabetes', "Alzheimer's disease"), ("Alzheimer's disease", 'polyphenols'), ('polyphenols', 'Flavin'), ('Flavin', 'cocoa flavanols'), ('cocoa flavanols', 'flavanols'), ('flavanols', 'cocoa flavanols'), ('cocoa flavanols', 'nitric oxide'), ('nitric oxide', 'theobromine')]
+
+
+....Batch 520 / 667 
+------------------
+2019-12-16 00:17:27,882 loading file ../../../best-model.pt
+[('Resveratrol', 'cocoa flavonoids'), ('cocoa flavonoids', 'polyphenol'), ('polyphenol', 'pain'), ('pain', 'diabetes'), ('diabetes', 'obesity')]
+
+
+....Batch 521 / 667 
+------------------
+2019-12-16 00:17:41,935 loading file ../../../best-model.pt
+[('urea', 'aspirin'), ('aspirin', 'colorectal cancer'), ('colorectal cancer', 'aspirin'), ('aspirin', 'ibuprofen naproxen'), ('ibuprofen naproxen', 'diclofenac'), ('diclofenac', 'bleeding ulcers'), ('bleeding ulcers', 'colorectal cancer'), ('colorectal cancer', 'cancer'), ('cancer', 'NSAID'), ('NSAID', 'colorectal cancer'), ('colorectal cancer', 'aspirin'), ('aspirin', 'colorectal cancer'), ('colorectal cancer', 'diabetes high blood pressure'), ('diabetes high blood pressure', 'heart disease'), ('heart disease', 'enalapril'), ('enalapril', 'stroke'), ('stroke', 'enalapril'), ('enalapril', 'folic acid'), ('folic acid', 'stroke'), ('stroke', 'enalapril'), ('enalapril', 'folic acid'), ('folic acid', 'testosterone'), ('testosterone', 'vitamin D'), ('vitamin D', 'vascular complications'), ('vascular complications', 'diabetes'), ('diabetes', 'metabolic disorder'), ('metabolic disorder', 'heart attacks strokes'), ('heart attacks strokes', 'kidney problems'), ('kidney problems', 'retinol'), ('retinol', 'microvascular damage'), ('microvascular damage', 'diabetes'), ('diabetes', 'vitamin D'), ('vitamin D', 'diabetes'), ('diabetes', 'fenofibrate'), ('fenofibrate', 'vitamin D'), ('vitamin D', 'cardiovascular complications'), ('cardiovascular complications', 'vitamin D'), ('vitamin D', 'ADHD'), ('ADHD', 'attention deficit hyperactivity disorder'), ('attention deficit hyperactivity disorder', 'attention deficit disorder'), ('attention deficit disorder', 'ADHD'), ('ADHD', 'attention deficit hyperactivity disorder'), ('attention deficit hyperactivity disorder', 'ADD'), ('ADD', 'hyperactivity'), ('hyperactivity', 'hyper'), ('hyper', 'ADHD'), ('ADHD', 'DD'), ('DD', 'ADHD'), ('ADHD', 'hyperactivity'), ('hyperactivity', 'ADHD')]
+
+
+....Batch 522 / 667 
+------------------
+2019-12-16 00:17:55,757 loading file ../../../best-model.pt
+[('violence', 'post-traumatic stress disorder'), ('post-traumatic stress disorder', 'ADHD'), ('ADHD', 'Family Violence'), ('Family Violence', 'Violence'), ('Violence', 'ADHD'), ('ADHD', 'learning disability'), ('learning disability', 'dyslexia'), ('dyslexia', 'ADHD'), ('ADHD', 'learning disabilities'), ('learning disabilities', 'ADHD'), ('ADHD', 'learning disabilities'), ('learning disabilities', 'anxiety'), ('anxiety', 'ADHD'), ('ADHD', 'stomach discomfort'), ('stomach discomfort', 'depression'), ('depression', 'anxiety'), ('anxiety', 'irritability'), ('irritability', 'headaches'), ('headaches', 'Tylenol'), ('Tylenol', 'ADHD'), ('ADHD', 'hypoglycemic'), ('hypoglycemic', 'irritable'), ('irritable', 'ADHD'), ('ADHD', 'vitamins'), ('vitamins', 'hyper'), ('hyper', 'ADHD'), ('ADHD', 'salicylates'), ('salicylates', 'ADHD'), ('ADHD', 'leaky gut'), ('leaky gut', 'juvenile arthritis'), ('juvenile arthritis', 'omega-3 fats'), ('omega-3 fats', 'minerals')]
+
+
+....Batch 523 / 667 
+------------------
+2019-12-16 00:18:09,461 loading file ../../../best-model.pt
+[('ADHD', "I'd"), ("I'd", 'ADHD'), ('ADHD', 'Defiant Disorder'), ('Defiant Disorder', 'ADHD'), ('ADHD', 'fatty acids'), ('fatty acids', 'ADHD'), ('ADHD', 'fatty acids'), ('fatty acids', 'ADHD'), ('ADHD', 'ADHD Omega-3s'), ('ADHD Omega-3s', 'Omega threes'), ('Omega threes', 'ADHD'), ('ADHD', 'fatty acids'), ('fatty acids', 'iron'), ('iron', 'ADHD'), ('ADHD', 'iron'), ('iron', 'ADHD'), ('ADHD', 'iron'), ('iron', 'zinc'), ('zinc', 'iron'), ('iron', 'zinc'), ('zinc', 'magnesium'), ('magnesium', 'ADHD')]
+
+
+....Batch 524 / 667 
+------------------
+2019-12-16 00:18:23,484 loading file ../../../best-model.pt
+[('ADHD', 'CD'), ('CD', 'ADHD'), ('ADHD', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'Suicidal Thoughts ketamine'), ('Suicidal Thoughts ketamine', 'pain'), ('pain', 'Burns'), ('Burns', "ketamine's"), ("ketamine's", 'antidepressant'), ('antidepressant', 'ketamine'), ('ketamine', 'suicidal'), ('suicidal', 'ketamine'), ('ketamine', 'dementia'), ('dementia', 'aspirin'), ('aspirin', 'Ginkgo biloba'), ('Ginkgo biloba', 'stroke'), ('stroke', 'ischemic stroke'), ('ischemic stroke', 'ginkgo biloba extract'), ('ginkgo biloba extract', 'aspirin'), ('aspirin', 'GBE'), ('GBE', 'Aspirin'), ('Aspirin', 'cognitive and neurological deficit'), ('cognitive and neurological deficit', 'ischemic stroke'), ('ischemic stroke', 'glaucoma'), ('glaucoma', 'eye disease'), ('eye disease', 'heart disease'), ('heart disease', 'diabetes'), ('diabetes', 'obesity'), ('obesity', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'saturated fat'), ('saturated fat', 'heart disease'), ('heart disease', 'fat'), ('fat', 'cholesterol'), ('cholesterol', 'triglycerides'), ('triglycerides', 'fat'), ('fat', 'bloating'), ('bloating', 'cholesterol'), ('cholesterol', "cholesterol it's sugar"), ("cholesterol it's sugar", 'starch'), ('starch', 'triglycerides'), ('triglycerides', 'cholesterol')]
+
+
+....Batch 525 / 667 
+------------------
+2019-12-16 00:18:39,540 loading file ../../../best-model.pt
+[('heart disease', 'heart disease diabetes'), ('heart disease diabetes', 'cancer'), ('cancer', 'weight loss'), ('weight loss', 'diabetes'), ('diabetes', 'obesity'), ('obesity', 'fatty liver'), ('fatty liver', 'diabetes'), ('diabetes', 'schizophrenic'), ('schizophrenic', 'sugar'), ('sugar', 'fructose'), ('fructose', 'heart disease diabetes'), ('heart disease diabetes', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'Diabetes'), ('Diabetes', 'starch'), ('starch', 'omega-3 fats'), ('omega-3 fats', 'fat'), ('fat', 'sugar sugar'), ('sugar sugar', "sugar it's"), ("sugar it's", 'weight loss')]
+
+
+....Batch 526 / 667 
+------------------
+2019-12-16 00:18:58,042 loading file ../../../best-model.pt
+[('cholesterol', 'diabetes heart disease'), ('diabetes heart disease', 'heart disease'), ('heart disease', 'cholesterol inflammation'), ('cholesterol inflammation', 'carbon sugar'), ('carbon sugar', 'starch'), ('starch', 'inflammation'), ('inflammation', 'weight loss'), ('weight loss', 'vitamins'), ('vitamins', 'heart disease'), ('heart disease', 'cancer'), ('cancer', 'honey avocado'), ('honey avocado', 'reflux bloating joint pain headaches'), ('reflux bloating joint pain headaches', 'depression fatigue insomnia'), ('depression fatigue insomnia', 'inflammation'), ('inflammation', 'diabetes'), ('diabetes', "Alzheimer's disease"), ("Alzheimer's disease", 'asthma allergy'), ('asthma allergy', 'obesity')]
+
+
+....Batch 527 / 667 
+------------------
+2019-12-16 00:19:14,427 loading file ../../../best-model.pt
+[('inflammation', 'grapeseed oil'), ('grapeseed oil', 'cough'), ('cough', 'obesity'), ('obesity', 'weight loss'), ('weight loss', 'urea'), ('urea', '800-345-7339'), ('800-345-7339', 'headaches'), ('headaches', 'weight loss'), ('weight loss', 'obese'), ('obese', 'weight loss'), ('weight loss', 'diabetes'), ('diabetes', 'sugar'), ('sugar', 'neurodegenerative delay'), ('neurodegenerative delay', 'depression'), ('depression', 'depressed'), ('depressed', 'depression'), ('depression', 'heart disease'), ('heart disease', 'Statin'), ('Statin', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'lead II'), ('lead II', 'statins'), ('statins', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'statins'), ('statins', 'infections'), ('infections', 'infection'), ('infection', 'C difficile'), ('C difficile', 'MRSA'), ('MRSA', 'clostridium difficile')]
+
+
+....Batch 528 / 667 
+------------------
+2019-12-16 00:19:28,968 loading file ../../../best-model.pt
+[('fever', 'ibuprofen Tylenol'), ('ibuprofen Tylenol', 'Cough'), ('Cough', 'stomach ache'), ('stomach ache', 'upper respiratory infection'), ('upper respiratory infection', 'respiratory infections'), ('respiratory infections', 'ibuprofen'), ('ibuprofen', 'antihistamines'), ('antihistamines', 'fever'), ('fever', 'respiratory tract infections'), ('respiratory tract infections', 'colds'), ('colds', 'allergy'), ('allergy', 'Ibuprofen'), ('Ibuprofen', 'Tylenol'), ('Tylenol', 'histamines'), ('histamines', 'pneumonia'), ('pneumonia', 'cough'), ('cough', 'dextromethorphan'), ('dextromethorphan', 'fever'), ('fever', 'headaches'), ('headaches', 'migraines'), ('migraines', 'cough'), ('cough', 'pain'), ('pain', 'sore throat'), ('sore throat', 'pain'), ('pain', 'sore throat'), ('sore throat', 'echinacea'), ('echinacea', 'lidocaine'), ('lidocaine', 'pain'), ('pain', 'sore throat.'), ('sore throat.', 'sore throat'), ('sore throat', 'cold cough'), ('cold cough', 'sore throat')]
+
+
+....Batch 529 / 667 
+------------------
+2019-12-16 00:19:43,884 loading file ../../../best-model.pt
+[('echinacea', 'sore throat'), ('sore throat', 'colds coughs congestion'), ('colds coughs congestion', 'thymol'), ('thymol', "it's"), ("it's", 'upper respiratory infections'), ('upper respiratory infections', 'cough'), ('cough', 'honey honey'), ('honey honey', 'cough'), ('cough', 'congestion'), ('congestion', 'cough'), ('cough', 'bronchitis'), ('bronchitis', 'cough'), ('cough', 'DM'), ('DM', 'dextromethorphan'), ('dextromethorphan', 'cough'), ('cough', 'Ginger'), ('Ginger', 'nausea'), ('nausea', 'vomiting'), ('vomiting', 'nausea'), ('nausea', 'vomiting'), ('vomiting', 'colds fever'), ('colds fever', 'Fever'), ('Fever', 'fevers'), ('fevers', 'fever'), ('fever', 'fever fever'), ('fever fever', 'fever'), ('fever', 'fevers'), ('fevers', 'fever'), ('fever', 'infection'), ('infection', 'fevers'), ('fevers', 'fever'), ('fever', 'ibuprofen'), ('ibuprofen', 'naproxen'), ('naproxen', 'fever'), ('fever', 'earache'), ('earache', 'Tylenol'), ('Tylenol', 'Ibuprofen'), ('Ibuprofen', 'fever'), ('fever', 'cough'), ('cough', 'ibuprofen'), ('ibuprofen', 'Tylenol'), ('Tylenol', 'coughing'), ('coughing', 'cough'), ('cough', 'ibuprofen'), ('ibuprofen', 'stomach ache'), ('stomach ache', 'Tylenol'), ('Tylenol', 'ibuprofen'), ('ibuprofen', 'fever'), ('fever', 'fevers'), ('fevers', 'fever'), ('fever', 'performance anxiety')]
+
+
+....Batch 530 / 667 
+------------------
+2019-12-16 00:19:59,275 loading file ../../../best-model.pt
+[('anxiety disorder', 'anxiety'), ('anxiety', 'anxiety disorder'), ('anxiety disorder', 'anxiety'), ('anxiety', 'depression'), ('depression', 'colic'), ('colic', 'spasms'), ('spasms', 'IBS'), ('IBS', 'irritable bowel'), ('irritable bowel', 'anxiety'), ('anxiety', 'diabetes'), ('diabetes', 'heart disease'), ('heart disease', 'anxiety'), ('anxiety', 'Alprazolam'), ('Alprazolam', 'anxiety'), ('anxiety', 'heart palpitations'), ('heart palpitations', 'anxiety'), ('anxiety', 'bloating upset stomach'), ('bloating upset stomach', 'heartburn'), ('heartburn', 'alcohol'), ('alcohol', 'stomach acid'), ('stomach acid', 'dandy-lion gentian artichoke'), ('dandy-lion gentian artichoke', 'alcohol'), ('alcohol', 'gas'), ('gas', 'bloating'), ('bloating', 'eczema'), ('eczema', 'allergies'), ('allergies', 'allergic reactions'), ('allergic reactions', 'food allergies'), ('food allergies', 'spasm'), ('spasm', 'fennel'), ('fennel', 'bloating')]
+
+
+....Batch 531 / 667 
+------------------
+2019-12-16 00:20:14,978 loading file ../../../best-model.pt
+[('lung cancer', 'cancer'), ('cancer', 'tumors'), ('tumors', 'cancers'), ('cancers', 'cancer'), ('cancer', 'cannabis'), ('cannabis', 'epilepsy'), ('epilepsy', 'cannabidiol'), ('cannabidiol', 'epidiolex'), ('epidiolex', 'epilepsy'), ('epilepsy', 'cannabidiol'), ('cannabidiol', 'liver injury'), ('liver injury', 'marijuana'), ('marijuana', 'flu'), ('flu', 'acetaminophen'), ('acetaminophen', 'pain'), ('pain', 'fever acetaminophen'), ('fever acetaminophen', 'Tylenol'), ('Tylenol', 'flu'), ('flu', 'acetaminophen'), ('acetaminophen', 'kidney or liver damage'), ('kidney or liver damage', 'flu'), ('flu', 'heart rhythm abnormality'), ('heart rhythm abnormality', 'atrial fibrillation'), ('atrial fibrillation', 'clot'), ('clot', 'blood clot'), ('blood clot', 'stroke'), ('stroke', 'afib'), ('afib', 'clotting'), ('clotting', 'atrial fibrillation'), ('atrial fibrillation', 'heart failure'), ('heart failure', 'manic depression'), ('manic depression', 'bipolar disorder'), ('bipolar disorder', 'lithium'), ('lithium', 'mood disorders'), ('mood disorders', 'lithium'), ('lithium', 'Mania'), ('Mania', 'bipolar illness'), ('bipolar illness', 'lithium'), ('lithium', 'sodium'), ('sodium', 'lithium'), ('lithium', 'lithium carbonate'), ('lithium carbonate', 'bipolar illness'), ('bipolar illness', 'depression'), ('depression', 'lithium'), ('lithium', 'homicide'), ('homicide', 'heart disease'), ('heart disease', 'dementia'), ('dementia', 'lithium'), ('lithium', 'Coca-Cola'), ('Coca-Cola', 'cocaine'), ('cocaine', 'lithium'), ('lithium', 'Tremor'), ('Tremor', 'thirst')]
+
+
+....Batch 532 / 667 
+------------------
+2019-12-16 00:20:28,571 loading file ../../../best-model.pt
+[('lithium', 'dementia'), ('dementia', 'lithium'), ('lithium', 'dementia'), ('dementia', 'lithium'), ('lithium', "Alzheimer's dementia"), ("Alzheimer's dementia", 'lithium'), ('lithium', 'dementia'), ('dementia', 'lithium'), ('lithium', 'dementia'), ('dementia', 'Alzheimer dementia'), ('Alzheimer dementia', 'vascular dementia'), ('vascular dementia', 'lithium'), ('lithium', 'dementia'), ('dementia', 'lithium'), ('lithium', 'psychiatric'), ('psychiatric', 'lithium'), ('lithium', 'Mania'), ('Mania', 'bipolar disorder'), ('bipolar disorder', 'lithium'), ('lithium', 'depression'), ('depression', 'attention deficit disorder'), ('attention deficit disorder', 'lithium'), ('lithium', 'depression'), ('depression', 'lithium'), ('lithium', 'depression'), ('depression', 'lithium'), ('lithium', 'depression'), ('depression', 'Mania'), ('Mania', 'depression'), ('depression', 'Melody Moore'), ('Melody Moore', 'lithium orotate'), ('lithium orotate', 'orotate'), ('orotate', 'mood disorders'), ('mood disorders', 'lithium'), ('lithium', 'Lithium'), ('Lithium', 'lithium'), ('lithium', 'lithium citrate'), ('lithium citrate', 'lithium'), ('lithium', 'ADD'), ('ADD', 'manic'), ('manic', 'depressive'), ('depressive', 'cyclothymia'), ('cyclothymia', 'lithium'), ('lithium', 'cyclothymia'), ('cyclothymia', 'lithium'), ('lithium', 'antidepressant'), ('antidepressant', 'lithium'), ('lithium', 'manic depressive illness'), ('manic depressive illness', 'depressed'), ('depressed', 'anxious'), ('anxious', 'depression'), ('depression', 'anxiety'), ('anxiety', 'lithium'), ('lithium', 'antidepressant'), ('antidepressant', 'anxiety'), ('anxiety', 'schizophrenia depression bipolar illness')]
+
+
+....Batch 533 / 667 
+------------------
+2019-12-16 00:20:41,737 loading file ../../../best-model.pt
+[('lithium', 'serotonin dopamine'), ('serotonin dopamine', 'norepinephrine'), ('norepinephrine', 'lithium'), ('lithium', 'manic'), ('manic', 'bipolar'), ('bipolar', 'lithium'), ('lithium', 'bipolar'), ('bipolar', 'psychiatric illnesses'), ('psychiatric illnesses', 'Mania'), ('Mania', 'manic'), ('manic', 'lithium'), ('lithium', 'delusions'), ('delusions', 'hallucinated'), ('hallucinated', 'depression'), ('depression', 'lithium'), ('lithium', 'bipolar disorder'), ('bipolar disorder', 'toxicity'), ('toxicity', 'kidney dysfunction'), ('kidney dysfunction', 'Tremor'), ('Tremor', 'creatinine'), ('creatinine', 'lithium'), ('lithium', 'mood disorders'), ('mood disorders', 'toxicity'), ('toxicity', 'lithium'), ('lithium', 'Tremor thirst'), ('Tremor thirst', 'weight gain diarrhea vomiting'), ('weight gain diarrhea vomiting', 'cognitive impairment'), ('cognitive impairment', 'muscle weakness'), ('muscle weakness', 'kidney problems'), ('kidney problems', 'lithium'), ('lithium', 'Dementia'), ('Dementia', 'lithium')]
+
+
+....Batch 534 / 667 
+------------------
+2019-12-16 00:20:54,037 loading file ../../../best-model.pt
+[('lithium', 'kidney damage'), ('kidney damage', 'lithium'), ('lithium', 'depression'), ('depression', 'bipolar disorder'), ('bipolar disorder', 'lithium'), ('lithium', 'depression'), ('depression', 'Mania'), ('Mania', 'depression'), ('depression', 'lithium'), ('lithium', 'bipolar disorder'), ('bipolar disorder', 'Mania'), ('Mania', 'bipolar disorder'), ('bipolar disorder', 'bipolar'), ('bipolar', 'Manic'), ('Manic', 'manic'), ('manic', 'depression'), ('depression', 'bipolar'), ('bipolar', 'depression'), ('depression', 'Mania'), ('Mania', 'depressed'), ('depressed', 'Mania'), ('Mania', 'depression'), ('depression', 'manic'), ('manic', 'lithium'), ('lithium', 'illicium'), ('illicium', 'SSRI.'), ('SSRI.', 'Prozac'), ('Prozac', 'SSRI'), ('SSRI', 'Prozac'), ('Prozac', 'lithium'), ('lithium', 'Mania'), ('Mania', 'manic'), ('manic', 'Depakote'), ('Depakote', 'lithium'), ('lithium', 'Depakote'), ('Depakote', 'lithium'), ('lithium', 'mood disorders')]
+
+
+....Batch 535 / 667 
+------------------
+2019-12-16 00:21:05,683 loading file ../../../best-model.pt
+[('toxicity', 'lithium'), ('lithium', 'ADHD depression'), ('ADHD depression', 'dementia'), ('dementia', 'bipolar disorder'), ('bipolar disorder', 'lithium'), ('lithium', 'urea'), ('urea', '800-345-7339'), ('800-345-7339', 'ADHD'), ('ADHD', 'sodium'), ('sodium', 'myeloma'), ('myeloma', 'cancers'), ('cancers', 'cancer'), ('cancer', 'blood pressure fever'), ('blood pressure fever', 'cardiovascular disease'), ('cardiovascular disease', 'anillo alcohol'), ('anillo alcohol', 'cardiovascular disease'), ('cardiovascular disease', 'Cancer'), ('Cancer', 'melanoma'), ('melanoma', "it's"), ("it's", 'cancer')]
+
+
+....Batch 536 / 667 
+------------------
+2019-12-16 00:21:18,218 loading file ../../../best-model.pt
+[('cortisol', 'stroke'), ('stroke', 'suicide'), ('suicide', 'depression'), ('depression', 'ADHD')]
+
+
+....Batch 537 / 667 
+------------------
+2019-12-16 00:21:32,164 loading file ../../../best-model.pt
+[('ADHD', 'hyperactive'), ('hyperactive', 'cold sore'), ('cold sore', 'ADHD'), ('ADHD', 'autism'), ('autism', 'ADHD'), ('ADHD', 'depression'), ('depression', 'anxiety'), ('anxiety', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'anxiety'), ('anxiety', 'insomnia'), ('insomnia', 'hypertension'), ('hypertension', 'diabetes'), ('diabetes', 'Valium'), ('Valium', 'aspirin'), ('aspirin', 'stomach pain'), ('stomach pain', 'aspirins'), ('aspirins', 'ulcer'), ('ulcer', 'grief'), ('grief', 'trauma')]
+
+
+....Batch 538 / 667 
+------------------
+2019-12-16 00:21:46,877 loading file ../../../best-model.pt
+[('depression', 'anxiety'), ('anxiety', 'burnout'), ('burnout', 'illness'), ('illness', 'schizophrenia'), ('schizophrenia', 'pain'), ('pain', 'fatigue'), ('fatigue', 'urea'), ('urea', 'aspirin'), ('aspirin', 'cancer'), ('cancer', 'aspirin'), ('aspirin', 'colo-rectal stomach'), ('colo-rectal stomach', 'esophageal cancer'), ('esophageal cancer', 'aspirin'), ('aspirin', 'bleeding ulcers'), ('bleeding ulcers', 'bleeding'), ('bleeding', 'pain'), ('pain', 'aspirin')]
+
+
+....Batch 539 / 667 
+------------------
+2019-12-16 00:22:01,985 loading file ../../../best-model.pt
+[('cancer', 'vitamin D'), ('vitamin D', 'dementia'), ('dementia', 'vitamin D'), ('vitamin D', 'dementia'), ('dementia', 'vitamin D'), ('vitamin D', 'cognitive impairment'), ('cognitive impairment', "Alzheimer's disease"), ("Alzheimer's disease", 'Vitamin D'), ('Vitamin D', 'Dementia'), ('Dementia', 'diabetes'), ('diabetes', 'type 2 diabetes'), ('type 2 diabetes', 'diabetes'), ('diabetes', 'allergy'), ('allergy', 'Ragweed'), ('Ragweed', 'hay fever'), ('hay fever', 'allergy'), ('allergy', 'heart disease stroke'), ('heart disease stroke', 'kidney problems'), ('kidney problems', 'amyotrophic lateral sclerosis'), ('amyotrophic lateral sclerosis', 'ALS'), ('ALS', 'muscle twitching'), ('muscle twitching', 'muscle cramps'), ('muscle cramps', 'cramps'), ('cramps', 'ALS'), ('ALS', 'vitamin'), ('vitamin', 'coconut oil'), ('coconut oil', 'neurodegenerative degenerative diseases'), ('neurodegenerative degenerative diseases', 'coconut oil'), ('coconut oil', 'ALS'), ('ALS', 'coconut oil'), ('coconut oil', 'ALS'), ('ALS', 'lateral sclerosis'), ('lateral sclerosis', 'ALS')]
+
+
+....Batch 540 / 667 
+------------------
+2019-12-16 00:22:12,541 loading file ../../../best-model.pt
+[('amyotrophia', 'atrophy'), ('atrophy', 'lateral sclerosis'), ('lateral sclerosis', 'ALS'), ('ALS', 'lice'), ('lice', 'ALS'), ('ALS', 'l s Li'), ('l s Li', 'ALS'), ('ALS', 'marijuana'), ('marijuana', 'ALS'), ('ALS', 'pneumonia'), ('pneumonia', 'ALS'), ('ALS', 'peripheral neuropathy'), ('peripheral neuropathy', 'migraine headache'), ('migraine headache', 'heart disease'), ('heart disease', 'ALS'), ('ALS', 'coconut oil'), ('coconut oil', 'ALS'), ('ALS', 'coconut oil'), ('coconut oil', "Alzheimer's disease"), ("Alzheimer's disease", 'coconut oil'), ('coconut oil', 'triglycerides'), ('triglycerides', 'Ketone')]
+
+
+....Batch 541 / 667 
+------------------
+2019-12-16 00:22:33,963 loading file ../../../best-model.pt
+[('neurodegenerative diseases', 'ALS'), ('ALS', 'Ketone'), ('Ketone', 'dexpramipexole'), ('dexpramipexole', 'weight loss'), ('weight loss', 'Ketone'), ('Ketone', 'ALS'), ('ALS', 'marijuana'), ('marijuana', 'ALS'), ('ALS', 'ALS amyotrophic lateral sclerosis'), ('ALS amyotrophic lateral sclerosis', 'marijuana'), ('marijuana', 'cannabis'), ('cannabis', 'muscle spasms'), ('muscle spasms', 'spasticity'), ('spasticity', 'cramps'), ('cramps', 'neuroinflammation'), ('neuroinflammation', 'ALS'), ('ALS', 'cramps'), ('cramps', 'spasms'), ('spasms', 'cannabis'), ('cannabis', 'ALS'), ('ALS', 'diabetes')]
+
+
+....Batch 542 / 667 
+------------------
+2019-12-16 00:22:49,253 loading file ../../../best-model.pt
+[('urea', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'heart attack'), ('heart attack', 'statins'), ('statins', 'muscle pain weakness cataracts'), ('muscle pain weakness cataracts', 'diabetes'), ('diabetes', 'heart disease'), ('heart disease', 'statins'), ('statins', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', "Alzheimer's disease"), ("Alzheimer's disease", 'pain'), ('pain', 'Celebrex ibuprofen'), ('Celebrex ibuprofen', 'naproxen'), ('naproxen', 'heart attacks Strokes'), ('heart attacks Strokes', 'pain'), ('pain', 'Celebrex'), ('Celebrex', 'Ibuprofen'), ('Ibuprofen', 'naproxen'), ('naproxen', 'heart attacks'), ('heart attacks', 'heart failure'), ('heart failure', 'hypertension'), ('hypertension', 'pressure sores'), ('pressure sores', 'white coat hypertension'), ('white coat hypertension', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'white coat hypertension'), ('white coat hypertension', 'chronic lung disease')]
+
+
+....Batch 543 / 667 
+------------------
+2019-12-16 00:23:02,502 loading file ../../../best-model.pt
+[]
+
+
+....Batch 544 / 667 
+------------------
+2019-12-16 00:23:15,773 loading file ../../../best-model.pt
+[('chronic lung disease', 'Viagra'), ('Viagra', 'diabetes'), ('diabetes', 'depressed'), ('depressed', 'psychiatric')]
+
+
+....Batch 545 / 667 
+------------------
+2019-12-16 00:23:29,548 loading file ../../../best-model.pt
+[('headache', "it's"), ("it's", 'Astro'), ('Astro', 'chronic lung disease')]
+
+
+....Batch 546 / 667 
+------------------
+2019-12-16 00:23:42,761 loading file ../../../best-model.pt
+[('urea', '800-345-7339'), ('800-345-7339', 'multivitamins'), ('multivitamins', 'vitamin and mineral'), ('vitamin and mineral', 'heart disease'), ('heart disease', 'multivitamin'), ('multivitamin', 'cardiovascular disease'), ('cardiovascular disease', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'vitamin'), ('vitamin', 'folic acid'), ('folic acid', 'strokes'), ('strokes', 'heart attacks'), ('heart attacks', 'vitamin'), ('vitamin', 'breast cancer'), ('breast cancer', 'estrogen'), ('estrogen', 'tumor'), ('tumor', 'joint stiffness'), ('joint stiffness', 'pain'), ('pain', 'joint pain'), ('joint pain', 'Cipro'), ('Cipro', 'Levaquin'), ('Levaquin', 'ciprofloxacin'), ('ciprofloxacin', 'levofloxacin'), ('levofloxacin', 'infections'), ('infections', 'sinusitis cystitis prostatitis bronchitis'), ('sinusitis cystitis prostatitis bronchitis', 'skin infections'), ('skin infections', 'quinolone'), ('quinolone', 'nerve damage tendon rupture'), ('nerve damage tendon rupture', 'heart rhythms hallucinations'), ('heart rhythms hallucinations', 'aortic aneurysms'), ('aortic aneurysms', 'attention disorientation agitation nervousness'), ('attention disorientation agitation nervousness', 'memory impairment'), ('memory impairment', 'delirium'), ('delirium', 'hypoglycemic coma'), ('hypoglycemic coma', 'sugar'), ('sugar', 'clot Buster'), ('clot Buster', 'stroke'), ('stroke', 'aspirin'), ('aspirin', 'Strokes'), ('Strokes', 'alteplase'), ('alteplase', 'aspirin'), ('aspirin', 'alteplase'), ('alteplase', 'bleeding'), ('bleeding', 'Permethrin'), ('Permethrin', 'EPA'), ('EPA', 'Spotted Fever'), ('Spotted Fever', 'Lyme disease'), ('Lyme disease', 'ehrlichiosis'), ('ehrlichiosis', 'Heartland virus'), ('Heartland virus', 'alpha-gal allergy'), ('alpha-gal allergy', 'tick borne diseases'), ('tick borne diseases', 'infection'), ('infection', 'Chili transmitted disease'), ('Chili transmitted disease', 'Lyme disease'), ('Lyme disease', 'chlorine Clorox'), ('chlorine Clorox', 'Permethrin'), ('Permethrin', 'skin irritation'), ('skin irritation', 'burn')]
+
+
+....Batch 547 / 667 
+------------------
+2019-12-16 00:23:57,434 loading file ../../../best-model.pt
+[('Permethrin', 'infections'), ('infections', 'pain'), ('pain', 'infection'), ('infection', 'fever headache nauseousness vomiting'), ('fever headache nauseousness vomiting', 'muscle aches'), ('muscle aches', 'fever rash'), ('fever rash', 'Spotted Fever'), ('Spotted Fever', 'fever headache muscle aches muscle aches vomiting conjunctivitis'), ('fever headache muscle aches muscle aches vomiting conjunctivitis', 'Doxycycline'), ('Doxycycline', 'Lyme disease'), ('Lyme disease', 'licky osis'), ('licky osis', 'Spotted Fever'), ('Spotted Fever', 'Doxycycline Lyme disease'), ('Doxycycline Lyme disease', 'Lyme disease'), ('Lyme disease', 'rash'), ('rash', 'Lyme disease'), ('Lyme disease', 'rash'), ('rash', 'Lyme disease'), ('Lyme disease', 'rash'), ('rash', 'fever'), ('fever', 'rash'), ('rash', 'Spotted Fever'), ('Spotted Fever', 'rash'), ('rash', 'Lyme disease'), ('Lyme disease', 'rash'), ('rash', 'Doxycycline'), ('Doxycycline', 'Lyme disease'), ('Lyme disease', 'doxycycline S2'), ('doxycycline S2', 'amoxicillin'), ('amoxicillin', 'Lyme disease'), ('Lyme disease', 'infectious diseases rubella'), ('infectious diseases rubella', 'parvovirus b19'), ('parvovirus b19', 'arthritis'), ('arthritis', 'infectious disease'), ('infectious disease', 'Lyme'), ('Lyme', 'Lyme disease'), ('Lyme disease', 'flu'), ('flu', 'Permethrin'), ('Permethrin', 'Doxycycline'), ('Doxycycline', 'Spotted Fever'), ('Spotted Fever', 'Lyme disease'), ('Lyme disease', 'tick borne diseases'), ('tick borne diseases', 'doxycycline')]
+
+
+....Batch 548 / 667 
+------------------
+2019-12-16 00:24:12,203 loading file ../../../best-model.pt
+[('Doxycycline', 'tick borne diseases'), ('tick borne diseases', 'tetracycline'), ('tetracycline', 'fever'), ('fever', 'doxycycline'), ('doxycycline', 'Spotted Fever'), ('Spotted Fever', 'doxycycline'), ('doxycycline', 'Doxycycline'), ('Doxycycline', 'aches'), ('aches', 'pains'), ('pains', 'fever'), ('fever', 'rash'), ('rash', 'aches'), ('aches', 'pains'), ('pains', 'fever'), ('fever', 'doxycycline'), ('doxycycline', 'pain'), ('pain', 'fever'), ('fever', 'joint pain'), ('joint pain', 'fever'), ('fever', 'nausea'), ('nausea', 'vomiting'), ('vomiting', 'gastroenteritis'), ('gastroenteritis', 'sore throat'), ('sore throat', 'cough'), ('cough', 'upper respiratory tract infection'), ('upper respiratory tract infection', 'rash'), ('rash', 'Doxycycline'), ('Doxycycline', 'Spotted Fever'), ('Spotted Fever', 'infections'), ('infections', 'fever'), ('fever', 'osis'), ('osis', 'doxycycline'), ('doxycycline', 'Spotted Fever'), ('Spotted Fever', 'alpha-gal allergy'), ('alpha-gal allergy', 'allergic'), ('allergic', 'anaplasmosis'), ('anaplasmosis', 'Lyme disease'), ('Lyme disease', 'infections'), ('infections', 'alpha-gal allergy'), ('alpha-gal allergy', 'allergic'), ('allergic', 'trouble breathing'), ('trouble breathing', 'gastrointestinal distress bloating diarrhea'), ('gastrointestinal distress bloating diarrhea', 'cold anaphylaxis'), ('cold anaphylaxis', 'allergic'), ('allergic', 'gelatin'), ('gelatin', 'allergic'), ('allergic', 'peanuts'), ('peanuts', 'peanut'), ('peanut', 'anaphylaxis'), ('anaphylaxis', 'allergies'), ('allergies', 'allergic'), ('allergic', 'malaria'), ('malaria', 'Encephalitis'), ('Encephalitis', 'encephalitis')]
+
+
+....Batch 549 / 667 
+------------------
+2019-12-16 00:24:28,950 loading file ../../../best-model.pt
+[('equine Encephalitis', 'plague'), ('plague', 'salmonella'), ('salmonella', 'ALS'), ('ALS', 'eucalyptus'), ('eucalyptus', 'sodium'), ('sodium', 'salt'), ('salt', 'Strokes'), ('Strokes', 'heart attacks'), ('heart attacks', 'heart failure'), ('heart failure', 'sodium'), ('sodium', 'smoking'), ('smoking', 'heart disease cancer'), ('heart disease cancer', 'diabetes'), ('diabetes', 'weight loss'), ('weight loss', 'nivolumab'), ('nivolumab', "Hodgkin's lymphoma"), ("Hodgkin's lymphoma", 'nivolumab'), ('nivolumab', 'melanoma'), ('melanoma', 'cancer'), ('cancer', 'myopia glaucoma cataracts'), ('myopia glaucoma cataracts', 'macular degeneration'), ('macular degeneration', 'vision problems'), ('vision problems', 'diabetic'), ('diabetic', 'liver function blepharitis'), ('liver function blepharitis', "Ms Parkinson's"), ("Ms Parkinson's", "Alzheimer's"), ("Alzheimer's", 'hypertension diabetes heart disease cholesterol Etc'), ('hypertension diabetes heart disease cholesterol Etc', 'blepharitis inflammation'), ('blepharitis inflammation', 'inflammation'), ('inflammation', 'redness')]
+
+
+....Batch 550 / 667 
+------------------
+2019-12-16 00:24:42,439 loading file ../../../best-model.pt
+[('glaucoma', 'blood pressure hypertension'), ('blood pressure hypertension', 'diabetes'), ('diabetes', 'chlorine'), ('chlorine', 'fluoride'), ('fluoride', 'iodine'), ('iodine', 'cataract'), ('cataract', 'cataracts'), ('cataracts', 'melanoma'), ('melanoma', 'cataracts'), ('cataracts', 'vitamin C'), ('vitamin C', 'glutathione'), ('glutathione', 'lutein'), ('lutein', 'cataracts'), ('cataracts', 'vitamin C'), ('vitamin C', 'glutathione'), ('glutathione', 'Sammy alpha-lipoic'), ('Sammy alpha-lipoic', 'MSN'), ('MSN', 'sulfur'), ('sulfur', 'Cataract'), ('Cataract', 'carnosine'), ('carnosine', 'cataracts'), ('cataracts', 'cataract'), ('cataract', 'opacity'), ('opacity', 'carnosine'), ('carnosine', 'glutathione C'), ('glutathione C', 'bleeding'), ('bleeding', 'macular degeneration'), ('macular degeneration', 'avastin'), ('avastin', 'cataract'), ('cataract', 'macular degeneration'), ('macular degeneration', 'cataract'), ('cataract', 'macular degeneration'), ('macular degeneration', 'vitamin E'), ('vitamin E', 'vitamin A magnesium'), ('vitamin A magnesium', 'B vitamins'), ('B vitamins', 'cholesterol'), ('cholesterol', 'corticosteroids'), ('corticosteroids', 'prednisone'), ('prednisone', 'sinus disease'), ('sinus disease', 'milk allergy'), ('milk allergy', 'sinus disease'), ('sinus disease', 'steroid'), ('steroid', "steroid it's"), ("steroid it's", 'glaucoma'), ('glaucoma', 'cataracts'), ('cataracts', 'asthma'), ('asthma', 'glaucoma')]
+
+
+....Batch 551 / 667 
+------------------
+2019-12-16 00:24:56,320 loading file ../../../best-model.pt
+[('cataracts', 'xalatan'), ('xalatan', 'glaucoma'), ('glaucoma', 'hypertensive'), ('hypertensive', 'magnesium'), ('magnesium', 'arthritis'), ('arthritis', 'ADHD'), ('ADHD', 'myopic'), ('myopic', 'myopia'), ('myopia', 'statin'), ('statin', 'myopia'), ('myopia', 'amblyopia'), ('amblyopia', 'muscle imbalance'), ('muscle imbalance', 'amblyopia'), ('amblyopia', 'attention deficit hyperactivity disorder'), ('attention deficit hyperactivity disorder', 'omega-3 DHA'), ('omega-3 DHA', 'macular degeneration'), ('macular degeneration', 'cognitive decline'), ('cognitive decline', 'hallucinations'), ('hallucinations', 'migraines'), ('migraines', 'learning disabilities'), ('learning disabilities', 'Omega-3')]
+
+
+....Batch 552 / 667 
+------------------
+2019-12-16 00:25:08,490 loading file ../../../best-model.pt
+[('infection', 'upper respiratory infection'), ('upper respiratory infection', 'infection'), ('infection', 'rosacea'), ('rosacea', 'blepharitis'), ('blepharitis', 'sleep apnea'), ('sleep apnea', 'keratoconus'), ('keratoconus', 'retinal occlusion Etc'), ('retinal occlusion Etc', 'eyes blepharitis'), ('eyes blepharitis', 'sleep apnea'), ('sleep apnea', 'cramps'), ('cramps', 'diabetes'), ('diabetes', 'hypertension'), ('hypertension', 'thyroid problems'), ('thyroid problems', 'urea'), ('urea', 'stroke'), ('stroke', 'illness'), ('illness', 'testosterone'), ('testosterone', 'fractures'), ('fractures', 'testosterone'), ('testosterone', 'calcification'), ('calcification', 'testosterone'), ('testosterone', 'calcification'), ('calcification', 'testosterone'), ('testosterone', 'heart attacks Strokes'), ('heart attacks Strokes', 'cardiovascular mishaps'), ('cardiovascular mishaps', 'testosterone'), ('testosterone', 'heart attacks Strokes'), ('heart attacks Strokes', 'unstable angina'), ('unstable angina', 'testosterone'), ('testosterone', 'heart disease leg cramps'), ('heart disease leg cramps', 'magnesium'), ('magnesium', 'cramps'), ('cramps', 'nighttime leg cramps'), ('nighttime leg cramps', 'magnesium'), ('magnesium', 'vitamin D'), ('vitamin D', 'ulcerative colitis'), ('ulcerative colitis', 'vitamin D'), ('vitamin D', 'schizophrenia'), ('schizophrenia', 'hallucinations'), ('hallucinations', 'B vitamins'), ('B vitamins', 'schizophrenia'), ('schizophrenia', 'B vitamins'), ('B vitamins', 'psychiatric'), ('psychiatric', 'B vitamins')]
+
+
+....Batch 553 / 667 
+------------------
+2019-12-16 00:25:21,273 loading file ../../../best-model.pt
+[('schizophrenia', 'depression'), ('depression', 'bipolar disease'), ('bipolar disease', 'anxiety'), ('anxiety', 'diabetes'), ('diabetes', 'breast cancer'), ('breast cancer', 'schizophrenia bipolar disorder'), ('schizophrenia bipolar disorder', 'psychiatric'), ('psychiatric', 'mental illness'), ('mental illness', 'schizophrenia'), ('schizophrenia', 'depression bipolar disease'), ('depression bipolar disease', 'schizoaffective disorder'), ('schizoaffective disorder', 'psychotic'), ('psychotic', 'depression'), ('depression', 'depressed'), ('depressed', 'alcohol'), ('alcohol', 'clozapine')]
+
+
+....Batch 554 / 667 
+------------------
+2019-12-16 00:25:34,188 loading file ../../../best-model.pt
+[('mental illness', 'physical illness'), ('physical illness', 'mental illness'), ('mental illness', 'stroke'), ('stroke', 'kidney stone'), ('kidney stone', 'psychosis'), ('psychosis', 'depression'), ('depression', 'psychosis'), ('psychosis', 'cancer'), ('cancer', 'schizophrenia'), ('schizophrenia', 'bipolar disorder'), ('bipolar disorder', 'illness'), ('illness', 'mental illness'), ('mental illness', 'cancer'), ('cancer', 'illness')]
+
+
+....Batch 555 / 667 
+------------------
+2019-12-16 00:25:44,781 loading file ../../../best-model.pt
+[('homelessness', "Pauline I'd"), ("Pauline I'd", 'illness'), ('illness', 'depressed'), ('depressed', 'schizophrenic'), ('schizophrenic', 'bipolar disorder'), ('bipolar disorder', 'mental illness'), ('mental illness', 'Polly Nichols'), ('Polly Nichols', 'nickels'), ('nickels', 'urea'), ('urea', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'statins'), ('statins', 'diabetes'), ('diabetes', 'psychological depression'), ('psychological depression', 'contraception'), ('contraception', 'hormonal contraceptive'), ('hormonal contraceptive', 'antidepressant'), ('antidepressant', 'estrogen'), ('estrogen', 'progesterone'), ('progesterone', 'depression'), ('depression', 'antidepressant'), ('antidepressant', 'depression'), ('depression', 'Suicide'), ('Suicide', 'infection'), ('infection', 'infections'), ('infections', 'infection'), ('infection', 'inflammation'), ('inflammation', 'infection'), ('infection', 'depression'), ('depression', 'toxoplasmosis'), ('toxoplasmosis', 'depression'), ('depression', 'suicidal Behavior'), ('suicidal Behavior', 'infections'), ('infections', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'heart disease'), ('heart disease', 'atorvastatin'), ('atorvastatin', 'simvastatin'), ('simvastatin', 'heart disease'), ('heart disease', 'cardiovascular disease')]
+
+
+....Batch 556 / 667 
+------------------
+2019-12-16 00:25:57,501 loading file ../../../best-model.pt
+[('heart disease', 'statins'), ('statins', 'statin'), ('statin', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'stroke'), ('stroke', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'coronary heart disease'), ('coronary heart disease', 'ischemic heart disease'), ('ischemic heart disease', 'stroke'), ('stroke', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'calcium'), ('calcium', 'statins'), ('statins', 'heart disease'), ('heart disease', 'stroke'), ('stroke', 'Statin'), ('Statin', 'cardiovascular disease'), ('cardiovascular disease', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'triglycerides'), ('triglycerides', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'cardiovascular disease'), ('cardiovascular disease', 'statins'), ('statins', 'coronary or vascular disease'), ('coronary or vascular disease', 'heart attack'), ('heart attack', 'heart disease'), ('heart disease', 'atorvastatin Lipitor'), ('atorvastatin Lipitor', 'Lipitor'), ('Lipitor', 'statins'), ('statins', 'Statin'), ('Statin', 'muscle aches'), ('muscle aches', 'arthritis'), ('arthritis', 'aches'), ('aches', 'pains'), ('pains', 'statins'), ('statins', 'muscles ache')]
+
+
+....Batch 557 / 667 
+------------------
+2019-12-16 00:26:11,911 loading file ../../../best-model.pt
+[('inflammation', 'aches'), ('aches', 'myalgia'), ('myalgia', 'statins'), ('statins', 'cholesterol'), ('cholesterol', 'muscle aches'), ('muscle aches', 'statins'), ('statins', 'muscle aches'), ('muscle aches', 'muscle ache'), ('muscle ache', 'myalgias'), ('myalgias', 'muscle aches'), ('muscle aches', 'statins'), ('statins', 'diabetes'), ('diabetes', 'muscle aches'), ('muscle aches', 'statins'), ('statins', 'diabetes'), ('diabetes', 'satin'), ('satin', 'muscle aches'), ('muscle aches', 'statin'), ('statin', 'cardiovascular disease'), ('cardiovascular disease', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'cardiovascular disease'), ('cardiovascular disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'cholesterol confusion'), ('cholesterol confusion', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'atherosclerosis'), ('atherosclerosis', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'atherosclerosis'), ('atherosclerosis', 'cholesterol'), ('cholesterol', 'cholesterol confusion'), ('cholesterol confusion', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'heart attack'), ('heart attack', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart attacks'), ('heart attacks', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'cholesterol I'), ('cholesterol I', 'cholesterol')]
+
+
+....Batch 558 / 667 
+------------------
+2019-12-16 00:26:25,269 loading file ../../../best-model.pt
+[('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'bile salts'), ('bile salts', 'dementia'), ('dementia', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'Statin'), ('Statin', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'triglyceride'), ('triglyceride', 'statins'), ('statins', 'statin'), ('statin', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'statin'), ('statin', 'cognitive decline'), ('cognitive decline', 'dementia'), ('dementia', 'statins'), ('statins', 'Statin'), ('Statin', 'diabetes'), ('diabetes', 'statins'), ('statins', 'diabetes'), ('diabetes', 'statins'), ('statins', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'muscular aches'), ('muscular aches', 'pains'), ('pains', 'statin'), ('statin', 'muscular aches'), ('muscular aches', 'pains'), ('pains', 'aches'), ('aches', 'pains'), ('pains', 'aches'), ('aches', 'pains'), ('pains', 'statin'), ('statin', 'muscular aches'), ('muscular aches', 'pains'), ('pains', 'flu'), ('flu', 'illness stiffness'), ('illness stiffness', 'soreness'), ('soreness', 'statin'), ('statin', 'muscle problems'), ('muscle problems', 'myalgias'), ('myalgias', 'pain'), ('pain', 'statin'), ('statin', 'kidney damage'), ('kidney damage', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'stroke'), ('stroke', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'smoking'), ('smoking', 'cholesterol'), ('cholesterol', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'heart disease'), ('heart disease', 'heart attack'), ('heart attack', 'heart disease'), ('heart disease', 'smoking'), ('smoking', 'obesity')]
+
+
+....Batch 559 / 667 
+------------------
+2019-12-16 00:26:36,666 loading file ../../../best-model.pt
+[('cholesterol confusion', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'saturated fat'), ('saturated fat', 'heart attack'), ('heart attack', 'heart disease'), ('heart disease', 'fat free'), ('fat free', 'coronary disease'), ('coronary disease', 'colon cancer'), ('colon cancer', 'polyps'), ('polyps', 'colorectal cancer'), ('colorectal cancer', 'cancer'), ('cancer', 'colon cancer'), ('colon cancer', 'cancer'), ('cancer', 'statins'), ('statins', 'heart attacks'), ('heart attacks', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'cardiovascular disease'), ('cardiovascular disease', 'statins'), ('statins', 'flu'), ('flu', 'Tamiflu'), ('Tamiflu', 'oseltamivir'), ('oseltamivir', 'influenza'), ('influenza', 'Tami flu'), ('Tami flu', 'influenza infected Tamiflu'), ('influenza infected Tamiflu', 'Tamiflu'), ('Tamiflu', 'influenza'), ('influenza', 'myopia'), ('myopia', 'shadowy'), ('shadowy', 'confusion'), ('confusion', 'pain'), ('pain', 'infections'), ('infections', 'uterine rupture')]
+
+
+....Batch 560 / 667 
+------------------
+2019-12-16 00:26:52,801 loading file ../../../best-model.pt
+[('infection', 'infections'), ('infections', 'muscle pain'), ('muscle pain', 'weakness nerve pain'), ('weakness nerve pain', 'fogginess arthritis pain cataracts'), ('fogginess arthritis pain cataracts', 'rosuvastatin'), ('rosuvastatin', 'muscle pain'), ('muscle pain', 'weakness'), ('weakness', 'statins'), ('statins', 'amnesia'), ('amnesia', 'fogginess'), ('fogginess', 'arthritis pain'), ('arthritis pain', 'neuropathy'), ('neuropathy', 'statins'), ('statins', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'statins'), ('statins', 'sugar'), ('sugar', 'diabetes'), ('diabetes', 'Diabetes Type'), ('Diabetes Type', 'diabetes'), ('diabetes', 'statins'), ('statins', 'diabetes'), ('diabetes', 'statins'), ('statins', 'arthritis pain'), ('arthritis pain', 'muscle pain'), ('muscle pain', 'muscle weakness'), ('muscle weakness', 'fogginess'), ('fogginess', 'Amnesia'), ('Amnesia', 'nerve pain'), ('nerve pain', 'statins'), ('statins', 'fatigue muscle weakness'), ('fatigue muscle weakness', 'joint pain'), ('joint pain', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'fracture'), ('fracture', 'infection'), ('infection', 'cancer'), ('cancer', 'heart disease'), ('heart disease', 'asthma'), ('asthma', 'infections'), ('infections', 'Statin')]
+
+
+....Batch 561 / 667 
+------------------
+2019-12-16 00:27:07,196 loading file ../../../best-model.pt
+[('Falls', 'Statin'), ('Statin', 'muscle pain'), ('muscle pain', 'Lipitor'), ('Lipitor', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'Statin'), ('Statin', 'Lipitor'), ('Lipitor', 'pravachol'), ('pravachol', 'pain'), ('pain', 'heart disease'), ('heart disease', 'statins'), ('statins', 'heart disease'), ('heart disease', 'heart attacks'), ('heart attacks', 'heart disease'), ('heart disease', 'stomach ulcers'), ('stomach ulcers', 'Celebrex'), ('Celebrex', 'vioxx'), ('vioxx', 'arthritis pain'), ('arthritis pain', 'statins'), ('statins', 'muscle pain'), ('muscle pain', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'simvastatin'), ('simvastatin', 'muscle pain'), ('muscle pain', 'pain'), ('pain', 'back pain'), ('back pain', 'sugar'), ('sugar', 'statins'), ('statins', 'heart attack'), ('heart attack', 'heart disease statins'), ('heart disease statins', 'heart disease'), ('heart disease', 'heart attack'), ('heart attack', 'pain'), ('pain', 'Statin'), ('Statin', 'Staten'), ('Staten', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'congenital anomaly'), ('congenital anomaly', 'Staten Staten simvastatin'), ('Staten Staten simvastatin', 'muscle Rhabdomyolysis'), ('muscle Rhabdomyolysis', 'olive oil'), ('olive oil', 'vinegar'), ('vinegar', 'niacinamide'), ('niacinamide', 'aspirin'), ('aspirin', 'cholesterol'), ('cholesterol', 'niacinamide'), ('niacinamide', "cholesterol it's"), ("cholesterol it's", 'triglycerides')]
+
+
+....Batch 562 / 667 
+------------------
+2019-12-16 00:27:20,333 loading file ../../../best-model.pt
+[('pain lethargy', 'joint pain'), ('joint pain', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'arthritis pain'), ('arthritis pain', 'statins arthritis pain neuropathy nerve pain'), ('statins arthritis pain neuropathy nerve pain', 'heart attacks'), ('heart attacks', 'heart disease'), ('heart disease', 'cancer'), ('cancer', 'statins'), ('statins', 'heart disease'), ('heart disease', 'smoking'), ('smoking', 'heart disease'), ('heart disease', '800-345-7339'), ('800-345-7339', 'carbapenem'), ('carbapenem', 'infections'), ('infections', 'infection'), ('infection', 'calcium'), ('calcium', 'kidney stones'), ('kidney stones', 'cardiovascular disease'), ('cardiovascular disease', 'calcium'), ('calcium', 'colon polyps constipation'), ('colon polyps constipation', 'calcium'), ('calcium', 'fractures'), ('fractures', 'kidney stones'), ('kidney stones', 'marijuana'), ('marijuana', 'oxycodone'), ('oxycodone', 'cannabis'), ('cannabis', 'pain'), ('pain', 'cannabis'), ('cannabis', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'vestibular disorders'), ('vestibular disorders', 'tumors of'), ('tumors of', 'neuroma'), ('neuroma', 'hearing loss'), ('hearing loss', 'dizziness'), ('dizziness', 'tumors')]
+
+
+....Batch 563 / 667 
+------------------
+2019-12-16 00:27:33,429 loading file ../../../best-model.pt
+[('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'confusion'), ('confusion', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'dizzy'), ('dizzy', 'cancers'), ('cancers', 'heart disease'), ('heart disease', 'Falls'), ('Falls', 'dizziness'), ('dizziness', 'dizzy'), ('dizzy', 'falls'), ('falls', 'fall'), ('fall', 'dizziness'), ('dizziness', 'cancer'), ('cancer', 'dizziness'), ('dizziness', 'migraines migraine'), ('migraines migraine', 'vertigo'), ('vertigo', 'migraines'), ('migraines', 'dizziness'), ('dizziness', 'headaches'), ('headaches', 'migraines'), ('migraines', 'migraine'), ('migraine', 'migraines'), ('migraines', 'migraine migraine'), ('migraine migraine', 'vertigo'), ('vertigo', 'migraines'), ('migraines', 'dizziness'), ('dizziness', 'balance disorder'), ('balance disorder', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'rotatory vertigo'), ('rotatory vertigo', 'balance disorders dizziness'), ('balance disorders dizziness', 'vestibular disorders'), ('vestibular disorders', 'vertigo')]
+
+
+....Batch 564 / 667 
+------------------
+2019-12-16 00:27:46,592 loading file ../../../best-model.pt
+[('dehiscence', 'vertigo'), ('vertigo', "snake I'd"), ("snake I'd", 'Canal dehiscence'), ('Canal dehiscence', 'positional vertigo'), ('positional vertigo', 'nystagmus'), ('nystagmus', 'vertigo'), ('vertigo', 'nystagmus'), ('nystagmus', 'vertigo'), ('vertigo', 'nystagmus'), ('nystagmus', 'dizziness'), ('dizziness', 'hearing loss'), ('hearing loss', 'vertigo'), ('vertigo', 'hearing loss tinnitus'), ('hearing loss tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'vertigo'), ('vertigo', 'hearing loss'), ('hearing loss', 'migraines'), ('migraines', 'migraine'), ('migraine', 'migraines'), ('migraines', 'vertigo'), ('vertigo', 'hearing loss'), ('hearing loss', 'betahistine'), ('betahistine', "Meniere's disease"), ("Meniere's disease", 'vertigo'), ('vertigo', 'i s'), ('i s', 'i n e')]
+
+
+....Batch 565 / 667 
+------------------
+2019-12-16 00:27:59,635 loading file ../../../best-model.pt
+[('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'brain tumor'), ('brain tumor', 'vertigo'), ('vertigo', 'migraines'), ('migraines', 'migraine.'), ('migraine.', 'migraines'), ('migraines', 'migraine'), ('migraine', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'vertigo'), ('vertigo', 'dizziness'), ('dizziness', 'Gentamicin'), ('Gentamicin', 'pancreatitis'), ('pancreatitis', 'dizzy'), ('dizzy', 'dizziness'), ('dizziness', 'Gentamicin'), ('Gentamicin', 'aminoglycosides'), ('aminoglycosides', 'vertigo'), ('vertigo', 'Gentamicin'), ('Gentamicin', "it's"), ("it's", 'infections'), ('infections', 'Gentamicin'), ('Gentamicin', 'infections'), ('infections', 'Gentamicin'), ('Gentamicin', 'vestibular toxicity'), ('vestibular toxicity', 'inner ear damage'), ('inner ear damage', 'Gentamicin'), ('Gentamicin', 'antidepressant'), ('antidepressant', 'Lexapro'), ('Lexapro', 'Paxil'), ('Paxil', 'Sertraline'), ('Sertraline', 'dizzy'), ('dizzy', 'vertigo'), ('vertigo', 'serotonin'), ('serotonin', 'dizziness'), ('dizziness', 'migraines')]
+
+
+....Batch 566 / 667 
+------------------
+2019-12-16 00:28:11,302 loading file ../../../best-model.pt
+[('inner ear dysfunction', 'inner ear infection'), ('inner ear infection', 'neuronitis'), ('neuronitis', 'viral infection'), ('viral infection', 'postural dizziness'), ('postural dizziness', 'vestibular injury'), ('vestibular injury', 'migraines'), ('migraines', 'head injury'), ('head injury', 'itis'), ('itis', 'anxiety disorders'), ('anxiety disorders', 'anxiety'), ('anxiety', 'anxiety disorder'), ('anxiety disorder', 'calcium'), ('calcium', 'vertigo meclizine'), ('vertigo meclizine', 'vertigo'), ('vertigo', 'meclizine'), ('meclizine', 'vertigo'), ('vertigo', 'vestibular disorders'), ('vestibular disorders', 'migraine'), ('migraine', 'daraprim'), ('daraprim', 'toxoplasmosis'), ('toxoplasmosis', 'cholesterol'), ('cholesterol', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'heart attacks'), ('heart attacks', 'cholesterol'), ('cholesterol', 'red wine'), ('red wine', 'type 2 diabetes'), ('type 2 diabetes', 'red wine'), ('red wine', 'cholesterol'), ('cholesterol', 'Amen'), ('Amen', 'bleeding'), ('bleeding', 'clotting'), ('clotting', 'bleeding'), ('bleeding', 'sugar addiction'), ('sugar addiction', 'anxiety'), ('anxiety', 'sugar addiction'), ('sugar addiction', 'fatigue'), ('fatigue', 'anxiety'), ('anxiety', 'serotonin'), ('serotonin', 'anxious'), ('anxious', 'anxiety'), ('anxiety', 'sugar')]
+
+
+....Batch 567 / 667 
+------------------
+2019-12-16 00:28:25,691 loading file ../../../best-model.pt
+[('fructose', 'heroin'), ('heroin', 'pain'), ('pain', 'chronic pain'), ('chronic pain', 'sugar addiction'), ('sugar addiction', 'sugar addiction sugar'), ('sugar addiction sugar', 'sugar addiction'), ('sugar addiction', 'cocaine'), ('cocaine', 'sugar addiction'), ('sugar addiction', 'pain'), ('pain', 'sugar addiction'), ('sugar addiction', 'pain'), ('pain', 'caffeine'), ('caffeine', 'sugar addiction'), ('sugar addiction', 'caffeine'), ('caffeine', 'sugar addiction'), ('sugar addiction', 'ribose'), ('ribose', 'soda ribose'), ('soda ribose', 'fatigue'), ('fatigue', 'cortisol'), ('cortisol', 'irritable'), ('irritable', 'dizziness'), ('dizziness', 'fatigue'), ('fatigue', 'licorice'), ('licorice', 'mood irritability')]
+
+
+....Batch 568 / 667 
+------------------
+2019-12-16 00:28:41,318 loading file ../../../best-model.pt
+[('nasal congestion sinusitis', 'irritable bowel gas bloating diarrhea constipation'), ('irritable bowel gas bloating diarrhea constipation', 'candida overgrowth'), ('candida overgrowth', 'berberine'), ('berberine', 'nausea'), ('nausea', 'sinusitis'), ('sinusitis', 'irritable bowel'), ('irritable bowel', 'addiction'), ('addiction', 'fatigue'), ('fatigue', 'pain'), ('pain', 'fibromyalgia'), ('fibromyalgia', 'fatigue Paisley exhaustion'), ('fatigue Paisley exhaustion', 'chronic fatigue'), ('chronic fatigue', 'fibromyalgia'), ('fibromyalgia', 'sugar addiction'), ('sugar addiction', 'infection'), ('infection', 'sugar addiction'), ('sugar addiction', 'sugar addiction sugar addiction'), ('sugar addiction sugar addiction', 'sugar addiction'), ('sugar addiction', 'fatigue'), ('fatigue', 'vitamin'), ('vitamin', 'ribose'), ('ribose', 'sugar addiction'), ('sugar addiction', 'Oppositional defiant disorder'), ('Oppositional defiant disorder', 'blue Licorice'), ('blue Licorice', 'diabetes diabetes'), ('diabetes diabetes', 'diabetes'), ('diabetes', 'serotonin'), ('serotonin', 'pain'), ('pain', 'chronic pain'), ('chronic pain', 'Pain'), ('Pain', 'muscle pain'), ('muscle pain', 'pain'), ('pain', 'diabetes'), ('diabetes', "Alzheimer's"), ("Alzheimer's", 'dementia'), ('dementia', "Alzheimer's"), ("Alzheimer's", 'diabetes'), ('diabetes', 'insulin resistance'), ('insulin resistance', "Alzheimer's"), ("Alzheimer's", 'dementia'), ('dementia', 'fatigue')]
+
+
+....Batch 569 / 667 
+------------------
+2019-12-16 00:28:55,359 loading file ../../../best-model.pt
+[('fibromyalgia', 'chronic fatigue'), ('chronic fatigue', 'pain'), ('pain', 'chronic pain'), ('chronic pain', 'sugar addiction'), ('sugar addiction', 'urea'), ('urea', 'skin cancer'), ('skin cancer', 'HCTZ'), ('HCTZ', "it's"), ("it's", 'hypertension'), ('hypertension', 'dyazide'), ('dyazide', 'squamous cell carcinoma'), ('squamous cell carcinoma', 'skin cancer'), ('skin cancer', 'HCTZ'), ('HCTZ', 'ultraviolet radiation'), ('ultraviolet radiation', 'non-melanoma skin cancer'), ('non-melanoma skin cancer', 'squamous cell carcinoma'), ('squamous cell carcinoma', 'HCTZ'), ('HCTZ', 'mercury'), ('mercury', 'hypertension'), ('hypertension', 'atrial fibrillation'), ('atrial fibrillation', 'heart failure'), ('heart failure', 'stroke'), ('stroke', 'flu'), ('flu', 'influenza'), ('influenza', 'flu'), ('flu', 'influenza'), ('influenza', 'flu'), ('flu', 'influenza'), ('influenza', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'anxiety')]
+
+
+....Batch 570 / 667 
+------------------
+2019-12-16 00:29:09,793 loading file ../../../best-model.pt
+[]
+
+
+....Batch 571 / 667 
+------------------
+2019-12-16 00:29:22,526 loading file ../../../best-model.pt
+[('anxiety', 'cholesterol'), ('cholesterol', 'Statin')]
+
+
+....Batch 572 / 667 
+------------------
+2019-12-16 00:29:33,149 loading file ../../../best-model.pt
+[]
+
+
+....Batch 573 / 667 
+------------------
+2019-12-16 00:29:44,265 loading file ../../../best-model.pt
+[('urea', 'traumatic brain injury'), ('traumatic brain injury', 'Viagra'), ('Viagra', 'testosterone'), ('testosterone', 'urinary tract infections'), ('urinary tract infections', 'pain'), ('pain', 'infections'), ('infections', 'urinary tract infections'), ('urinary tract infections', 'infections'), ('infections', 'UTIs'), ('UTIs', 'cysts'), ('cysts', 'meniscal tears'), ('meniscal tears', 'aspartame sucralose saccharin'), ('aspartame sucralose saccharin', 'Acesulfame potassium'), ('Acesulfame potassium', 'sweeteners'), ('sweeteners', 'osteoporosis'), ('osteoporosis', 'loss of bone mass'), ('loss of bone mass', 'bone loss'), ('bone loss', 'bisphosphonates'), ('bisphosphonates', 'penia'), ('penia', 'fragility fractures'), ('fragility fractures', 'flu'), ('flu', 'influenza'), ('influenza', 'flu'), ('flu', 'erectile dysfunction low libido'), ('erectile dysfunction low libido', 'erectile dysfunction')]
+
+
+....Batch 574 / 667 
+------------------
+2019-12-16 00:29:56,074 loading file ../../../best-model.pt
+[('cortisol', 'testosterone'), ('testosterone', 'cortisol'), ('cortisol', 'estradiol'), ('estradiol', 'cortisol'), ('cortisol', 'sexual aversion disorder'), ('sexual aversion disorder', 'weight gain'), ('weight gain', 'antidepressant'), ('antidepressant', 'depressed'), ('depressed', 'cortisol'), ('cortisol', 'estrogen'), ('estrogen', 'cortisol'), ('cortisol', 'estrogen'), ('estrogen', 'testosterone'), ('testosterone', 'estrogen'), ('estrogen', 'testosterone'), ('testosterone', 'confusion'), ('confusion', 'testosterone'), ('testosterone', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'testosterone'), ('testosterone', 'Premarin'), ('Premarin', 'testosterone'), ('testosterone', 'estrogen'), ('estrogen', 'testosterone'), ('testosterone', 'estrogen'), ('estrogen', 'progesterone'), ('progesterone', 'cortisol'), ('cortisol', 'testosterone'), ('testosterone', 'liver function'), ('liver function', 'testosterone'), ('testosterone', 'breast cancer'), ('breast cancer', 'testosterone')]
+
+
+....Batch 575 / 667 
+------------------
+2019-12-16 00:30:11,399 loading file ../../../best-model.pt
+[('Lomotil', 'estrogen'), ('estrogen', 'progesterone'), ('progesterone', 'testosterone'), ('testosterone', 'T3'), ('T3', 'estrogen progesterone'), ('estrogen progesterone', 'testosterone'), ('testosterone', 'T3'), ('T3', 'testosterone'), ('testosterone', 'heart disease'), ('heart disease', 'stroke'), ('stroke', 'breast cancer'), ('breast cancer', 'estrogen'), ('estrogen', 'progesterone'), ('progesterone', 'estrogen'), ('estrogen', 'mood disorders'), ('mood disorders', 'antidepressants'), ('antidepressants', 'oral contraceptives'), ('oral contraceptives', 'vaginal discomfort'), ('vaginal discomfort', 'antidepressant'), ('antidepressant', 'sexual dysfunction'), ('sexual dysfunction', 'Prozac'), ('Prozac', 'antidepressants'), ('antidepressants', 'depression'), ('depression', 'antidepressant'), ('antidepressant', 'inflammation'), ('inflammation', 'depressed'), ('depressed', 'cortisol'), ('cortisol', 'depression'), ('depression', 'cortisol'), ('cortisol', 'fibroid'), ('fibroid', 'estrogen'), ('estrogen', 'Prozac'), ('Prozac', 'antidepressant'), ('antidepressant', 'Prozac'), ('Prozac', 'antidepressant'), ('antidepressant', 'antidepressants'), ('antidepressants', 'Lexapro'), ('Lexapro', 'antidepressant'), ('antidepressant', 'Cymbalta')]
+
+
+....Batch 576 / 667 
+------------------
+2019-12-16 00:30:25,171 loading file ../../../best-model.pt
+[('breast cancer', 'copper zinc selenium magnesium'), ('copper zinc selenium magnesium', 'copper'), ('copper', 'zinc'), ('zinc', 'estrogen'), ('estrogen', 'estradiol'), ('estradiol', 'breast cancer'), ('breast cancer', 'estrogen'), ('estrogen', 'DHEA'), ('DHEA', 'estradiol'), ('estradiol', 'testosterone'), ('testosterone', 'estradiol'), ('estradiol', 'oral contraceptive'), ('oral contraceptive', 'testosterone'), ('testosterone', 'coconut oil'), ('coconut oil', '800-345-7339'), ('800-345-7339', 'aluminum'), ('aluminum', 'ARB PA'), ('ARB PA', 'estrogen'), ('estrogen', 'polybrominated diphenyl ethers'), ('polybrominated diphenyl ethers', 'thyroid trouble'), ('thyroid trouble', 'hot flashes'), ('hot flashes', 'aspartame'), ('aspartame', 'glucose'), ('glucose', 'diabetes'), ('diabetes', 'glucose')]
+
+
+....Batch 577 / 667 
+------------------
+2019-12-16 00:30:36,974 loading file ../../../best-model.pt
+[('diabetes', 'aspartame'), ('aspartame', 'green tea'), ('green tea', 'green tea extract'), ('green tea extract', 'liver damage'), ('liver damage', 'green tea extract'), ('green tea extract', 'weight loss'), ('weight loss', 'liver injury'), ('liver injury', 'weight loss'), ('weight loss', 'green tea extract'), ('green tea extract', 'allergic'), ('allergic', 'tuned-in'), ('tuned-in', 'allergies'), ('allergies', 'soy'), ('soy', 'flu'), ('flu', 'chronic bronchitis'), ('chronic bronchitis', 'steroids'), ('steroids', 'depression'), ('depression', 'psychiatric'), ('psychiatric', 'neurological cognitive or'), ('neurological cognitive or', 'serotonin'), ('serotonin', 'antidepressants'), ('antidepressants', 'anxiety'), ('anxiety', 'chlorine'), ('chlorine', 'e-coli infection')]
+
+
+....Batch 578 / 667 
+------------------
+2019-12-16 00:30:50,641 loading file ../../../best-model.pt
+[('infections', 'infection'), ('infection', 'Blood Fever fevers'), ('Blood Fever fevers', 'infections'), ('infections', 'hay fever'), ('hay fever', 'allergy'), ('allergy', 'chronic illness'), ('chronic illness', 'ear infection'), ('ear infection', 'infections'), ('infections', 'allergic'), ('allergic', "it's"), ("it's", 'bacterial infection'), ('bacterial infection', 'inflammation'), ('inflammation', 'ear infections'), ('ear infections', 'cholesterol'), ('cholesterol', 'fatty acids'), ('fatty acids', 'cholesterol'), ('cholesterol', 'vitamin D'), ('vitamin D', 'neurological cognitive or')]
+
+
+....Batch 579 / 667 
+------------------
+2019-12-16 00:31:05,786 loading file ../../../best-model.pt
+[('iron', 'ADHD'), ('ADHD', 'MSG NutraSweet aspartame'), ('MSG NutraSweet aspartame', 'fructose'), ('fructose', 'UV'), ('UV', 'gluten'), ('gluten', 'Roundup'), ('Roundup', 'gluten'), ('gluten', 'food allergies'), ('food allergies', 'neurological problems')]
+
+
+....Batch 580 / 667 
+------------------
+2019-12-16 00:31:18,927 loading file ../../../best-model.pt
+[('autism', 'constipated'), ('constipated', 'seizures'), ('seizures', 'dairy allergy'), ('dairy allergy', 'sodium'), ('sodium', 'pain'), ('pain', 'potassium'), ('potassium', 'calcium'), ('calcium', 'potassium'), ('potassium', 'vascular calcification'), ('vascular calcification', 'calcification'), ('calcification', 'potassium'), ('potassium', 'liver inflammation'), ('liver inflammation', 'liver disease'), ('liver disease', 'alcoholics'), ('alcoholics', 'liver damage'), ('liver damage', 'alcohol'), ('alcohol', 'liver disease'), ('liver disease', 'kidney disease'), ('kidney disease', 'stomach acid'), ('stomach acid', 'flu'), ('flu', 'influenza'), ('influenza', 'flu'), ('flu', 'influenza'), ('influenza', 'flu'), ('flu', 'polyphenols'), ('polyphenols', 'weight gain'), ('weight gain', 'green tea'), ('green tea', 'dementia'), ('dementia', 'cancer heart disease'), ('cancer heart disease', 'strokes'), ('strokes', 'cancer'), ('cancer', 'stroke'), ('stroke', 'congestive heart failure'), ('congestive heart failure', 'cancer')]
+
+
+....Batch 581 / 667 
+------------------
+2019-12-16 00:31:32,628 loading file ../../../best-model.pt
+[('heart attack', 'heart failure'), ('heart failure', 'cancer'), ('cancer', "Parkinson's disease"), ("Parkinson's disease", "it's cancer"), ("it's cancer", 'colon cancer'), ('colon cancer', 'prostate cancer'), ('prostate cancer', 'heart disease')]
+
+
+....Batch 582 / 667 
+------------------
+2019-12-16 00:31:46,142 loading file ../../../best-model.pt
+[('prostate cancer', 'heart disease'), ('heart disease', 'prostate cancer'), ('prostate cancer', 'cervical cancer'), ('cervical cancer', 'pain'), ('pain', 'rectal cancer'), ('rectal cancer', 'cancer'), ('cancer', 'rectal cancer'), ('rectal cancer', 'lung cancer'), ('lung cancer', 'cancer'), ('cancer', 'pain'), ('pain', 'shortness of breath'), ('shortness of breath', 'lung cancer'), ('lung cancer', 'cancer'), ('cancer', 'obstruction of'), ('obstruction of', 'lung cancer'), ('lung cancer', 'kidney cancer'), ('kidney cancer', 'lung cancer')]
+
+
+....Batch 583 / 667 
+------------------
+2019-12-16 00:32:01,110 loading file ../../../best-model.pt
+[('pain', 'shortness of breath'), ('shortness of breath', 'rectal cancer'), ('rectal cancer', 'grief'), ('grief', 'cholesterol'), ('cholesterol', 'statin'), ('statin', 'heart failure'), ('heart failure', 'confusion'), ('confusion', 'oxygen'), ('oxygen', 'pain'), ('pain', 'cancer heart failure'), ('cancer heart failure', 'pain'), ('pain', 'opioid overdose'), ('opioid overdose', 'opioid hysteria'), ('opioid hysteria', 'pain'), ('pain', 'NSAIDs'), ('NSAIDs', 'pain'), ('pain', 'low back pain'), ('low back pain', 'pain'), ('pain', 'ovarian cancer'), ('ovarian cancer', 'pain'), ('pain', 'meth amphetamines'), ('meth amphetamines', 'cocaine'), ('cocaine', 'pain'), ('pain', "I'd")]
+
+
+....Batch 584 / 667 
+------------------
+2019-12-16 00:32:14,765 loading file ../../../best-model.pt
+[('depressed', 'hopelessness'), ('hopelessness', 'depression'), ('depression', 'lung disease'), ('lung disease', 'interstitial lung disease'), ('interstitial lung disease', 'oxygen'), ('oxygen', 'urea'), ('urea', 'dementia'), ('dementia', 'cancer'), ('cancer', "Alzheimer's disease"), ("Alzheimer's disease", 'dementia'), ('dementia', 'cognitive decline'), ('cognitive decline', 'fish'), ('fish', 'daytime sleepiness'), ('daytime sleepiness', 'fatty acids')]
+
+
+....Batch 585 / 667 
+------------------
+2019-12-16 00:32:28,881 loading file ../../../best-model.pt
+[('acetylcholine', 'hiccup')]
+
+
+....Batch 586 / 667 
+------------------
+2019-12-16 00:32:43,303 loading file ../../../best-model.pt
+[('atrophying', 'atrophy')]
+
+
+....Batch 587 / 667 
+------------------
+2019-12-16 00:32:57,594 loading file ../../../best-model.pt
+[("Alzheimer's disease memory loss forgetfulness", 'dementia'), ('dementia', "Alzheimer's disease"), ("Alzheimer's disease", 'dementia'), ('dementia', 'Al'), ('Al', 'urea'), ('urea', 'DEA'), ('DEA', 'pain'), ('pain', 'narcotic pain'), ('narcotic pain', 'chronic pain'), ('chronic pain', 'vitamin D'), ('vitamin D', 'Vitamin D'), ('Vitamin D', 'yellow Spice'), ('yellow Spice', 'inflammation'), ('inflammation', 'curcumin'), ('curcumin', "arthritis Alzheimer's disease cancer diabetes liver disease lupus inflammatory bowel disease wounds"), ("arthritis Alzheimer's disease cancer diabetes liver disease lupus inflammatory bowel disease wounds", 'curcumin'), ('curcumin', 'polyethylene glycol'), ('polyethylene glycol', 'Miralax'), ('Miralax', 'curcumin')]
+
+
+....Batch 588 / 667 
+------------------
+2019-12-16 00:33:09,830 loading file ../../../best-model.pt
+[('infection', 'inflammation'), ('inflammation', 'curcumin'), ('curcumin', "Crohn's disease diabetes rheumatoid arthritis lupus"), ("Crohn's disease diabetes rheumatoid arthritis lupus", 'cardiovascular disease'), ('cardiovascular disease', 'poisoning'), ('poisoning', 'diabetes'), ('diabetes', 'type 2 diabetes'), ('type 2 diabetes', 'fat'), ('fat', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'television'), ('television', 'vitamin D'), ('vitamin D', 'respiratory disease cardiovascular complications'), ('respiratory disease cardiovascular complications', 'bone fracture'), ('bone fracture', 'vitamin D'), ('vitamin D', 'vitamin'), ('vitamin', 'pain'), ('pain', 'Vicodin Lortab'), ('Vicodin Lortab', 'chronic pain'), ('chronic pain', 'cancer'), ('cancer', 'addiction'), ('addiction', 'opioid pain'), ('opioid pain', 'overdoses'), ('overdoses', 'pain'), ('pain', 'Vicodin lortab'), ('Vicodin lortab', 'acetaminophen'), ('acetaminophen', 'chronic pain'), ('chronic pain', 'postsurgical pain'), ('postsurgical pain', 'pain'), ('pain', 'morphine'), ('morphine', 'DEA'), ('DEA', 'pain'), ('pain', 'acetaminophen'), ('acetaminophen', 'aspirin'), ('aspirin', 'chronic pain'), ('chronic pain', 'pain'), ('pain', 'Ibuprofen'), ('Ibuprofen', 'overdose'), ('overdose', 'addictions'), ('addictions', 'pain'), ('pain', 'cancer'), ('cancer', 'pain'), ('pain', 'ibuprofen'), ('ibuprofen', 'naproxen')]
+
+
+....Batch 589 / 667 
+------------------
+2019-12-16 00:33:24,520 loading file ../../../best-model.pt
+[('pain', 'ibuprofen diclofenac meloxicam'), ('ibuprofen diclofenac meloxicam', 'naproxen'), ('naproxen', 'pain'), ('pain', 'Vicodin'), ('Vicodin', 'pain'), ('pain', 'ibuprofen'), ('ibuprofen', 'naproxen'), ('naproxen', 'Cataflam'), ('Cataflam', 'Voltaren'), ('Voltaren', 'pain'), ('pain', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'pain'), ('pain', 'blood clots'), ('blood clots', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'blood clots'), ('blood clots', 'NSAID pain'), ('NSAID pain', 'blood clot'), ('blood clot', 'pulmonary embolism'), ('pulmonary embolism', 'pain'), ('pain', 'Tylenol'), ('Tylenol', 'pain'), ('pain', 'DEA'), ('DEA', 'pain'), ('pain', 'ibuprofen'), ('ibuprofen', 'Celebrex'), ('Celebrex', 'meloxicam'), ('meloxicam', 'blood clots'), ('blood clots', 'stomach upset'), ('stomach upset', 'ulcers stomach upset'), ('ulcers stomach upset', 'ulcers'), ('ulcers', 'bleeding ulcers'), ('bleeding ulcers', 'aspirin'), ('aspirin', 'pain'), ('pain', 'aspirin'), ('aspirin', 'pain'), ('pain', 'bleeding ulcers'), ('bleeding ulcers', 'aspirin'), ('aspirin', 'bleeding ulcers'), ('bleeding ulcers', 'diabetes'), ('diabetes', 'thrombotic Strokes Strokes'), ('thrombotic Strokes Strokes', 'blood clots'), ('blood clots', 'aspirin'), ('aspirin', 'ibuprofen'), ('ibuprofen', 'chronic pain'), ('chronic pain', 'Naproxen'), ('Naproxen', 'DVT'), ('DVT', 'vein thrombosis'), ('vein thrombosis', 'blood clots'), ('blood clots', 'Heparin IV'), ('Heparin IV', 'Lovenox'), ('Lovenox', 'brain hemorrhage'), ('brain hemorrhage', 'pain'), ('pain', '888-472-3366'), ('888-472-3366', 'pain'), ('pain', 'arthritis'), ('arthritis', 'curcumin'), ('curcumin', 'pain'), ('pain', 'boswellia')]
+
+
+....Batch 590 / 667 
+------------------
+2019-12-16 00:33:36,726 loading file ../../../best-model.pt
+[('vitamin D', 'heart attack stroke'), ('heart attack stroke', 'fracture'), ('fracture', 'vitamin D'), ('vitamin D', 'calcium'), ('calcium', 'vitamin D'), ('vitamin D', 'vitamin'), ('vitamin', 't i'), ('t i', 'vitamin D'), ('vitamin D', 'pain'), ('pain', 'chronic pain'), ('chronic pain', 'acute pain'), ('acute pain', 'pain'), ('pain', 'chronic pain'), ('chronic pain', 'vitamin D'), ('vitamin D', 'calcium'), ('calcium', 'vitamin D'), ('vitamin D', 'calcium'), ('calcium', 'vitamin D'), ('vitamin D', 'calcium'), ('calcium', 'vitamin D'), ('vitamin D', "vitamin D let's"), ("vitamin D let's", 'vitamin D'), ('vitamin D', 'prostate cancer cancer'), ('prostate cancer cancer', 'vitamin D'), ('vitamin D', 'vitamin K2'), ('vitamin K2', 'vitamin D'), ('vitamin D', 'calcium'), ('calcium', 'bupropion'), ('bupropion', 'antidepressant'), ('antidepressant', 'Wellbutrin'), ('Wellbutrin', 'disease delusion'), ('disease delusion', 'weight loss'), ('weight loss', 'cholesterol')]
+
+
+....Batch 591 / 667 
+------------------
+2019-12-16 00:33:50,976 loading file ../../../best-model.pt
+[('alcohol', 'dementia'), ('dementia', 'alcohol'), ('alcohol', 'dementia'), ('dementia', 'alcohol'), ('alcohol', 'disorder'), ('disorder', 'dementia'), ('dementia', 'alcoholics'), ('alcoholics', 'alcohol'), ('alcohol', 'brain injury'), ('brain injury', 'cardiovascular disease'), ('cardiovascular disease', 'stroke'), ('stroke', 'Oxycontin'), ('Oxycontin', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'CO2'), ('CO2', 'stroke'), ('stroke', 'heart attack'), ('heart attack', 'dizziness Falls'), ('dizziness Falls', 'hip fracture'), ('hip fracture', 'potassium'), ('potassium', 'heart rhythm'), ('heart rhythm', 'diabetes'), ('diabetes', 'captopril'), ('captopril', 'lisinopril'), ('lisinopril', 'constipation'), ('constipation', 'Statin'), ('Statin', 'statins'), ('statins', 'Statin'), ('Statin', 'hypertension'), ('hypertension', 'stroke'), ('stroke', 'statins'), ('statins', 'Angina chest pain')]
+
+
+....Batch 592 / 667 
+------------------
+2019-12-16 00:34:04,793 loading file ../../../best-model.pt
+[('headache', 'pain'), ('pain', 'chest pain'), ('chest pain', 'Orthopedic disease'), ('Orthopedic disease', 'lung disease'), ('lung disease', 'COPD'), ('COPD', 'chest pain'), ('chest pain', 'heart disease'), ('heart disease', 'chest pain'), ('chest pain', 'heart attack'), ('heart attack', 'chest pain'), ('chest pain', 'coronary disease'), ('coronary disease', 'heart attack'), ('heart attack', 'coronary heart disease'), ('coronary heart disease', 'statins'), ('statins', 'cholesterol'), ('cholesterol', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'heart attack'), ('heart attack', 'angina pain'), ('angina pain', 'unstable angina'), ('unstable angina', 'heart attack'), ('heart attack', 'statins'), ('statins', 'cholesterol'), ('cholesterol', 'chest pain'), ('chest pain', 'Mercury')]
+
+
+....Batch 593 / 667 
+------------------
+2019-12-16 00:34:20,201 loading file ../../../best-model.pt
+[('cholesterol', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'hypertension'), ('hypertension', 'hypertensive'), ('hypertensive', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'diabetes'), ('diabetes', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'heart attacks'), ('heart attacks', 'Statin'), ('Statin', 'statins'), ('statins', 'heart attacks'), ('heart attacks', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'heart attack'), ('heart attack', 'calcium'), ('calcium', 'calcified hardening'), ('calcified hardening', 'cardiovascular disease'), ('cardiovascular disease', 'heart attack'), ('heart attack', 'statin'), ('statin', 'disorders of')]
+
+
+....Batch 594 / 667 
+------------------
+2019-12-16 00:34:31,145 loading file ../../../best-model.pt
+[('urea', 'heart disease'), ('heart disease', 'sneezing'), ('sneezing', 'coughing'), ('coughing', 'immune system impairment'), ('immune system impairment', 'infection'), ('infection', 'diabetes gliptins'), ('diabetes gliptins', 'Januvia'), ('Januvia', 'pain'), ('pain', 'joint pain'), ('joint pain', 'heart attack'), ('heart attack', 'blood clots'), ('blood clots', 'vitamin D'), ('vitamin D', 'macular degeneration'), ('macular degeneration', 'Vitamin D'), ('Vitamin D', 'vitamin D'), ('vitamin D', 'macular degeneration'), ('macular degeneration', 'vitamin D'), ('vitamin D', 'prostate cancer'), ('prostate cancer', 'prostate cancer aspirin'), ('prostate cancer aspirin', 'pain'), ('pain', 'fever'), ('fever', 'metformin'), ('metformin', 'type 2 diabetes'), ('type 2 diabetes', 'galega officinalis'), ('galega officinalis', 'diabetes'), ('diabetes', 'Cancer'), ('Cancer', 'aspirin'), ('aspirin', 'Metformin'), ('Metformin', 'prostate cancer'), ('prostate cancer', 'metformin'), ('metformin', 'aspirin'), ('aspirin', 'prostate cancer'), ('prostate cancer', 'congenital deaf'), ('congenital deaf', 'visual disturbances'), ('visual disturbances', 'migraines'), ('migraines', 'migraines loss'), ('migraines loss', 'migraines'), ('migraines', 'color blindness')]
+
+
+....Batch 595 / 667 
+------------------
+2019-12-16 00:34:44,370 loading file ../../../best-model.pt
+[('ALS', "Tourette's"), ("Tourette's", 'color blindness'), ('color blindness', 'squint'), ('squint', 'satin'), ('satin', 'achromatosis'), ('achromatosis', 'acne'), ('acne', 'heart attack'), ('heart attack', "Tourette's"), ("Tourette's", 'Autism'), ('Autism', 'asthma'), ('asthma', 'acne'), ('acne', 'neurological disorders'), ('neurological disorders', "Tourette's"), ("Tourette's", 'ALS'), ('ALS', 'philia hallucinations'), ('philia hallucinations', 'tungsten'), ('tungsten', 'migraine'), ('migraine', 'cancer')]
+
+
+....Batch 596 / 667 
+------------------
+2019-12-16 00:34:56,055 loading file ../../../best-model.pt
+[("Alzheimer's", "Parkinson's disease"), ("Parkinson's disease", 'chrome autopia'), ('chrome autopia', 'color blindness'), ('color blindness', 'ALS'), ('ALS', 'aluminum'), ('aluminum', "Alzheimer's"), ("Alzheimer's", 'human ALS'), ('human ALS', "Parkinson's"), ("Parkinson's", "Alzheimer's"), ("Alzheimer's", 'calcium'), ('calcium', 'magnesium'), ('magnesium', 'aluminum'), ('aluminum', "Alzheimer's disease"), ("Alzheimer's disease", 'aluminum'), ('aluminum', 'urea')]
+
+
+....Batch 597 / 667 
+------------------
+2019-12-16 00:35:07,152 loading file ../../../best-model.pt
+[('thyroid problems', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'Dementia'), ('Dementia', 'obesity'), ('obesity', 'sleep loss'), ('sleep loss', 'antidepressant'), ('antidepressant', 'sleep deprivation'), ('sleep deprivation', 'depressive'), ('depressive', 'sleep problems'), ('sleep problems', 'pain'), ('pain', 'epilepsy'), ('epilepsy', 'erectile dysfunction'), ('erectile dysfunction', 'Suboxone'), ('Suboxone', 'heart problem'), ('heart problem', 'multiple sclerosis'), ('multiple sclerosis', 'anxious'), ('anxious', 'anxiety'), ('anxiety', 'thyroid problems'), ('thyroid problems', 'cancer'), ('cancer', 'levothyroxine'), ('levothyroxine', 'thyroid dysfunction'), ('thyroid dysfunction', "Hashimoto's thyroiditis"), ("Hashimoto's thyroiditis", 'confusion'), ('confusion', 'thyroiditis'), ('thyroiditis', 'hypothyroid'), ('hypothyroid', 'hypothyroidism'), ('hypothyroidism', 'sleepy'), ('sleepy', 'constipation'), ('constipation', 'hypothyroidism'), ('hypothyroidism', 'hypothyroid'), ('hypothyroid', 'hypothyroidism'), ('hypothyroidism', 'pain'), ('pain', 'hypothyroid'), ('hypothyroid', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'Levothyroxine'), ('Levothyroxine', 'levothyroxine'), ('levothyroxine', 'allergies'), ('allergies', 'levothyroxine'), ('levothyroxine', 'thyroxine'), ('thyroxine', 'allergy'), ('allergy', 'palpitations')]
+
+
+....Batch 598 / 667 
+------------------
+2019-12-16 00:35:21,660 loading file ../../../best-model.pt
+[('thyroid disease', 'T4'), ('T4', 'T3'), ('T3', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'hypothyroid'), ('hypothyroid', 'constipation'), ('constipation', 'TSH'), ('TSH', 'levothyroxine'), ('levothyroxine', 'Levothyroxine'), ('Levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'hypothyroid'), ('hypothyroid', 'levothyroxine'), ('levothyroxine', 'Levothyroxine'), ('Levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'hypothyroidism TSH'), ('hypothyroidism TSH', 'levothyroxine'), ('levothyroxine', 'TSA'), ('TSA', 'thyroid nodule'), ('thyroid nodule', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'hypothyroidism'), ('hypothyroidism', "I can't"), ("I can't", 'levothyroxine'), ('levothyroxine', 'T3'), ('T3', 'liothyronine'), ('liothyronine', 'levothyroxine'), ('levothyroxine', 'liothyronine'), ('liothyronine', 'levothyroxine'), ('levothyroxine', 'hypothyroid'), ('hypothyroid', 'levothyroxine'), ('levothyroxine', 'T3'), ('T3', 'levothyroxine'), ('levothyroxine', 'T3'), ('T3', 'T4'), ('T4', 'cancer'), ('cancer', 'thyroid disease'), ('thyroid disease', 'T4'), ('T4', 'levothyroxine'), ('levothyroxine', 'T3'), ('T3', 'T3 T3'), ('T3 T3', 'oxygen'), ('oxygen', 'T3'), ('T3', 'hypothyroid'), ('hypothyroid', 'T4'), ('T4', 'Levoxyl'), ('Levoxyl', 'T3'), ('T3', 'tin'), ('tin', 'T3'), ('T3', 'hypothyroid'), ('hypothyroid', 'thyroid disease'), ('thyroid disease', 'hypothyroid'), ('hypothyroid', "Hashimoto's disease"), ("Hashimoto's disease", 'chronic illnesses')]
+
+
+....Batch 599 / 667 
+------------------
+2019-12-16 00:35:37,231 loading file ../../../best-model.pt
+[('thyroid problems', 'levothyroxine'), ('levothyroxine', 'T4'), ('T4', 'T3'), ('T3', 'T4'), ('T4', 'T3'), ('T3', 'levothyroxine'), ('levothyroxine', 'T3'), ('T3', 'T4 levothyroxine'), ('T4 levothyroxine', 'T3'), ('T3', 'levothyroxine'), ('levothyroxine', 'fever'), ('fever', 'T3'), ('T3', 'thyroid disease'), ('thyroid disease', 'infertility'), ('infertility', 'hypothyroid'), ('hypothyroid', 'infertility'), ('infertility', 'hypothyroid'), ('hypothyroid', 'cognitive and IQ deficits'), ('cognitive and IQ deficits', 'hypothyroid'), ('hypothyroid', 'cretinism'), ('cretinism', 'permanent disability'), ('permanent disability', 'retardation'), ('retardation', 'hypothyroid'), ('hypothyroid', 'iodine'), ('iodine', 'miscarriages'), ('miscarriages', 'ADHD'), ('ADHD', 'autism spectrum disorders'), ('autism spectrum disorders', 'hypothyroid'), ('hypothyroid', 'hypothyroidism')]
+
+
+....Batch 600 / 667 
+------------------
+2019-12-16 00:35:52,992 loading file ../../../best-model.pt
+[('thyroid disease', 'weight loss'), ('weight loss', 'cancer'), ('cancer', 'urea'), ('urea', 'Skin cancer'), ('Skin cancer', 'corticosteroids'), ('corticosteroids', 'diabetes'), ('diabetes', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'heart disease'), ('heart disease', 'stroke'), ('stroke', 'cardiovascular disease'), ('cardiovascular disease', 'upper respiratory infections'), ('upper respiratory infections', 'Vitamin D'), ('Vitamin D', 'asthma')]
+
+
+....Batch 601 / 667 
+------------------
+2019-12-16 00:36:05,650 loading file ../../../best-model.pt
+[]
+
+
+....Batch 602 / 667 
+------------------
+2019-12-16 00:36:17,442 loading file ../../../best-model.pt
+[('urea', 'obesity'), ('obesity', 'breast cancer'), ('breast cancer', 'Januvia onglyza'), ('Januvia onglyza', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'diabetes'), ('diabetes', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'Angina'), ('Angina', 'heart failure'), ('heart failure', 'diabetes'), ('diabetes', 'cardiovascular complications'), ('cardiovascular complications', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'diabetes'), ('diabetes', 'infections'), ('infections', 'diarrhea'), ('diarrhea', 'infections'), ('infections', 'infection'), ('infection', 'clostridium difficile'), ('clostridium difficile', 'c-diff infection'), ('c-diff infection', 'heart failure'), ('heart failure', 'depression fatigue'), ('depression fatigue', 'depressed'), ('depressed', 'fatigue'), ('fatigue', 'inflammation'), ('inflammation', 'shock'), ('shock', 'cholesterol'), ('cholesterol', 'cholesterol cholesterol'), ('cholesterol cholesterol', 'cholesterol'), ('cholesterol', 'sodium'), ('sodium', 'cholesterol'), ('cholesterol', 'sodium'), ('sodium', 'cholesterol')]
+
+
+....Batch 603 / 667 
+------------------
+2019-12-16 00:36:32,732 loading file ../../../best-model.pt
+[('sugar', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'statins'), ('statins', 'obesity'), ('obesity', 'Obesity'), ('Obesity', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'triglyceride'), ('triglyceride', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'diabetic'), ('diabetic', 'obese'), ('obese', 'diabetes'), ('diabetes', 'sugar'), ('sugar', 'diabetes')]
+
+
+....Batch 604 / 667 
+------------------
+2019-12-16 00:36:45,477 loading file ../../../best-model.pt
+[('diabetes', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'weight loss'), ('weight loss', 'cholesterol'), ('cholesterol', 'sodium'), ('sodium', 'fat'), ('fat', 'cholesterol'), ('cholesterol', 'saturated fat'), ('saturated fat', 'cholesterol Laden plaque'), ('cholesterol Laden plaque', 'coronary artery disease'), ('coronary artery disease', 'cholesterol'), ('cholesterol', 'cholesterol cholesterol'), ('cholesterol cholesterol', 'coconut oil'), ('coconut oil', 'coconut fat'), ('coconut fat', 'coconut saturated'), ('coconut saturated', 'coconut fat'), ('coconut fat', 'cholesterol')]
+
+
+....Batch 605 / 667 
+------------------
+2019-12-16 00:36:58,799 loading file ../../../best-model.pt
+[('cholesterol', 'fat'), ('fat', 'cholesterol'), ('cholesterol', 'Obesity'), ('Obesity', 'methane')]
+
+
+....Batch 606 / 667 
+------------------
+2019-12-16 00:37:12,171 loading file ../../../best-model.pt
+[('dizziness', 'heart attacks'), ('heart attacks', 'cancer'), ('cancer', 'viral infections'), ('viral infections', 'cold sore'), ('cold sore', 'illness'), ('illness', 'viruses sinusitis'), ('viruses sinusitis', 'sinusitis'), ('sinusitis', 'fungal infections'), ('fungal infections', 'sinus infections'), ('sinus infections', 'infections'), ('infections', 'vision loss'), ('vision loss', 'avastin'), ('avastin', 'macular degeneration'), ('macular degeneration', 'degeneration'), ('degeneration', 'confusion'), ('confusion', 'cholesterol'), ('cholesterol', 'estrogen'), ('estrogen', 'heart attacks'), ('heart attacks', 'angina'), ('angina', 'heart attack'), ('heart attack', 'unstable angina'), ('unstable angina', 'coronary artery disease'), ('coronary artery disease', 'coronary disease'), ('coronary disease', 'chest pain'), ('chest pain', 'heart disease')]
+
+
+....Batch 607 / 667 
+------------------
+2019-12-16 00:37:25,945 loading file ../../../best-model.pt
+[('angina', 'Propranolol metoprolol'), ('Propranolol metoprolol', 'Atenolol'), ('Atenolol', 'hypertension'), ('hypertension', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'Cancer'), ('Cancer', 'diabetes'), ('diabetes', 'diabetic'), ('diabetic', 'cholesterol'), ('cholesterol', 'sugar'), ('sugar', 'hip fracture'), ('hip fracture', 'spinal compression fracture'), ('spinal compression fracture', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'cancer'), ('cancer', 'Cancer'), ('Cancer', 'tumor'), ('tumor', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'heart disease'), ('heart disease', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'heart attacks'), ('heart attacks', 'Strokes'), ('Strokes', 'diabetes'), ('diabetes', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'cholesterol'), ('cholesterol', 'toxicity'), ('toxicity', 'muscle aches'), ('muscle aches', 'diabetes'), ('diabetes', 'heart disease'), ('heart disease', 'cholesterol')]
+
+
+....Batch 608 / 667 
+------------------
+2019-12-16 00:37:40,641 loading file ../../../best-model.pt
+[('diabetes', 'cholesterol'), ('cholesterol', 'fibrate'), ('fibrate', 'diabetes'), ('diabetes', 'sugar'), ('sugar', 'diabetes'), ('diabetes', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'cholesterol'), ('cholesterol', 'diabetes'), ('diabetes', 'coronary disease'), ('coronary disease', 'diabetes'), ('diabetes', 'estrogen'), ('estrogen', 'erectile dysfunction'), ('erectile dysfunction', 'incontinence'), ('incontinence', 'prostate cancer'), ('prostate cancer', 'prostatic hypertrophy'), ('prostatic hypertrophy', 'prostate cancer'), ('prostate cancer', 'cancer'), ('cancer', 'prostate cancer'), ('prostate cancer', 'incontinence'), ('incontinence', 'impotence'), ('impotence', 'prostate cancer'), ('prostate cancer', 'cancer'), ('cancer', 'Cancer'), ('Cancer', 'cardiovascular disease'), ('cardiovascular disease', 'heart attack')]
+
+
+....Batch 609 / 667 
+------------------
+2019-12-16 00:37:57,550 loading file ../../../best-model.pt
+[('lung cancer', 'pain'), ('pain', 'rash'), ('rash', 'heart disease'), ('heart disease', 'angina'), ('angina', 'Cancer'), ('Cancer', 'urea')]
+
+
+....Batch 610 / 667 
+------------------
+2019-12-16 00:38:14,516 loading file ../../../best-model.pt
+[('multivitamins', 'melatonin'), ('melatonin', 'vitamin D'), ('vitamin D', 'infectious disease'), ('infectious disease', 'infection'), ('infection', 'clostridium difficile'), ('clostridium difficile', 'diarrhea'), ('diarrhea', 'sleep loss'), ('sleep loss', 'disrupted sleep'), ('disrupted sleep', 'confusion delirium'), ('confusion delirium', 'vitamin D'), ('vitamin D', 'cancers'), ('cancers', 'vitamin D'), ('vitamin D', 'anxiety'), ('anxiety', 'ADHD'), ('ADHD', 'depression'), ('depression', 'bacterial infection'), ('bacterial infection', 'anemia'), ('anemia', 'iron'), ('iron', 'anemia'), ('anemia', 'lead toxicity'), ('lead toxicity', 'lead poisoning'), ('lead poisoning', 'anemia'), ('anemia', 'toxicity'), ('toxicity', 'ear infection')]
+
+
+....Batch 611 / 667 
+------------------
+2019-12-16 00:38:28,593 loading file ../../../best-model.pt
+[('Methotrexate', 'Echinacea'), ('Echinacea', 'Methotrexate'), ('Methotrexate', 'vitamins'), ('vitamins', 'ear infection'), ('ear infection', 'bacterial ear infection'), ('bacterial ear infection', 'infections'), ('infections', 'ear pain'), ('ear pain', 'inflammation'), ('inflammation', 'pain'), ('pain', "I'd"), ("I'd", 'ADHD'), ('ADHD', 'lithium'), ('lithium', 'bipolar disorder'), ('bipolar disorder', 'lithium'), ('lithium', 'ADHD'), ('ADHD', 'lithium'), ('lithium', 'psychiatric'), ('psychiatric', 'ADHD'), ('ADHD', 'iron'), ('iron', 'ADHD'), ('ADHD', 'insomnia'), ('insomnia', 'melatonin'), ('melatonin', 'vitamin D')]
+
+
+....Batch 612 / 667 
+------------------
+2019-12-16 00:38:40,584 loading file ../../../best-model.pt
+[('concussion', 'respiratory infections'), ('respiratory infections', 'vitamin D'), ('vitamin D', 'zinc'), ('zinc', 'titanium'), ('titanium', 'vitamin D'), ('vitamin D', 'fracture'), ('fracture', 'vitamin D'), ('vitamin D', 'sugar'), ('sugar', 'vitamin D'), ('vitamin D', 'urea')]
+
+
+....Batch 613 / 667 
+------------------
+2019-12-16 00:38:51,443 loading file ../../../best-model.pt
+[('sodium', 'hyponatremia'), ('hyponatremia', 'sodium'), ('sodium', 'inflammation'), ('inflammation', 'heart disease'), ('heart disease', 'heart attacks Strokes lung cancer gout'), ('heart attacks Strokes lung cancer gout', 'arthritis'), ('arthritis', 'rice steel'), ('rice steel', 'cholesterol'), ('cholesterol', 'cardiovascular disease'), ('cardiovascular disease', 'dementia'), ('dementia', 'magnesium'), ('magnesium', 'cognitive decline'), ('cognitive decline', 'magnesium'), ('magnesium', 'dementia'), ('dementia', 'magnesium'), ('magnesium', 'intellectual decline'), ('intellectual decline', 'magnesium'), ('magnesium', 'nitric oxide'), ('nitric oxide', 'antidepressant'), ('antidepressant', 'serotonin'), ('serotonin', 'fluoxetine paroxetine'), ('fluoxetine paroxetine', 'Sertraline'), ('Sertraline', 'depression'), ('depression', 'anxiety'), ('anxiety', 'serotonin'), ('serotonin', 'antidepressants'), ('antidepressants', 'heart attack stroke'), ('heart attack stroke', 'cardiovascular disease'), ('cardiovascular disease', 'antidepressant'), ('antidepressant', 'antidepressants'), ('antidepressants', 'nerve damage'), ('nerve damage', 'peripheral neuropathy'), ('peripheral neuropathy', 'numbness'), ('numbness', 'tingling pain'), ('tingling pain', 'Cancer'), ('Cancer', 'multivitamins'), ('multivitamins', 'breast cancer'), ('breast cancer', 'neuropathy'), ('neuropathy', 'vitamin'), ('vitamin', 'inflammation'), ('inflammation', 'heart disease'), ('heart disease', 'cardiovascular disease'), ('cardiovascular disease', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'inflammation'), ('inflammation', 'cholesterol'), ('cholesterol', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'stroke'), ('stroke', 'inflammation'), ('inflammation', 'Statin'), ('Statin', 'heart attack stroke'), ('heart attack stroke', 'cholesterol'), ('cholesterol', 'lung cancer'), ('lung cancer', 'tumors'), ('tumors', 'tumor'), ('tumor', 'canakinumab'), ('canakinumab', 'cancer'), ('cancer', 'lung cancers'), ('lung cancers', 'heart disease'), ('heart disease', 'inflammation')]
+
+
+....Batch 614 / 667 
+------------------
+2019-12-16 00:39:04,474 loading file ../../../best-model.pt
+[('canakinumab', 'gout gout'), ('gout gout', 'ibuprofen'), ('ibuprofen', 'Motrin'), ('Motrin', 'Aspirin'), ('Aspirin', 'vioxx'), ('vioxx', 'canakinumab'), ('canakinumab', 'Methotrexate'), ('Methotrexate', 'rheumatoid arthritis'), ('rheumatoid arthritis', 'arthritis'), ('arthritis', 'lung cancer'), ('lung cancer', 'cancer'), ('cancer', 'diabetes'), ('diabetes', "Alzheimer's disease"), ("Alzheimer's disease", 'inflammation'), ('inflammation', 'aspirin'), ('aspirin', 'heart disease'), ('heart disease', 'cancer'), ('cancer', 'Methotrexate'), ('Methotrexate', 'aspirin'), ('aspirin', 'inflammation'), ('inflammation', 'cholesterol'), ('cholesterol', 'atherosclerosis'), ('atherosclerosis', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'cholesterol'), ('cholesterol', 'lung cancer'), ('lung cancer', 'arthritis'), ('arthritis', 'gout'), ('gout', 'osteoarthritis'), ('osteoarthritis', 'infections'), ('infections', 'rheumatoid arthritis'), ('rheumatoid arthritis', 'infection'), ('infection', 'fever'), ('fever', 'infection'), ('infection', 'inflammation'), ('inflammation', 'atherosclerosis'), ('atherosclerosis', 'cardiovascular disease'), ('cardiovascular disease', 'sodium'), ('sodium', 'hypertension'), ('hypertension', 'sodium'), ('sodium', 'cholesterol')]
+
+
+....Batch 615 / 667 
+------------------
+2019-12-16 00:39:18,412 loading file ../../../best-model.pt
+[('aldosterone', 'lactone'), ('lactone', 'tumor'), ('tumor', 'cortisol'), ('cortisol', 'aldosterone'), ('aldosterone', 'salt'), ('salt', 'salt wasting'), ('salt wasting', 'stroke'), ('stroke', 'hyponatremia'), ('hyponatremia', 'dizziness'), ('dizziness', 'muscle cramps'), ('muscle cramps', 'spasms'), ('spasms', 'sodium'), ('sodium', 'cholesterol'), ('cholesterol', 'cardiovascular complications'), ('cardiovascular complications', 'stroke'), ('stroke', 'sodium'), ('sodium', "it's sodium"), ("it's sodium", 'grains 888-472-3366'), ('grains 888-472-3366', 'inflammation'), ('inflammation', 'cardiovascular disease inflammation'), ('cardiovascular disease inflammation', 'cholesterol'), ('cholesterol', 'atherosclerosis'), ('atherosclerosis', 'stroke'), ('stroke', "Crohn's disease"), ("Crohn's disease", 'coconut macaroon'), ('coconut macaroon', 'calcium'), ('calcium', 'inflammation'), ('inflammation', 'smoking')]
+
+
+....Batch 616 / 667 
+------------------
+2019-12-16 00:39:30,546 loading file ../../../best-model.pt
+[("vitamin C you'd", 'scurvy'), ('scurvy', 'vitamin C'), ('vitamin C', 'inflammation'), ('inflammation', 'Terry Methotrexate'), ('Terry Methotrexate', 'aspirin'), ('aspirin', 'sodium'), ('sodium', 'cholesterol'), ('cholesterol', 'eggs salt'), ('eggs salt', 'cholesterol'), ('cholesterol', 'curcumin'), ('curcumin', 'inflammation'), ('inflammation', 'bcm-95'), ('bcm-95', 'curcumin'), ('curcumin', 'starch'), ('starch', 'tinnitus'), ('tinnitus', 'sleep disruption'), ('sleep disruption', 'disorientation delirium'), ('disorientation delirium', 'infection'), ('infection', 'Legionella'), ('Legionella', 'hypertension')]
+
+
+....Batch 617 / 667 
+------------------
+2019-12-16 00:39:42,833 loading file ../../../best-model.pt
+[('prostate cancer', 'cancer'), ('cancer', 'prostate tumor'), ('prostate tumor', 'starch'), ('starch', 'prostate cancer'), ('prostate cancer', 'testosterone'), ('testosterone', 'tumor'), ('tumor', 'kidney damage'), ('kidney damage', 'testosterone'), ('testosterone', 'vitamin D'), ('vitamin D', 'Falls'), ('Falls', 'vitamin D'), ('vitamin D', 'tinnitus'), ('tinnitus', 'cochlear damage'), ('cochlear damage', 'tinnitus'), ('tinnitus', 'tinnitus salicylates aspirin'), ('tinnitus salicylates aspirin', 'ibuprofen'), ('ibuprofen', 'naproxen'), ('naproxen', 'disc problem'), ('disc problem', 'pain'), ('pain', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'mood depression'), ('mood depression', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'urea')]
+
+
+....Batch 618 / 667 
+------------------
+2019-12-16 00:39:55,955 loading file ../../../best-model.pt
+[('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'nausea'), ('nausea', 'dizziness'), ('dizziness', 'tinnitus')]
+
+
+....Batch 619 / 667 
+------------------
+2019-12-16 00:40:08,898 loading file ../../../best-model.pt
+[('tinnitus', 'benign tumors'), ('benign tumors', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'acoustic neuromas'), ('acoustic neuromas', 'vestibular schwannoma'), ('vestibular schwannoma', 'anxiety'), ('anxiety', 'depression'), ('depression', 'tinnitus'), ('tinnitus', 'caffeine'), ('caffeine', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'Onyx'), ('Onyx', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'hearing loss'), ('hearing loss', 'tinnitus'), ('tinnitus', 'fluttering'), ('fluttering', 'tinnitus')]
+
+
+....Batch 620 / 667 
+------------------
+2019-12-16 00:40:23,746 loading file ../../../best-model.pt
+[('800-345-7339', 'toxoplasmosis'), ('toxoplasmosis', 'daraprim'), ('daraprim', 'parasitic infection'), ('parasitic infection', 'dementia'), ('dementia', 'agitation'), ('agitation', 'aggression'), ('aggression', 'Haldol Seroquel'), ('Haldol Seroquel', 'dementia'), ('dementia', 'infections'), ('infections', 'anti-psychotic'), ('anti-psychotic', 'dextromethorphan'), ('dextromethorphan', 'DM'), ('DM', 'Robitussin DM'), ('Robitussin DM', 'quinidine'), ('quinidine', 'heart rhythm abnormalities'), ('heart rhythm abnormalities', 'quinidine dextromethorphan'), ('quinidine dextromethorphan', 'agitation'), ('agitation', 'aggression'), ('aggression', 'serotonin'), ('serotonin', 'fluoxetine'), ('fluoxetine', 'fatigue diarrhea dizziness'), ('fatigue diarrhea dizziness', 'agitation'), ('agitation', "Alzheimer's disease"), ("Alzheimer's disease", 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart failure'), ('heart failure', 'nitrate'), ('nitrate', 'infected')]
+
+
+....Batch 621 / 667 
+------------------
+2019-12-16 00:40:37,636 loading file ../../../best-model.pt
+[('cancer', 'pain'), ('pain', 'error'), ('error', 'infections'), ('infections', 'pain')]
+
+
+....Batch 622 / 667 
+------------------
+2019-12-16 00:40:51,875 loading file ../../../best-model.pt
+[('allergies', 'Mercury'), ('Mercury', 'blood clots'), ('blood clots', 'breast cancer'), ('breast cancer', 'cancer'), ('cancer', 'Cancer')]
+
+
+....Batch 623 / 667 
+------------------
+2019-12-16 00:41:04,165 loading file ../../../best-model.pt
+[('cancer', 'pain'), ('pain', 'Lyme disease'), ('Lyme disease', 'Dad'), ('Dad', 'breast cancer'), ('breast cancer', 'cancer'), ('cancer', 'infection'), ('infection', 'Lyme disease'), ('Lyme disease', 'heart disease'), ('heart disease', 'cancer'), ('cancer', 'estrogen'), ('estrogen', 'progestin estrogen'), ('progestin estrogen', 'breast cancer'), ('breast cancer', 'estrogen'), ('estrogen', 'progestin'), ('progestin', 'cardiovascular complications'), ('cardiovascular complications', 'HRT'), ('HRT', 'hot flashes'), ('hot flashes', 'night sweats'), ('night sweats', 'HRT'), ('HRT', 'breast cancer'), ('breast cancer', 'cancer'), ('cancer', 'Cancer'), ('Cancer', 'dementia'), ('dementia', 'cognitive problems'), ('cognitive problems', 'dementia')]
+
+
+....Batch 624 / 667 
+------------------
+2019-12-16 00:41:17,778 loading file ../../../best-model.pt
+[('obesity', 'heart disease'), ('heart disease', 'cardiovascular disease'), ('cardiovascular disease', 'obesity'), ('obesity', 'insulin'), ('insulin', 'Iron'), ('Iron', 'weight loss'), ('weight loss', 'obesity'), ('obesity', 'diabetes'), ('diabetes', 'type 2 diabetes'), ('type 2 diabetes', 'green leafy vegetables'), ('green leafy vegetables', 'type 2 diabetes'), ('type 2 diabetes', 'prediabetes'), ('prediabetes', 'inflammation'), ('inflammation', 'allergic'), ('allergic', 'allergic reaction'), ('allergic reaction', 'streptomycin'), ('streptomycin', 'anaphylaxis'), ('anaphylaxis', 'gallstones'), ('gallstones', 'hypertension'), ('hypertension', 'diabetes'), ('diabetes', 'kidney disease'), ('kidney disease', 'hypertension')]
+
+
+....Batch 625 / 667 
+------------------
+2019-12-16 00:41:30,236 loading file ../../../best-model.pt
+[('cimetidine', 'pulmonary emboli'), ('pulmonary emboli', 'blood clots'), ('blood clots', 'clot'), ('clot', 'Heparin'), ('Heparin', 'Coumadin'), ('Coumadin', 'Warfarin'), ('Warfarin', 'ADHD'), ('ADHD', 'miscarriage'), ('miscarriage', 'bleed'), ('bleed', 'bleeding'), ('bleeding', 'miscarriages'), ('miscarriages', 'preeclampsia'), ('preeclampsia', 'diabetic retinopathy'), ('diabetic retinopathy', 'pain'), ('pain', 'diabetic'), ('diabetic', 'Insulin')]
+
+
+....Batch 626 / 667 
+------------------
+2019-12-16 00:41:44,681 loading file ../../../best-model.pt
+[('weight loss', 'gold'), ('gold', 'heart attack.'), ('heart attack.', 'Diabetes'), ('Diabetes', 'cancer'), ('cancer', 'keytruda pembrolizumab'), ('keytruda pembrolizumab', 'melanoma'), ('melanoma', 'cancer pd-1'), ('cancer pd-1', 'cancer'), ('cancer', 'melanoma'), ('melanoma', 'cancers'), ('cancers', 'cancer'), ('cancer', 'brain cancer'), ('brain cancer', 'cancer'), ('cancer', 'scorpion venom'), ('scorpion venom', 'brain tumors'), ('brain tumors', 'brain cancer'), ('brain cancer', 'cancer'), ('cancer', 'brain cancer'), ('brain cancer', 'cancer'), ('cancer', 'scorpion toxin'), ('scorpion toxin', 'chlorotoxin Woodbine'), ('chlorotoxin Woodbine', 'cancer'), ('cancer', 'brain cancer'), ('brain cancer', 'cancers'), ('cancers', 'chloride ion'), ('chloride ion', 'tumor'), ('tumor', 'cancer'), ('cancer', 'human tumors'), ('human tumors', 'cancer'), ('cancer', 'tumor'), ('tumor', 'cancer'), ('cancer', 'tumor'), ('tumor', 'cancer'), ('cancer', 'tumor'), ('tumor', 'cancer'), ('cancer', 'tumor')]
+
+
+....Batch 627 / 667 
+------------------
+2019-12-16 00:41:58,824 loading file ../../../best-model.pt
+[('cancer', 'tumor'), ('tumor', 'Violet'), ('Violet', 'brain cancer'), ('brain cancer', 'cancer'), ('cancer', 'chills'), ('chills', 'Violet. Org'), ('Violet. Org', 'pancreatic or'), ('pancreatic or', 'cancer'), ('cancer', 'pain'), ('pain', 'depressed'), ('depressed', 'triglycerides'), ('triglycerides', 'glucose'), ('glucose', 'antidepressants'), ('antidepressants', 'depression'), ('depression', 'ketamine'), ('ketamine', 'heart attack'), ('heart attack', 'pain'), ('pain', 'diclofenac ibuprofen'), ('diclofenac ibuprofen', 'naproxen'), ('naproxen', 'heart attack'), ('heart attack', 'hemorrhage'), ('hemorrhage', 'heart attack'), ('heart attack', 'stroke'), ('stroke', 'NSAID pain'), ('NSAID pain', 'peanut protein allergy'), ('peanut protein allergy', 'allergic reactions'), ('allergic reactions', 'peanut protein'), ('peanut protein', 'peanut allergy'), ('peanut allergy', 'egg allergy'), ('egg allergy', 'eczema'), ('eczema', 'peanut allergy'), ('peanut allergy', 'peanut'), ('peanut', 'allergy'), ('allergy', 'allergic'), ('allergic', 'peanut allergy'), ('peanut allergy', 'peanut'), ('peanut', 'allergies'), ('allergies', 'Allergy'), ('Allergy', 'headaches,'), ('headaches,', 'asthma'), ('asthma', 'EX,'), ('EX,', 'allergies')]
+
+
+....Batch 628 / 667 
+------------------
+2019-12-16 00:42:13,566 loading file ../../../best-model.pt
+[('pain', 'antidepressant'), ('antidepressant', 'ketamine'), ('ketamine', 'depression'), ('depression', 'ketamine'), ('ketamine', "it's"), ("it's", 'ketamine'), ('ketamine', 'antidepressant'), ('antidepressant', 'antidepressants'), ('antidepressants', 'ketamine'), ('ketamine', 'pain'), ('pain', 'ketamine'), ('ketamine', 'depression'), ('depression', 'depressive'), ('depressive', 'Suicidal'), ('Suicidal', 'psychiatric'), ('psychiatric', 'suicidal thoughts'), ('suicidal thoughts', 'psychiatric'), ('psychiatric', 'antidepressants'), ('antidepressants', 'ketamine'), ('ketamine', 'depression'), ('depression', 'ketamine'), ('ketamine', 'depression'), ('depression', 'Suicidal'), ('Suicidal', 'depression'), ('depression', 'ketamine'), ('ketamine', 'Suicidal'), ('Suicidal', 'ketamine'), ('ketamine', 'glutamate'), ('glutamate', 'diazoxide'), ('diazoxide', 'ketamine'), ('ketamine', 'depressed'), ('depressed', 'antidepressant'), ('antidepressant', 'ketamine'), ('ketamine', 'depressed'), ('depressed', 'depression'), ('depression', 'antidepressants'), ('antidepressants', 'Effexor Lexapro'), ('Effexor Lexapro', 'prozac'), ('prozac', 'depression'), ('depression', 'pain'), ('pain', 'depression'), ('depression', 'pain'), ('pain', 'depressed'), ('depressed', 'depression')]
+
+
+....Batch 629 / 667 
+------------------
+2019-12-16 00:42:28,437 loading file ../../../best-model.pt
+[('suicidal', 'pain'), ('pain', 'depressed'), ('depressed', 'suicidal'), ('suicidal', 'depression'), ('depression', 'depressed'), ('depressed', 'depression anxiety'), ('depression anxiety', 'depressed'), ('depressed', 'headache'), ('headache', 'depression'), ('depression', 'fatigue'), ('fatigue', 'anger'), ('anger', 'depression'), ('depression', 'thyroid imbalance'), ('thyroid imbalance', 'depression'), ('depression', 'hypothyroidism'), ('hypothyroidism', 'depression'), ('depression', 'Suicide'), ('Suicide', 'depression'), ('depression', 'depressed'), ('depressed', 'depression'), ('depression', 'benzodiazepines'), ('benzodiazepines', 'Xanax'), ('Xanax', 'Ativan'), ('Ativan', 'Klonopin'), ('Klonopin', 'depression'), ('depression', 'benzodiazepines'), ('benzodiazepines', 'depressed'), ('depressed', 'depression')]
+
+
+....Batch 630 / 667 
+------------------
+2019-12-16 00:42:44,890 loading file ../../../best-model.pt
+[('depression', 'depressed'), ('depressed', 'depression-era'), ('depression-era', 'antidepressant'), ('antidepressant', 'depression'), ('depression', 'serotonin'), ('serotonin', 'dopamine'), ('dopamine', 'depression'), ('depression', 'brain dysfunction'), ('brain dysfunction', 'fatty acid'), ('fatty acid', 'omega-3 fats'), ('omega-3 fats', 'Omega threes'), ('Omega threes', "Omega threes there's"), ("Omega threes there's", 'EPA'), ('EPA', 'antidepressant'), ('antidepressant', 'EPA'), ('EPA', 'antidepressant'), ('antidepressant', 'anxiety'), ('anxiety', 'antidepressant'), ('antidepressant', 'sleep debt'), ('sleep debt', 'antidepressant'), ('antidepressant', 'depression'), ('depression', 'antidepressant'), ('antidepressant', 'depression'), ('depression', 'antidepressant'), ('antidepressant', 'depression'), ('depression', 'depressed'), ('depressed', 'infectious illness'), ('infectious illness', 'flu'), ('flu', 'depressed'), ('depressed', 'depression'), ('depression', 'flu'), ('flu', 'depression'), ('depression', 'depressed')]
+
+
+....Batch 631 / 667 
+------------------
+2019-12-16 00:43:01,219 loading file ../../../best-model.pt
+[('depression', 'depressed'), ('depressed', 'depression'), ('depression', 'urea'), ('urea', 'asthma'), ('asthma', 'wheezing'), ('wheezing', 'shortness of breath'), ('shortness of breath', 'asthma'), ('asthma', 'cholesterol'), ('cholesterol', 'capsaicin'), ('capsaicin', "Alzheimer's disease"), ("Alzheimer's disease", 'dementia'), ('dementia', 'hip fracture'), ('hip fracture', 'antidepressant'), ('antidepressant', 'antidepressants'), ('antidepressants', 'Falls'), ('Falls', 'fractures'), ('fractures', 'colicky'), ('colicky', 'crying'), ('crying', 'colicky'), ('colicky', 'osteoarthritis pain'), ('osteoarthritis pain', 'hip knee foot or ankle arthritis'), ('hip knee foot or ankle arthritis', 'pain'), ('pain', 'osteoarthritis'), ('osteoarthritis', 'yoga'), ('yoga', 'paraplegia'), ('paraplegia', 'trauma'), ('trauma', 'physical injuries'), ('physical injuries', 'coma')]
+
+
+....Batch 632 / 667 
+------------------
+2019-12-16 00:43:14,011 loading file ../../../best-model.pt
+[('coma', 'bruise'), ('bruise', 'yoga'), ('yoga', 'paralysis'), ('paralysis', 'paraplegia'), ('paraplegia', 'trauma'), ('trauma', 'polio')]
+
+
+....Batch 633 / 667 
+------------------
+2019-12-16 00:43:30,642 loading file ../../../best-model.pt
+[('disability', 'pain'), ('pain', 'trauma loss'), ('trauma loss', 'trauma'), ('trauma', 'arthritis pain'), ('arthritis pain', 'arthritis'), ('arthritis', 'pain'), ('pain', 'chronic pain')]
+
+
+....Batch 634 / 667 
+------------------
+2019-12-16 00:43:45,753 loading file ../../../best-model.pt
+[('pain', "Parkinson's Disease"), ("Parkinson's Disease", 'heart failure'), ('heart failure', 'pain'), ('pain', 'osteoporosis'), ('osteoporosis', 'fracture'), ('fracture', 'Pain'), ('Pain', 'trauma'), ('trauma', 'urea'), ('urea', 'dementia'), ('dementia', 'FTC'), ('FTC', 'weight loss'), ('weight loss', 'testosterone'), ('testosterone', 'cardiovascular complications'), ('cardiovascular complications', 'testosterone'), ('testosterone', 'artery disease testosterone'), ('artery disease testosterone', 'obesity'), ('obesity', 'testosterone'), ('testosterone', 'brain damage'), ('brain damage', 'concussion'), ('concussion', 'heart rhythm abnormality'), ('heart rhythm abnormality', 'arrhythmia'), ('arrhythmia', 'heart rhythm')]
+
+
+....Batch 635 / 667 
+------------------
+2019-12-16 00:44:00,687 loading file ../../../best-model.pt
+[('esomeprazole', 'heartburn'), ('heartburn', 'gastroesophageal reflux disease'), ('gastroesophageal reflux disease', 'ulcers'), ('ulcers', 'autoimmune disease'), ('autoimmune disease', 'obesity inflammatory bowel disease'), ('obesity inflammatory bowel disease', 'dementia'), ('dementia', 'acetylcholine'), ('acetylcholine', 'antihistamines'), ('antihistamines', 'urinary incontinence'), ('urinary incontinence', 'chlorpheniramine'), ('chlorpheniramine', 'antihistamines'), ('antihistamines', 'cimetidine'), ('cimetidine', 'heartburn'), ('heartburn', 'Tylenol PM'), ('Tylenol PM', 'dementia'), ('dementia', 'mouth constipation'), ('mouth constipation', 'urination confusion'), ('urination confusion', 'cognitive impairment'), ('cognitive impairment', 'panic'), ('panic', 'dementia'), ('dementia', 'benzodiazepines'), ('benzodiazepines', 'dementia'), ('dementia', 'flu'), ('flu', 'Tamiflu'), ('Tamiflu', 'Belladonna')]
+
+
+....Batch 636 / 667 
+------------------
+2019-12-16 00:44:12,235 loading file ../../../best-model.pt
+[('flu', 'pneumonia'), ('pneumonia', 'flu'), ('flu', 'Tamiflu'), ('Tamiflu', 'flu'), ('flu', 'oxybutynin'), ('oxybutynin', 'antidepressants'), ('antidepressants', 'paroxetine Paxil'), ('paroxetine Paxil', 'choline'), ('choline', 'acetylcholine'), ('acetylcholine', 'benzodiazepines'), ('benzodiazepines', 'insomnia'), ('insomnia', 'hallucinations'), ('hallucinations', 'delirium'), ('delirium', 'psychiatric'), ('psychiatric', 'Onyx'), ('Onyx', 'pain'), ('pain', 'Tylenol PM'), ('Tylenol PM', 'amitriptyline'), ('amitriptyline', 'vinegar'), ('vinegar', 'Listerine'), ('Listerine', 'stroke'), ('stroke', 'heart attack'), ('heart attack', 'morphine'), ('morphine', 'oxygen'), ('oxygen', 'stroke'), ('stroke', 'TPA'), ('TPA', 'ischemic stroke'), ('ischemic stroke', 'stroke'), ('stroke', 'TPA')]
+
+
+....Batch 637 / 667 
+------------------
+2019-12-16 00:44:25,977 loading file ../../../best-model.pt
+[('stroke', 'ischemic stroke'), ('ischemic stroke', 'bleeding'), ('bleeding', 'stroke'), ('stroke', 'weakness'), ('weakness', 'nine-one-one'), ('nine-one-one', 'ischemic stroke'), ('ischemic stroke', 'TPA'), ('TPA', 'clot'), ('clot', 'blood clots'), ('blood clots', 'stroke'), ('stroke', 'alcohol'), ('alcohol', 'stroke'), ('stroke', 'alcohol'), ('alcohol', 'stroke'), ('stroke', 'Listerine'), ('Listerine', 'asthma'), ('asthma', 'fructose'), ('fructose', 'diabetes mellitus'), ('diabetes mellitus', 'diabetes'), ('diabetes', 'dementia'), ('dementia', "Alzheimer's disease"), ("Alzheimer's disease", 'urea')]
+
+
+....Batch 638 / 667 
+------------------
+2019-12-16 00:44:40,499 loading file ../../../best-model.pt
+[('cholesterol', 'heart disease'), ('heart disease', 'atherosclerosis'), ('atherosclerosis', 'heart disease'), ('heart disease', 'dementia'), ('dementia', 'cholesterol'), ('cholesterol', 'heart attacks'), ('heart attacks', 'Strokes'), ('Strokes', 'cholesterol'), ('cholesterol', 'fat'), ('fat', 'coronary artery disease'), ('coronary artery disease', 'fatty acids'), ('fatty acids', 'Flavin'), ('Flavin', 'hemorrhagic bleeding stroke'), ('hemorrhagic bleeding stroke', 'TPA clot'), ('TPA clot', 'bleeding'), ('bleeding', 'TPA'), ('TPA', 'disability'), ('disability', 'TPA'), ('TPA', 'hemorrhagic stroke'), ('hemorrhagic stroke', 'bleeding'), ('bleeding', 'TPA'), ('TPA', 'ischemia'), ('ischemia', 'anxiety disorders'), ('anxiety disorders', 'anxiety'), ('anxiety', 'panic disorder'), ('panic disorder', 'myocardial ischemia'), ('myocardial ischemia', 'chest pain neck pain'), ('chest pain neck pain', 'shortness of breath ischemia'), ('shortness of breath ischemia', 'anxiety disorders anxiety'), ('anxiety disorders anxiety', 'anxiety'), ('anxiety', 'ischemia'), ('ischemia', 'anxiety'), ('anxiety', 'breast cancer'), ('breast cancer', 'osteoporosis'), ('osteoporosis', 'heart disease'), ('heart disease', 'smoking'), ('smoking', 'heart disease obesity'), ('heart disease obesity', 'smoking'), ('smoking', 'heart disease'), ('heart disease', 'obesity'), ('obesity', 'estrogen'), ('estrogen', 'heart disease'), ('heart disease', 'estrogen'), ('estrogen', 'blood clots'), ('blood clots', 'estrogen'), ('estrogen', 'heart disease'), ('heart disease', 'obesity'), ('obesity', 'heart disease'), ('heart disease', 'obesity'), ('obesity', 'pain'), ('pain', 'obesity'), ('obesity', 'heart disease'), ('heart disease', 'cholesterol')]
+
+
+....Batch 639 / 667 
+------------------
+2019-12-16 00:44:52,519 loading file ../../../best-model.pt
+[('heart attacks', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'Statin'), ('Statin', 'cholesterol'), ('cholesterol', 'LDL cholesterol'), ('LDL cholesterol', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'smoking'), ('smoking', 'heart disease'), ('heart disease', 'diabetes'), ('diabetes', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'smoking'), ('smoking', 'heart problems'), ('heart problems', 'blood clots'), ('blood clots', 'statins'), ('statins', 'aspirin'), ('aspirin', 'heart disease'), ('heart disease', 'stroke'), ('stroke', 'aspirin'), ('aspirin', 'blood clots'), ('blood clots', 'bleeding'), ('bleeding', 'aspirin'), ('aspirin', 'bleeding'), ('bleeding', 'aspirin'), ('aspirin', 'heart disease'), ('heart disease', 'Aspirin'), ('Aspirin', 'bleeding stroke'), ('bleeding stroke', 'stroke'), ('stroke', 'bleeding stroke'), ('bleeding stroke', 'stroke'), ('stroke', 'blood clot')]
+
+
+....Batch 640 / 667 
+------------------
+2019-12-16 00:45:03,003 loading file ../../../best-model.pt
+[('hypertension', 'hip fractures'), ('hip fractures', 'heart disease'), ('heart disease', 'statin'), ('statin', 'statins'), ('statins', 'Statin'), ('Statin', 'diabetes'), ('diabetes', 'Statin'), ('Statin', 'LDL cholesterol'), ('LDL cholesterol', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'statins'), ('statins', 'heart disease'), ('heart disease', 'heart attack'), ('heart attack', 'heart attack stress depression'), ('heart attack stress depression', 'anxiety'), ('anxiety', 'anger'), ('anger', 'heart attack'), ('heart attack', 'heart disease'), ('heart disease', 'heart attack'), ('heart attack', 'heart attacks'), ('heart attacks', 'heart disease'), ('heart disease', 'depression')]
+
+
+....Batch 641 / 667 
+------------------
+2019-12-16 00:45:15,465 loading file ../../../best-model.pt
+[('heart disease', 'cardiovascular disease'), ('cardiovascular disease', 'heart disease'), ('heart disease', 'anger'), ('anger', 'depression'), ('depression', 'depressed mood'), ('depressed mood', 'heart disease'), ('heart disease', 'urea'), ('urea', "Alzheimer's disease"), ("Alzheimer's disease", 'endometriosis'), ('endometriosis', 'infertility infertility'), ('infertility infertility', "Colon's"), ("Colon's", 'head injury'), ('head injury', 'concussions'), ('concussions', 'concussion'), ('concussion', 'choline'), ('choline', "Alzheimer's disease"), ("Alzheimer's disease", 'steel choline'), ('steel choline', 'cognitive impairment'), ('cognitive impairment', 'dementia')]
+
+
+....Batch 642 / 667 
+------------------
+2019-12-16 00:45:27,760 loading file ../../../best-model.pt
+[('infertility', 'cancer'), ('cancer', 'endocrine disruption'), ('endocrine disruption', 'infertility'), ('infertility', 'cysts'), ('cysts', 'fibroids'), ('fibroids', 'thyroid problems'), ('thyroid problems', 'hypothyroidism'), ('hypothyroidism', 'infertility'), ('infertility', 'infertile'), ('infertile', 'thyroid problems'), ('thyroid problems', 'thyroid disease'), ('thyroid disease', 'PCOS'), ('PCOS', 'weight loss'), ('weight loss', 'PCOS'), ('PCOS', 'Clomid'), ('Clomid', 'letrozole'), ('letrozole', 'Clomid'), ('Clomid', 'polycystic ovary'), ('polycystic ovary', 'estrogen'), ('estrogen', 'endocrine disruptors'), ('endocrine disruptors', 'infertility'), ('infertility', 'bisphenol a BPA'), ('bisphenol a BPA', 'infertility'), ('infertility', 'cancer')]
+
+
+....Batch 643 / 667 
+------------------
+2019-12-16 00:45:38,266 loading file ../../../best-model.pt
+[('infertility', 'estrogen'), ('estrogen', 'menstrual disturbances'), ('menstrual disturbances', 'infertility'), ('infertility', 'endometriosis'), ('endometriosis', 'infertility'), ('infertility', 'estrogen'), ('estrogen', 'breast cancer'), ('breast cancer', 'cancer'), ('cancer', 'fibroids'), ('fibroids', 'tumors of the uterus'), ('tumors of the uterus', 'fibroids'), ('fibroids', 'bleeding pain'), ('bleeding pain', 'bowel movements'), ('bowel movements', 'fibroids'), ('fibroids', 'fibroid'), ('fibroid', 'fibroids'), ('fibroids', 'endometriosis'), ('endometriosis', 'cyst'), ('cyst', 'endometriosis'), ('endometriosis', 'pain'), ('pain', 'endometriosis')]
+
+
+....Batch 644 / 667 
+------------------
+2019-12-16 00:45:52,222 loading file ../../../best-model.pt
+[('endometriosis', 'infertility'), ('infertility', 'endometriosis'), ('endometriosis', 'bleeding'), ('bleeding', 'cysts'), ('cysts', 'pain'), ('pain', 'infertility'), ('infertility', 'cancer'), ('cancer', 'infertility'), ('infertility', 'Kathy quillet'), ('Kathy quillet', 'infertility'), ('infertility', 'pelvic pain'), ('pelvic pain', 'endometriosis'), ('endometriosis', 'depression.'), ('depression.', 'depression'), ('depression', 'anxiety insomnia'), ('anxiety insomnia', 'loneliness'), ('loneliness', 'infertility'), ('infertility', 'miscarriage'), ('miscarriage', 'peanut'), ('peanut', 'pain'), ('pain', 'infertility')]
+
+
+....Batch 645 / 667 
+------------------
+2019-12-16 00:46:03,413 loading file ../../../best-model.pt
+[('infertility', "Kathy I'd"), ("Kathy I'd", 'infertility'), ('infertility', 'miscarriage'), ('miscarriage', 'pregnancy loss'), ('pregnancy loss', 'pain'), ('pain', 'infertility'), ('infertility', 'pain'), ('pain', 'urea'), ('urea', 'norovirus'), ('norovirus', 'stomach flu'), ('stomach flu', 'tauren Lipitor'), ('tauren Lipitor', 'Vytorin'), ('Vytorin', 'cholesterol'), ('cholesterol', 'Vytorin'), ('Vytorin', 'cancer'), ('cancer', 'anemia'), ('anemia', 'cancer')]
+
+
+....Batch 646 / 667 
+------------------
+2019-12-16 00:46:16,176 loading file ../../../best-model.pt
+[('blood clots', 'oral contraceptives'), ('oral contraceptives', 'homocysteine'), ('homocysteine', 'heart attacks'), ('heart attacks', 'strokes'), ('strokes', 'B vitamins'), ('B vitamins', 'folic acid'), ('folic acid', 'homocysteine'), ('homocysteine', 'folic acid'), ('folic acid', 'vitamin B6'), ('vitamin B6', 'vitamin B12'), ('vitamin B12', 'blood clots strokes'), ('blood clots strokes', 'heart attacks'), ('heart attacks', 'B vitamins'), ('B vitamins', 'zinc oxide'), ('zinc oxide', 'sexual dysfunction'), ('sexual dysfunction', 'hypoactive sexual desire disorder'), ('hypoactive sexual desire disorder', 'pain'), ('pain', 'sexual pain disorders'), ('sexual pain disorders', 'tremor'), ('tremor', 'orgasm addict'), ('orgasm addict', 'testosterone'), ('testosterone', 'dopamine'), ('dopamine', 'bupropion'), ('bupropion', 'Wellbutrin'), ('Wellbutrin', 'yohimbine'), ('yohimbine', 'orgasmic disorder'), ('orgasmic disorder', 'yohimbine'), ('yohimbine', 'yokan'), ('yokan', 'yohimbine')]
+
+
+....Batch 647 / 667 
+------------------
+2019-12-16 00:46:31,377 loading file ../../../best-model.pt
+[('erectile dysfunction', 'sexual problems'), ('sexual problems', 'Viagra'), ('Viagra', 'sexual dysfunction FSD'), ('sexual dysfunction FSD', 'sexual dysfunction'), ('sexual dysfunction', 'milia'), ('milia', 'sexual dysfunction'), ('sexual dysfunction', 'psychological trauma'), ('psychological trauma', 'Prozac'), ('Prozac', 'Paxil'), ('Paxil', 'serotonin'), ('serotonin', 'depression'), ('depression', 'depressed'), ('depressed', 'SSRI'), ('SSRI', 'serotonin'), ('serotonin', 'depression'), ('depression', 'serotonin'), ('serotonin', 'Viagra'), ('Viagra', 'infertility'), ('infertility', 'erectile dysfunction'), ('erectile dysfunction', 'sexual dysfunction'), ('sexual dysfunction', 'erectile dysfunction'), ('erectile dysfunction', 'premature ejaculation'), ('premature ejaculation', 'infertility'), ('infertility', 'erectile dysfunction'), ('erectile dysfunction', 'sexual dysfunction')]
+
+
+....Batch 648 / 667 
+------------------
+2019-12-16 00:46:46,875 loading file ../../../best-model.pt
+[('flibanserin f', 'dopamine'), ('dopamine', 'testosterone'), ('testosterone', 'Viagra'), ('Viagra', 'pain'), ('pain', 'depression'), ('depression', 'sexual arousal disorder'), ('sexual arousal disorder', 'SSRI'), ('SSRI', 'serotonin'), ('serotonin', 'silver'), ('silver', 'PS4'), ('PS4', 'arteriovenous malformations'), ('arteriovenous malformations', 'tumors of arteries'), ('tumors of arteries', 'varicose'), ('varicose', 'pelvic congestion'), ('pelvic congestion', 'Trazodone'), ('Trazodone', 'trazodone'), ('trazodone', 'dopamine'), ('dopamine', 'smoking'), ('smoking', 'Chantix'), ('Chantix', 'dopamine'), ('dopamine', 'arthritis'), ('arthritis', 'pain'), ('pain', 'Tramadol'), ('Tramadol', 'Ultram'), ('Ultram', 'Chantix'), ('Chantix', 'headache'), ('headache', 'Chantix'), ('Chantix', 'migraine'), ('migraine', 'Viagra'), ('Viagra', 'migraine'), ('migraine', 'hypothyroidism'), ('hypothyroidism', 'hyperthyroidism'), ('hyperthyroidism', 'early ejaculation'), ('early ejaculation', 'ejaculation'), ('ejaculation', 'oxytocin'), ('oxytocin', 'pitocin'), ('pitocin', 'oxytocin'), ('oxytocin', 'pitocin'), ('pitocin', 'orgasmia'), ('orgasmia', 'oxytocin'), ('oxytocin', 'premature ejaculation'), ('premature ejaculation', 'sexual dysfunction')]
+
+
+....Batch 649 / 667 
+------------------
+2019-12-16 00:47:01,854 loading file ../../../best-model.pt
+[('depression', 'hostility agitation'), ('hostility agitation', 'pain'), ('pain', 'nicotine'), ('nicotine', 'psychiatric illnesses'), ('psychiatric illnesses', 'depression Suicidal'), ('depression Suicidal', 'psychosis'), ('psychosis', 'prostate cancer'), ('prostate cancer', 'prostate tumor'), ('prostate tumor', 'cancer'), ('cancer', 'prostate cancer'), ('prostate cancer', 'infections'), ('infections', 'infection'), ('infection', 'cancer'), ('cancer', 'autoimmune diseases'), ('autoimmune diseases', 'cancer'), ('cancer', 'confusion'), ('confusion', 'obesity'), ('obesity', 'diabetes')]
+
+
+....Batch 650 / 667 
+------------------
+2019-12-16 00:47:16,715 loading file ../../../best-model.pt
+[('broccoli', 'fatty acids'), ('fatty acids', 'red wine'), ('red wine', 'wine'), ('wine', 'vitamin A'), ('vitamin A', 'cancer'), ('cancer', 'cholesterol')]
+
+
+....Batch 651 / 667 
+------------------
+2019-12-16 00:47:31,493 loading file ../../../best-model.pt
+[('fatty acid', 'insulin resistance obesity'), ('insulin resistance obesity', 'starch'), ('starch', 'Gluten'), ('Gluten', 'celiac disease'), ('celiac disease', 'wheat allergy'), ('wheat allergy', 'gluten'), ('gluten', 'gluten gluten'), ('gluten gluten', 'gluten'), ('gluten', 'allergy'), ('allergy', 'autoimmunity'), ('autoimmunity', 'asthma'), ('asthma', 'ADHD'), ('ADHD', 'gluten')]
+
+
+....Batch 652 / 667 
+------------------
+2019-12-16 00:47:45,942 loading file ../../../best-model.pt
+[('wasting', 'hypertension'), ('hypertension', 'sodium'), ('sodium', 'urea'), ('urea', 'flu'), ('flu', 'influenza'), ('influenza', 'aches'), ('aches', 'fatigue'), ('fatigue', 'fever'), ('fever', 'coughing'), ('coughing', 'flu'), ('flu', 'bacterial infections'), ('bacterial infections', 'flu'), ('flu', 'influenza'), ('influenza', 'flu infection'), ('flu infection', 'flu'), ('flu', 'diabetes'), ('diabetes', 'cholesterol'), ('cholesterol', 'cardiovascular disease'), ('cardiovascular disease', 'sodium'), ('sodium', 'salt'), ('salt', 'sugars fructose'), ('sugars fructose', 'epinephrine'), ('epinephrine', 'asthma'), ('asthma', 'cholesterol'), ('cholesterol', 'DDT'), ('DDT', 'triclosan'), ('triclosan', 'BPA')]
+
+
+....Batch 653 / 667 
+------------------
+2019-12-16 00:48:00,029 loading file ../../../best-model.pt
+[('Teflon', 'phthalates'), ('phthalates', 'BPA'), ('BPA', 'estrogen'), ('estrogen', 'breast cancer'), ('breast cancer', 'estrogen'), ('estrogen', 'breast cancer'), ('breast cancer', 'thyroid problems'), ('thyroid problems', 'cancers attention deficit disorder'), ('cancers attention deficit disorder', "I'd"), ("I'd", 'triclosan'), ('triclosan', 'metal Mercury'), ('metal Mercury', 'BPA')]
+
+
+....Batch 654 / 667 
+------------------
+2019-12-16 00:48:13,892 loading file ../../../best-model.pt
+[('alcohol', 'potassium'), ('potassium', 'cancer'), ('cancer', 'sickness'), ('sickness', 'breast cancer')]
+
+
+....Batch 655 / 667 
+------------------
+2019-12-16 00:48:28,755 loading file ../../../best-model.pt
+[('Mercury', 'graphite'), ('graphite', 'Mercury'), ('Mercury', 'mercury'), ('mercury', 'EPA'), ('EPA', 'lead'), ('lead', 'tin'), ('tin', 'aluminum'), ('aluminum', 'mercury'), ('mercury', 'bisphenol-a phthalates triclosan'), ('bisphenol-a phthalates triclosan', 'breast cancer'), ('breast cancer', 'phthalates'), ('phthalates', 'parabens')]
+
+
+....Batch 656 / 667 
+------------------
+2019-12-16 00:48:43,514 loading file ../../../best-model.pt
+[('smoking', 'hypertension obesity'), ('hypertension obesity', 'cholesterol blood clots'), ('cholesterol blood clots', 'urinary tract infections'), ('urinary tract infections', 'doxycycline'), ('doxycycline', 'arthritis'), ('arthritis', 'knee osteoarthritis'), ('knee osteoarthritis', 'pain'), ('pain', 'disability'), ('disability', 'depressive'), ('depressive', 'vitamin D'), ('vitamin D', 'cancers'), ('cancers', 'vitamin D'), ('vitamin D', 'bladder cancer'), ('bladder cancer', 'vitamin D'), ('vitamin D', 'cancer'), ('cancer', 'anthocyanins'), ('anthocyanins', 'stroke'), ('stroke', 'flavonoid'), ('flavonoid', 'heart disease'), ('heart disease', 'marijuana'), ('marijuana', 'cannabis'), ('cannabis', 'marijuana'), ('marijuana', 'urinary tract infections'), ('urinary tract infections', 'infectious diseases'), ('infectious diseases', 'urinary tract infections'), ('urinary tract infections', 'pyuria'), ('pyuria', 'urinary tract infection'), ('urinary tract infection', 'bacteriuria'), ('bacteriuria', 'urinary tract infection'), ('urinary tract infection', 'urinary tract infections'), ('urinary tract infections', 'UTI'), ('UTI', 'urinary tract infection'), ('urinary tract infection', 'cranberry'), ('cranberry', 'UTI'), ('UTI', 'UTIs'), ('UTIs', 'urinary tract infection'), ('urinary tract infection', 'urinary tract infections'), ('urinary tract infections', 'UTI'), ('UTI', 'Carol infection'), ('Carol infection', 'fevers'), ('fevers', 'kidney infection'), ('kidney infection', 'infection')]
+
+
+....Batch 657 / 667 
+------------------
+2019-12-16 00:48:58,702 loading file ../../../best-model.pt
+[('infectious diseases', 'UTIs'), ('UTIs', 'infectious disease'), ('infectious disease', 'urinary tract infections'), ('urinary tract infections', 'cranberry extract'), ('cranberry extract', 'proanthocyanidins'), ('proanthocyanidins', "Alzheimer's disease"), ("Alzheimer's disease", 'urinary tract infections'), ('urinary tract infections', 'proanthocyanidins'), ('proanthocyanidins', 'UTI'), ('UTI', 'pain'), ('pain', 'UVA ursi'), ('UVA ursi', 'back pain'), ('back pain', 'nitrite'), ('nitrite', 'UTI'), ('UTI', 'urinary tract infections'), ('urinary tract infections', 'd-mannose'), ('d-mannose', 'cranberry'), ('cranberry', 'UTI'), ('UTI', 'urinary tract'), ('urinary tract', 'infections'), ('infections', 'd-mannose'), ('d-mannose', 'cyclosporine'), ('cyclosporine', 'cranberry'), ('cranberry', 'cyclosporine'), ('cyclosporine', 'Warfarin Coumadin'), ('Warfarin Coumadin', 'Warfarin'), ('Warfarin', 'bleeding'), ('bleeding', 'Warfarin'), ('Warfarin', 'klebsiella MRSA'), ('klebsiella MRSA', 'staphylococcus aureus'), ('staphylococcus aureus', 'infectious diseases')]
+
+
+....Batch 658 / 667 
+------------------
+2019-12-16 00:49:13,007 loading file ../../../best-model.pt
+[('smoking', 'blood clots'), ('blood clots', 'endothelial dysfunction'), ('endothelial dysfunction', 'Peripheral arterial disease'), ('Peripheral arterial disease', 'atherosclerosis'), ('atherosclerosis', 'cardiovascular diseases'), ('cardiovascular diseases', 'smoking'), ('smoking', 'blood clots blood clots'), ('blood clots blood clots', 'pulmonary embolism'), ('pulmonary embolism', 'smoking'), ('smoking', 'injury'), ('injury', 'clotting disorder'), ('clotting disorder', 'pulmonary embolisms')]
+
+
+....Batch 659 / 667 
+------------------
+2019-12-16 00:49:27,533 loading file ../../../best-model.pt
+[('Lyme disease', 'spotted fever'), ('spotted fever', 'West Nile Dengue'), ('West Nile Dengue', 'zika virus disease Lyme disease'), ('zika virus disease Lyme disease', 'Rocky Mountain'), ('Rocky Mountain', 'Spotted Fever'), ('Spotted Fever', 'Dengue Chikungunya'), ('Dengue Chikungunya', 'Lyme disease'), ('Lyme disease', 'smoking'), ('smoking', 'alcohol'), ('alcohol', 'cancer'), ('cancer', 'cardiovascular disease'), ('cardiovascular disease', 'Frailty'), ('Frailty', 'Falls'), ('Falls', 'alcohol'), ('alcohol', 'stroke'), ('stroke', 'diabetes'), ('diabetes', 'pinworms'), ('pinworms', 'pinworm'), ('pinworm', 'migraine')]
+
+
+....Batch 660 / 667 
+------------------
+2019-12-16 00:49:41,167 loading file ../../../best-model.pt
+[('stroke', 'heart attack'), ('heart attack', 'steroid'), ('steroid', 'clobetasol A'), ('clobetasol A', 'Atenolol')]
+
+
+....Batch 661 / 667 
+------------------
+2019-12-16 00:49:52,383 loading file ../../../best-model.pt
+[('cancer', 'tyrosine'), ('tyrosine', 'CML'), ('CML', 'tumor'), ('tumor', 'cancer'), ('cancer', 'Wellbutrin'), ('Wellbutrin', 'Wellbutrin XL'), ('Wellbutrin XL', 'headache'), ('headache', 'Wellbutrin')]
+
+
+....Batch 662 / 667 
+------------------
+2019-12-16 00:50:06,253 loading file ../../../best-model.pt
+[('bleeding', 'skin itches'), ('skin itches', 'rashes'), ('rashes', 'marijuana'), ('marijuana', 'inflammation'), ('inflammation', "Alzheimer's disease"), ("Alzheimer's disease", 'marijuana'), ('marijuana', 'cannabinoids'), ('cannabinoids', 'amyloid'), ('amyloid', 'marijuana'), ('marijuana', 'toxicity'), ('toxicity', "Alzheimer's disease"), ("Alzheimer's disease", 'beta amyloid'), ('beta amyloid', 'marijuana'), ('marijuana', "Alzheimer's disease"), ("Alzheimer's disease", 'marijuana'), ('marijuana', 'pain'), ('pain', 'marijuana'), ('marijuana', 'wheat soy'), ('wheat soy', 'cholesterol'), ('cholesterol', 'restenosis'), ('restenosis', 'cellular overgrowth'), ('cellular overgrowth', 'blood clots'), ('blood clots', 'obesity'), ('obesity', 'bruise'), ('bruise', 'muscle cramps'), ('muscle cramps', 'itchy rashes'), ('itchy rashes', 'nine-one-one'), ('nine-one-one', 'bleeding'), ('bleeding', 'panic'), ('panic', 'nine-one-one'), ('nine-one-one', 'botulism')]
+
+
+....Batch 663 / 667 
+------------------
+2019-12-16 00:50:19,551 loading file ../../../best-model.pt
+[('peanut butter', 'bleeding'), ('bleeding', 'Burns'), ('Burns', 'burn'), ('burn', 'Pain'), ('Pain', 'aloe vera'), ('aloe vera', 'infection'), ('infection', 'burn'), ('burn', 'jellyfish stings'), ('jellyfish stings', 'alcohol'), ('alcohol', 'muscle cramps'), ('muscle cramps', 'infection'), ('infection', 'fungal infections'), ('fungal infections', 'Warfarin'), ('Warfarin', 'bleeding'), ('bleeding', 'vitamin K'), ('vitamin K', 'clot'), ('clot', 'bleeding'), ('bleeding', 'itching'), ('itching', 'peroxide'), ('peroxide', 'Vitamin E'), ('Vitamin E', 'vitamin E'), ('vitamin E', 'ammonia'), ('ammonia', 'swelling'), ('swelling', 'Poison'), ('Poison', 'ammonia'), ('ammonia', 'cramps')]
+
+
+....Batch 664 / 667 
+------------------
+2019-12-16 00:50:33,411 loading file ../../../best-model.pt
+[('muscle cramps', 'picaridin'), ('picaridin', 'Sawyer picaridin'), ('Sawyer picaridin', 'picaridin'), ('picaridin', 'bruises'), ('bruises', 'cramp'), ('cramp', 'cardiovascular disease diabetes'), ('cardiovascular disease diabetes', 'heart attacks'), ('heart attacks', 'Strokes'), ('Strokes', 'diabetes'), ('diabetes', 'heart disease'), ('heart disease', 'stroke'), ('stroke', 'vegetable oil'), ('vegetable oil', 'fatty acids'), ('fatty acids', 'leonnig acid')]
+
+
+....Batch 665 / 667 
+------------------
+2019-12-16 00:50:46,643 loading file ../../../best-model.pt
+[('caffeine', 'cramps'), ('cramps', 'Nexium'), ('Nexium', 'Prilosec'), ('Prilosec', 'heartburn'), ('heartburn', 'flu'), ('flu', 'shoulder pain'), ('shoulder pain', 'stiffness'), ('stiffness', 'Statin'), ('Statin', 'Lyme disease'), ('Lyme disease', 'infection'), ('infection', 'Lyme'), ('Lyme', 'rheumatoid arthritis'), ('rheumatoid arthritis', 'Lyme disease'), ('Lyme disease', 'fatigue digestive upset bruising'), ('fatigue digestive upset bruising', 'bleeding'), ('bleeding', 'Dengue Fever'), ('Dengue Fever', 'Dengue hemorrhagic fever'), ('Dengue hemorrhagic fever', 'bleeding'), ('bleeding', 'fever'), ('fever', 'asthma'), ('asthma', 'upper respiratory tract infections'), ('upper respiratory tract infections', 'asthma'), ('asthma', 'sneezing'), ('sneezing', 'asthma'), ('asthma', 'digestive distress'), ('digestive distress', 'indigestion dyspepsia'), ('indigestion dyspepsia', 'gastroesophageal reflux disease'), ('gastroesophageal reflux disease', 'Prilosec OTC'), ('Prilosec OTC', 'heartburn acid reflux'), ('heartburn acid reflux', 'GERD'), ('GERD', 'chronic kidney disease'), ('chronic kidney disease', 'acute kidney disease'), ('acute kidney disease', 'Nexium'), ('Nexium', 'Prilosec'), ('Prilosec', 'chronic kidney disease'), ('chronic kidney disease', 'Prilosec Prevacid'), ('Prilosec Prevacid', 'Nexium'), ('Nexium', 'Prilosec'), ('Prilosec', 'Prevacid'), ('Prevacid', 'heartburn'), ('heartburn', 'GI pain'), ('GI pain', 'pain')]
+
+
+....Batch 666 / 667 
+------------------
+2019-12-16 00:50:59,343 loading file ../../../best-model.pt
+[('Prilosec', 'heartburn'), ('heartburn', 'vitamin and mineral'), ('vitamin and mineral', 'vitamin B12'), ('vitamin B12', 'magnesium zinc calcium'), ('magnesium zinc calcium', 'iron'), ('iron', 'vitamin B12'), ('vitamin B12', 'vitamins'), ('vitamins', 'vitamin B12'), ('vitamin B12', 'neurological problems'), ('neurological problems', 'numbness'), ('numbness', 'feet fatigue'), ('feet fatigue', 'vitamin B12'), ('vitamin B12', 'muscle cramps'), ('muscle cramps', 'magnesium'), ('magnesium', 'flu'), ('flu', 'heartburn'), ('heartburn', 'fracture'), ('fracture', 'osteoporosis'), ('osteoporosis', 'pain'), ('pain', 'fractures'), ('fractures', 'PPI'), ('PPI', 'fractures'), ('fractures', 'Prilosec'), ('Prilosec', 'heartburn'), ('heartburn', 'pain'), ('pain', 'heartburn'), ('heartburn', 'tumor'), ('tumor', 'esophageal cancer'), ('esophageal cancer', "Barrett's esophagus"), ("Barrett's esophagus", 'esophageal cancer'), ('esophageal cancer', "Barrett's esophagus"), ("Barrett's esophagus", 'esophageal cancer'), ('esophageal cancer', "Barrett's esophagus"), ("Barrett's esophagus", 'esophageal cancer'), ('esophageal cancer', 'cancer'), ('cancer', 'adenocarcinoma of the esophagus'), ('adenocarcinoma of the esophagus', 'cancer')]
+
+
+....Batch 667 / 667 
+------------------
+2019-12-16 00:51:12,327 loading file ../../../best-model.pt
+[('adenocarcinoma', 'PPI'), ('PPI', 'heart attack'), ('heart attack', 'myocardial infarction'), ('myocardial infarction', 'pain'), ('pain', 'heartburn'), ('heartburn', 'cancer'), ('cancer', 'Omeprazole'), ('Omeprazole', 'PPI'), ('PPI', "Barrett's esophagus"), ("Barrett's esophagus", 'esophageal cancer'), ('esophageal cancer', 'flu'), ('flu', 'shoulder pain'), ('shoulder pain', 'flu'), ('flu', 'swelling'), ('swelling', 'pain'), ('pain', 'flu'), ('flu', 'shoulder injury'), ('shoulder injury', 'pain'), ('pain', 'flu'), ('flu', "I'd"), ("I'd", 'flu'), ('flu', 'cough'), ('cough', 'shoulder pain'), ('shoulder pain', 'shoulder bursitis')]
+
+
+....Batch 668 / 667 
+------------------
+2019-12-16 00:51:24,746 loading file ../../../best-model.pt
+[('flu', 'pain'), ('pain', 'B vitamin'), ('B vitamin', 'fatigue'), ('fatigue', 'B vitamins'), ('B vitamins', 'fatigue'), ('fatigue', 'vitamins'), ('vitamins', 'flu'), ('flu', 'shoulder pain'), ('shoulder pain', 'heart failure'), ('heart failure', 'flu'), ('flu', 'bursitis'), ('bursitis', 'Protonix'), ('Protonix', 'magnesium'), ('magnesium', 'osteoporosis'), ('osteoporosis', 'flu'), ('flu', 'urea')]
