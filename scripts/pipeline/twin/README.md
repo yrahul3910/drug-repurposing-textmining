@@ -2,7 +2,7 @@
 To get the `test-pairs` file from the various output files, first run in a shell:
 
 ```{sh}
-for file in $(ls -v *.txt); do egrep "^\[.+\]" > pairs; done
+for file in $(ls -v *.txt); do egrep "^\[.+\]" $file > pairs; done
 tr "\n" "," < pairs > pairs_ && rm pairs
 tr "(" "[" < pairs_ > pairs && rm pairs_
 tr ")" "]" < pairs > pairs_ && rm pairs
