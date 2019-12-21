@@ -1,0 +1,2926 @@
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+(1 / 5) Pruning low confidence excerpts
+(2 / 5) Removing irrelevant terms
+(3 / 5) Classifying
+2019-12-21 00:49:10,860 loading file ../../../best-model.pt
+2019-12-21 00:49:18,815 loading file ../../../BioFLAIR/ner/models/v1/best-model.pt
+Classifying 10681 terms
+
+
+....Batch 4666 / 5340 
+------------------
+[]
+
+
+....Batch 4667 / 5340 
+------------------
+[]
+
+
+....Batch 4668 / 5340 
+------------------
+[]
+
+
+....Batch 4669 / 5340 
+------------------
+[('dementia', 'cognitive decline')]
+
+
+....Batch 4670 / 5340 
+------------------
+[]
+
+
+....Batch 4671 / 5340 
+------------------
+[]
+
+
+....Batch 4672 / 5340 
+------------------
+[]
+
+
+....Batch 4673 / 5340 
+------------------
+[]
+
+
+....Batch 4674 / 5340 
+------------------
+[]
+
+
+....Batch 4675 / 5340 
+------------------
+[]
+
+
+....Batch 4676 / 5340 
+------------------
+[]
+
+
+....Batch 4677 / 5340 
+------------------
+[]
+
+
+....Batch 4678 / 5340 
+------------------
+[]
+
+
+....Batch 4679 / 5340 
+------------------
+[]
+
+
+....Batch 4680 / 5340 
+------------------
+[]
+
+
+....Batch 4681 / 5340 
+------------------
+[]
+
+
+....Batch 4682 / 5340 
+------------------
+[]
+
+
+....Batch 4683 / 5340 
+------------------
+[]
+
+
+....Batch 4684 / 5340 
+------------------
+[]
+
+
+....Batch 4685 / 5340 
+------------------
+[]
+
+
+....Batch 4686 / 5340 
+------------------
+[]
+
+
+....Batch 4687 / 5340 
+------------------
+[]
+
+
+....Batch 4688 / 5340 
+------------------
+[]
+
+
+....Batch 4689 / 5340 
+------------------
+[]
+
+
+....Batch 4690 / 5340 
+------------------
+[]
+
+
+....Batch 4691 / 5340 
+------------------
+[]
+
+
+....Batch 4692 / 5340 
+------------------
+[]
+
+
+....Batch 4693 / 5340 
+------------------
+[]
+
+
+....Batch 4694 / 5340 
+------------------
+[]
+
+
+....Batch 4695 / 5340 
+------------------
+[]
+
+
+....Batch 4696 / 5340 
+------------------
+[('narcotic pain', 'chronic pain'), ('chronic pain', 'vitamin D'), ('curcumin', "arthritis Alzheimer's disease cancer diabetes liver disease lupus inflammatory bowel disease wounds"), ("arthritis Alzheimer's disease cancer diabetes liver disease lupus inflammatory bowel disease wounds", 'curcumin')]
+
+
+....Batch 4697 / 5340 
+------------------
+[('curcumin', "Crohn's disease diabetes rheumatoid arthritis lupus"), ('cardiovascular disease', 'poisoning')]
+
+
+....Batch 4698 / 5340 
+------------------
+[('type 2 diabetes', 'fat'), ('cholesterol', 'diabetes'), ('diabetes', 'television')]
+
+
+....Batch 4699 / 5340 
+------------------
+[('vitamin D', 'respiratory disease cardiovascular complications'), ('bone fracture', 'vitamin D'), ('Vicodin Lortab', 'chronic pain')]
+
+
+....Batch 4700 / 5340 
+------------------
+[('addiction', 'opioid pain'), ('acetaminophen', 'chronic pain')]
+
+
+....Batch 4701 / 5340 
+------------------
+[]
+
+
+....Batch 4702 / 5340 
+------------------
+[('chronic pain', 'pain')]
+
+
+....Batch 4703 / 5340 
+------------------
+[('Ibuprofen', 'overdose')]
+
+
+....Batch 4704 / 5340 
+------------------
+[('pain', 'cancer'), ('cancer', 'pain')]
+
+
+....Batch 4705 / 5340 
+------------------
+[]
+
+
+....Batch 4706 / 5340 
+------------------
+[('pain', 'heart attacks'), ('strokes', 'pain'), ('blood clots', 'heart attacks'), ('strokes', 'blood clots'), ('blood clots', 'NSAID pain'), ('NSAID pain', 'blood clot'), ('blood clot', 'pulmonary embolism')]
+
+
+....Batch 4707 / 5340 
+------------------
+[]
+
+
+....Batch 4708 / 5340 
+------------------
+[('blood clots', 'stomach upset')]
+
+
+....Batch 4709 / 5340 
+------------------
+[('pain', 'bleeding ulcers'), ('bleeding ulcers', 'aspirin'), ('aspirin', 'bleeding ulcers'), ('thrombotic Strokes Strokes', 'blood clots'), ('ibuprofen', 'chronic pain')]
+
+
+....Batch 4710 / 5340 
+------------------
+[]
+
+
+....Batch 4711 / 5340 
+------------------
+[('Naproxen', 'DVT'), ('DVT', 'vein thrombosis'), ('Lovenox', 'brain hemorrhage'), ('brain hemorrhage', 'pain')]
+
+
+....Batch 4712 / 5340 
+------------------
+[('pain', 'arthritis'), ('arthritis', 'curcumin'), ('pain', 'boswellia')]
+
+
+....Batch 4713 / 5340 
+------------------
+[('vitamin D', 'heart attack stroke'), ('heart attack stroke', 'fracture')]
+
+
+....Batch 4714 / 5340 
+------------------
+[]
+
+
+....Batch 4715 / 5340 
+------------------
+[]
+
+
+....Batch 4716 / 5340 
+------------------
+[('chronic pain', 'acute pain'), ('pain', 'chronic pain'), ('chronic pain', 'vitamin D')]
+
+
+....Batch 4717 / 5340 
+------------------
+[]
+
+
+....Batch 4718 / 5340 
+------------------
+[]
+
+
+....Batch 4719 / 5340 
+------------------
+[]
+
+
+....Batch 4720 / 5340 
+------------------
+[]
+
+
+....Batch 4721 / 5340 
+------------------
+[('alcohol', 'dementia'), ('dementia', 'alcohol'), ('alcohol', 'dementia'), ('dementia', 'alcohol'), ('disorder', 'dementia'), ('alcoholics', 'alcohol'), ('alcohol', 'brain injury'), ('stroke', 'Oxycontin')]
+
+
+....Batch 4722 / 5340 
+------------------
+[('heart disease', 'cholesterol')]
+
+
+....Batch 4723 / 5340 
+------------------
+[]
+
+
+....Batch 4724 / 5340 
+------------------
+[('heart rhythm', 'diabetes'), ('diabetes', 'captopril'), ('lisinopril', 'constipation')]
+
+
+....Batch 4725 / 5340 
+------------------
+[]
+
+
+....Batch 4726 / 5340 
+------------------
+[('stroke', 'statins')]
+
+
+....Batch 4727 / 5340 
+------------------
+[]
+
+
+....Batch 4728 / 5340 
+------------------
+[]
+
+
+....Batch 4729 / 5340 
+------------------
+[('headache', 'pain'), ('pain', 'chest pain')]
+
+
+....Batch 4730 / 5340 
+------------------
+[]
+
+
+....Batch 4731 / 5340 
+------------------
+[('chest pain', 'coronary disease'), ('coronary disease', 'heart attack'), ('coronary heart disease', 'statins'), ('cholesterol', 'heart attack'), ('stroke', 'cholesterol'), ('statins', 'heart attack')]
+
+
+....Batch 4732 / 5340 
+------------------
+[('angina pain', 'unstable angina'), ('unstable angina', 'heart attack')]
+
+
+....Batch 4733 / 5340 
+------------------
+[('cholesterol', 'chest pain')]
+
+
+....Batch 4734 / 5340 
+------------------
+[]
+
+
+....Batch 4735 / 5340 
+------------------
+[]
+
+
+....Batch 4736 / 5340 
+------------------
+[]
+
+
+....Batch 4737 / 5340 
+------------------
+[]
+
+
+....Batch 4738 / 5340 
+------------------
+[('heart disease', 'cholesterol')]
+
+
+....Batch 4739 / 5340 
+------------------
+[]
+
+
+....Batch 4740 / 5340 
+------------------
+[]
+
+
+....Batch 4741 / 5340 
+------------------
+[]
+
+
+....Batch 4742 / 5340 
+------------------
+[('statins', 'diabetes'), ('diabetes', 'cholesterol'), ('statins', 'heart attacks'), ('heart attacks', 'Statin'), ('statins', 'heart attacks')]
+
+
+....Batch 4743 / 5340 
+------------------
+[('heart disease', 'cholesterol'), ('cholesterol', 'heart attack'), ('heart attack', 'calcium'), ('calcified hardening', 'cardiovascular disease'), ('heart attack', 'statin')]
+
+
+....Batch 4744 / 5340 
+------------------
+[]
+
+
+....Batch 4745 / 5340 
+------------------
+[('urea', 'heart disease')]
+
+
+....Batch 4746 / 5340 
+------------------
+[]
+
+
+....Batch 4747 / 5340 
+------------------
+[('coughing', 'immune system impairment'), ('immune system impairment', 'infection')]
+
+
+....Batch 4748 / 5340 
+------------------
+[('heart attack', 'blood clots'), ('vitamin D', 'macular degeneration'), ('macular degeneration', 'Vitamin D'), ('vitamin D', 'macular degeneration'), ('macular degeneration', 'vitamin D')]
+
+
+....Batch 4749 / 5340 
+------------------
+[('prostate cancer', 'prostate cancer aspirin'), ('metformin', 'type 2 diabetes'), ('type 2 diabetes', 'galega officinalis'), ('galega officinalis', 'diabetes'), ('Cancer', 'aspirin'), ('Metformin', 'prostate cancer'), ('prostate cancer', 'metformin'), ('aspirin', 'prostate cancer')]
+
+
+....Batch 4750 / 5340 
+------------------
+[]
+
+
+....Batch 4751 / 5340 
+------------------
+[('visual disturbances', 'migraines'), ('migraines', 'migraines loss'), ('migraines loss', 'migraines')]
+
+
+....Batch 4752 / 5340 
+------------------
+[]
+
+
+....Batch 4753 / 5340 
+------------------
+[]
+
+
+....Batch 4754 / 5340 
+------------------
+[]
+
+
+....Batch 4755 / 5340 
+------------------
+[("Tourette's", 'color blindness'), ('squint', 'satin'), ('satin', 'achromatosis')]
+
+
+....Batch 4756 / 5340 
+------------------
+[]
+
+
+....Batch 4757 / 5340 
+------------------
+[]
+
+
+....Batch 4758 / 5340 
+------------------
+[]
+
+
+....Batch 4759 / 5340 
+------------------
+[('neurological disorders', "Tourette's"), ("Tourette's", 'ALS')]
+
+
+....Batch 4760 / 5340 
+------------------
+[('tungsten', 'migraine')]
+
+
+....Batch 4761 / 5340 
+------------------
+[]
+
+
+....Batch 4762 / 5340 
+------------------
+[]
+
+
+....Batch 4763 / 5340 
+------------------
+[]
+
+
+....Batch 4764 / 5340 
+------------------
+[('ALS', 'aluminum'), ('aluminum', "Alzheimer's")]
+
+
+....Batch 4765 / 5340 
+------------------
+[('human ALS', "Parkinson's"), ("Alzheimer's", 'calcium'), ('aluminum', "Alzheimer's disease"), ("Alzheimer's disease", 'aluminum')]
+
+
+....Batch 4766 / 5340 
+------------------
+[]
+
+
+....Batch 4767 / 5340 
+------------------
+[]
+
+
+....Batch 4768 / 5340 
+------------------
+[]
+
+
+....Batch 4769 / 5340 
+------------------
+[('obesity', 'sleep loss')]
+
+
+....Batch 4770 / 5340 
+------------------
+[('depressive', 'sleep problems'), ('pain', 'epilepsy')]
+
+
+....Batch 4771 / 5340 
+------------------
+[('anxious', 'anxiety')]
+
+
+....Batch 4772 / 5340 
+------------------
+[('cancer', 'levothyroxine'), ('levothyroxine', 'thyroid dysfunction'), ("Hashimoto's thyroiditis", 'confusion')]
+
+
+....Batch 4773 / 5340 
+------------------
+[('hypothyroidism', 'sleepy'), ('constipation', 'hypothyroidism')]
+
+
+....Batch 4774 / 5340 
+------------------
+[('hypothyroidism', 'pain'), ('pain', 'hypothyroid')]
+
+
+....Batch 4775 / 5340 
+------------------
+[]
+
+
+....Batch 4776 / 5340 
+------------------
+[('levothyroxine', 'allergies'), ('allergies', 'levothyroxine'), ('thyroxine', 'allergy'), ('allergy', 'palpitations')]
+
+
+....Batch 4777 / 5340 
+------------------
+[('thyroid disease', 'T4'), ('T3', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'hypothyroidism')]
+
+
+....Batch 4778 / 5340 
+------------------
+[('Levothyroxine', 'hypothyroidism'), ('hypothyroid', 'levothyroxine'), ('Levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'hypothyroidism TSH')]
+
+
+....Batch 4779 / 5340 
+------------------
+[('TSA', 'thyroid nodule'), ('hypothyroidism', 'levothyroxine'), ('levothyroxine', 'hypothyroidism'), ('hypothyroidism', 'levothyroxine')]
+
+
+....Batch 4780 / 5340 
+------------------
+[('levothyroxine', 'hypothyroid'), ('hypothyroid', 'levothyroxine')]
+
+
+....Batch 4781 / 5340 
+------------------
+[('T4', 'cancer')]
+
+
+....Batch 4782 / 5340 
+------------------
+[('thyroid disease', 'T4')]
+
+
+....Batch 4783 / 5340 
+------------------
+[('T3', 'hypothyroid'), ('hypothyroid', 'T4'), ('T3', 'hypothyroid')]
+
+
+....Batch 4784 / 5340 
+------------------
+[]
+
+
+....Batch 4785 / 5340 
+------------------
+[]
+
+
+....Batch 4786 / 5340 
+------------------
+[]
+
+
+....Batch 4787 / 5340 
+------------------
+[]
+
+
+....Batch 4788 / 5340 
+------------------
+[]
+
+
+....Batch 4789 / 5340 
+------------------
+[]
+
+
+....Batch 4790 / 5340 
+------------------
+[('T3', 'thyroid disease')]
+
+
+....Batch 4791 / 5340 
+------------------
+[('hypothyroid', 'cognitive and IQ deficits'), ('cognitive and IQ deficits', 'hypothyroid'), ('cretinism', 'permanent disability'), ('retardation', 'hypothyroid'), ('hypothyroid', 'iodine'), ('iodine', 'miscarriages')]
+
+
+....Batch 4792 / 5340 
+------------------
+[]
+
+
+....Batch 4793 / 5340 
+------------------
+[('thyroid disease', 'weight loss'), ('weight loss', 'cancer'), ('cancer', 'urea')]
+
+
+....Batch 4794 / 5340 
+------------------
+[]
+
+
+....Batch 4795 / 5340 
+------------------
+[('Skin cancer', 'corticosteroids')]
+
+
+....Batch 4796 / 5340 
+------------------
+[('heart attacks', 'strokes'), ('strokes', 'heart disease')]
+
+
+....Batch 4797 / 5340 
+------------------
+[('upper respiratory infections', 'Vitamin D'), ('Vitamin D', 'asthma')]
+
+
+....Batch 4798 / 5340 
+------------------
+[]
+
+
+....Batch 4799 / 5340 
+------------------
+[]
+
+
+....Batch 4800 / 5340 
+------------------
+[]
+
+
+....Batch 4801 / 5340 
+------------------
+[]
+
+
+....Batch 4802 / 5340 
+------------------
+[]
+
+
+....Batch 4803 / 5340 
+------------------
+[]
+
+
+....Batch 4804 / 5340 
+------------------
+[]
+
+
+....Batch 4805 / 5340 
+------------------
+[]
+
+
+....Batch 4806 / 5340 
+------------------
+[]
+
+
+....Batch 4807 / 5340 
+------------------
+[]
+
+
+....Batch 4808 / 5340 
+------------------
+[]
+
+
+....Batch 4809 / 5340 
+------------------
+[]
+
+
+....Batch 4810 / 5340 
+------------------
+[]
+
+
+....Batch 4811 / 5340 
+------------------
+[]
+
+
+....Batch 4812 / 5340 
+------------------
+[]
+
+
+....Batch 4813 / 5340 
+------------------
+[('Januvia onglyza', 'heart attacks'), ('diabetes', 'infections'), ('infections', 'diarrhea'), ('diarrhea', 'infections'), ('infection', 'clostridium difficile'), ('clostridium difficile', 'c-diff infection')]
+
+
+....Batch 4814 / 5340 
+------------------
+[('depression fatigue', 'depressed'), ('depressed', 'fatigue'), ('fatigue', 'inflammation')]
+
+
+....Batch 4815 / 5340 
+------------------
+[]
+
+
+....Batch 4816 / 5340 
+------------------
+[]
+
+
+....Batch 4817 / 5340 
+------------------
+[('sugar', 'obesity')]
+
+
+....Batch 4818 / 5340 
+------------------
+[]
+
+
+....Batch 4819 / 5340 
+------------------
+[('statins', 'obesity'), ('obesity', 'Obesity'), ('Obesity', 'diabetes'), ('diabetes', 'Statin')]
+
+
+....Batch 4820 / 5340 
+------------------
+[]
+
+
+....Batch 4821 / 5340 
+------------------
+[]
+
+
+....Batch 4822 / 5340 
+------------------
+[]
+
+
+....Batch 4823 / 5340 
+------------------
+[]
+
+
+....Batch 4824 / 5340 
+------------------
+[('diabetes', 'sugar'), ('sugar', 'diabetes')]
+
+
+....Batch 4825 / 5340 
+------------------
+[('sugars', 'diabetes'), ('diabetes', 'cholesterol')]
+
+
+....Batch 4826 / 5340 
+------------------
+[('diabetes', 'weight loss')]
+
+
+....Batch 4827 / 5340 
+------------------
+[]
+
+
+....Batch 4828 / 5340 
+------------------
+[]
+
+
+....Batch 4829 / 5340 
+------------------
+[('cholesterol Laden plaque', 'coronary artery disease'), ('coronary artery disease', 'cholesterol')]
+
+
+....Batch 4830 / 5340 
+------------------
+[]
+
+
+....Batch 4831 / 5340 
+------------------
+[]
+
+
+....Batch 4832 / 5340 
+------------------
+[]
+
+
+....Batch 4833 / 5340 
+------------------
+[]
+
+
+....Batch 4834 / 5340 
+------------------
+[]
+
+
+....Batch 4835 / 5340 
+------------------
+[]
+
+
+....Batch 4836 / 5340 
+------------------
+[]
+
+
+....Batch 4837 / 5340 
+------------------
+[]
+
+
+....Batch 4838 / 5340 
+------------------
+[]
+
+
+....Batch 4839 / 5340 
+------------------
+[]
+
+
+....Batch 4840 / 5340 
+------------------
+[]
+
+
+....Batch 4841 / 5340 
+------------------
+[]
+
+
+....Batch 4842 / 5340 
+------------------
+[]
+
+
+....Batch 4843 / 5340 
+------------------
+[('viral infections', 'cold sore'), ('viruses sinusitis', 'sinusitis'), ('sinus infections', 'infections'), ('infections', 'vision loss'), ('vision loss', 'avastin'), ('avastin', 'macular degeneration'), ('macular degeneration', 'degeneration')]
+
+
+....Batch 4844 / 5340 
+------------------
+[]
+
+
+....Batch 4845 / 5340 
+------------------
+[]
+
+
+....Batch 4846 / 5340 
+------------------
+[('estrogen', 'heart attacks')]
+
+
+....Batch 4847 / 5340 
+------------------
+[]
+
+
+....Batch 4848 / 5340 
+------------------
+[('coronary artery disease', 'coronary disease'), ('chest pain', 'heart disease')]
+
+
+....Batch 4849 / 5340 
+------------------
+[]
+
+
+....Batch 4850 / 5340 
+------------------
+[('Atenolol', 'hypertension')]
+
+
+....Batch 4851 / 5340 
+------------------
+[('cholesterol', 'diabetes'), ('diabetes', 'Cancer'), ('Cancer', 'diabetes')]
+
+
+....Batch 4852 / 5340 
+------------------
+[]
+
+
+....Batch 4853 / 5340 
+------------------
+[]
+
+
+....Batch 4854 / 5340 
+------------------
+[('spinal compression fracture', 'cholesterol'), ('cholesterol', 'diabetes'), ('tumor', 'cholesterol')]
+
+
+....Batch 4855 / 5340 
+------------------
+[('LDL cholesterol', 'heart disease'), ('heart disease', 'Statin'), ('Strokes', 'diabetes'), ('stroke', 'cholesterol')]
+
+
+....Batch 4856 / 5340 
+------------------
+[('toxicity', 'muscle aches'), ('heart disease', 'cholesterol')]
+
+
+....Batch 4857 / 5340 
+------------------
+[('diabetes', 'cholesterol'), ('fibrate', 'diabetes'), ('diabetes', 'sugar'), ('sugar', 'diabetes')]
+
+
+....Batch 4858 / 5340 
+------------------
+[('cholesterol', 'diabetes'), ('diabetes', 'cholesterol'), ('cholesterol', 'diabetes')]
+
+
+....Batch 4859 / 5340 
+------------------
+[('diabetes', 'estrogen')]
+
+
+....Batch 4860 / 5340 
+------------------
+[('erectile dysfunction', 'incontinence'), ('incontinence', 'prostate cancer'), ('prostate cancer', 'prostatic hypertrophy'), ('prostatic hypertrophy', 'prostate cancer')]
+
+
+....Batch 4861 / 5340 
+------------------
+[('prostate cancer', 'cancer')]
+
+
+....Batch 4862 / 5340 
+------------------
+[]
+
+
+....Batch 4863 / 5340 
+------------------
+[]
+
+
+....Batch 4864 / 5340 
+------------------
+[]
+
+
+....Batch 4865 / 5340 
+------------------
+[('lung cancer', 'pain')]
+
+
+....Batch 4866 / 5340 
+------------------
+[('rash', 'heart disease')]
+
+
+....Batch 4867 / 5340 
+------------------
+[]
+
+
+....Batch 4868 / 5340 
+------------------
+[]
+
+
+....Batch 4869 / 5340 
+------------------
+[]
+
+
+....Batch 4870 / 5340 
+------------------
+[]
+
+
+....Batch 4871 / 5340 
+------------------
+[]
+
+
+....Batch 4872 / 5340 
+------------------
+[]
+
+
+....Batch 4873 / 5340 
+------------------
+[('infection', 'clostridium difficile')]
+
+
+....Batch 4874 / 5340 
+------------------
+[('disrupted sleep', 'confusion delirium'), ('confusion delirium', 'vitamin D'), ('vitamin D', 'cancers'), ('cancers', 'vitamin D')]
+
+
+....Batch 4875 / 5340 
+------------------
+[]
+
+
+....Batch 4876 / 5340 
+------------------
+[]
+
+
+....Batch 4877 / 5340 
+------------------
+[('anemia', 'iron'), ('iron', 'anemia'), ('anemia', 'lead toxicity')]
+
+
+....Batch 4878 / 5340 
+------------------
+[('lead poisoning', 'anemia')]
+
+
+....Batch 4879 / 5340 
+------------------
+[]
+
+
+....Batch 4880 / 5340 
+------------------
+[]
+
+
+....Batch 4881 / 5340 
+------------------
+[]
+
+
+....Batch 4882 / 5340 
+------------------
+[('bacterial ear infection', 'infections'), ('infections', 'ear pain'), ('ear pain', 'inflammation')]
+
+
+....Batch 4883 / 5340 
+------------------
+[("I'd", 'ADHD'), ('ADHD', 'lithium'), ('lithium', 'bipolar disorder'), ('bipolar disorder', 'lithium'), ('lithium', 'ADHD'), ('ADHD', 'lithium'), ('psychiatric', 'ADHD')]
+
+
+....Batch 4884 / 5340 
+------------------
+[]
+
+
+....Batch 4885 / 5340 
+------------------
+[('iron', 'ADHD')]
+
+
+....Batch 4886 / 5340 
+------------------
+[('insomnia', 'melatonin')]
+
+
+....Batch 4887 / 5340 
+------------------
+[]
+
+
+....Batch 4888 / 5340 
+------------------
+[]
+
+
+....Batch 4889 / 5340 
+------------------
+[]
+
+
+....Batch 4890 / 5340 
+------------------
+[]
+
+
+....Batch 4891 / 5340 
+------------------
+[]
+
+
+....Batch 4892 / 5340 
+------------------
+[]
+
+
+....Batch 4893 / 5340 
+------------------
+[]
+
+
+....Batch 4894 / 5340 
+------------------
+[]
+
+
+....Batch 4895 / 5340 
+------------------
+[]
+
+
+....Batch 4896 / 5340 
+------------------
+[]
+
+
+....Batch 4897 / 5340 
+------------------
+[]
+
+
+....Batch 4898 / 5340 
+------------------
+[('sodium', 'hyponatremia'), ('hyponatremia', 'sodium'), ('inflammation', 'heart disease')]
+
+
+....Batch 4899 / 5340 
+------------------
+[('cholesterol', 'cardiovascular disease'), ('dementia', 'magnesium'), ('magnesium', 'dementia'), ('dementia', 'magnesium')]
+
+
+....Batch 4900 / 5340 
+------------------
+[('depression', 'anxiety'), ('anxiety', 'serotonin'), ('antidepressants', 'heart attack stroke')]
+
+
+....Batch 4901 / 5340 
+------------------
+[('antidepressants', 'nerve damage'), ('tingling pain', 'Cancer'), ('multivitamins', 'breast cancer'), ('neuropathy', 'vitamin')]
+
+
+....Batch 4902 / 5340 
+------------------
+[('inflammation', 'heart disease'), ('heart disease', 'cholesterol')]
+
+
+....Batch 4903 / 5340 
+------------------
+[('Statin', 'heart attack stroke'), ('heart attack stroke', 'cholesterol')]
+
+
+....Batch 4904 / 5340 
+------------------
+[('lung cancer', 'tumors'), ('tumor', 'canakinumab'), ('canakinumab', 'cancer'), ('lung cancers', 'heart disease')]
+
+
+....Batch 4905 / 5340 
+------------------
+[('canakinumab', 'gout gout'), ('gout gout', 'ibuprofen')]
+
+
+....Batch 4906 / 5340 
+------------------
+[('Methotrexate', 'rheumatoid arthritis'), ("Alzheimer's disease", 'inflammation'), ('aspirin', 'heart disease'), ('cancer', 'Methotrexate'), ('cholesterol', 'atherosclerosis'), ('stroke', 'cholesterol'), ('cholesterol', 'lung cancer')]
+
+
+....Batch 4907 / 5340 
+------------------
+[('osteoarthritis', 'infections'), ('infections', 'rheumatoid arthritis'), ('rheumatoid arthritis', 'infection'), ('inflammation', 'atherosclerosis')]
+
+
+....Batch 4908 / 5340 
+------------------
+[]
+
+
+....Batch 4909 / 5340 
+------------------
+[('sodium', 'hypertension'), ('hypertension', 'sodium')]
+
+
+....Batch 4910 / 5340 
+------------------
+[]
+
+
+....Batch 4911 / 5340 
+------------------
+[]
+
+
+....Batch 4912 / 5340 
+------------------
+[]
+
+
+....Batch 4913 / 5340 
+------------------
+[('lactone', 'tumor'), ('tumor', 'cortisol')]
+
+
+....Batch 4914 / 5340 
+------------------
+[('stroke', 'hyponatremia')]
+
+
+....Batch 4915 / 5340 
+------------------
+[('muscle cramps', 'spasms')]
+
+
+....Batch 4916 / 5340 
+------------------
+[('cardiovascular complications', 'stroke'), ('stroke', 'sodium')]
+
+
+....Batch 4917 / 5340 
+------------------
+[]
+
+
+....Batch 4918 / 5340 
+------------------
+[('inflammation', 'cardiovascular disease inflammation'), ('cardiovascular disease inflammation', 'cholesterol'), ('cholesterol', 'atherosclerosis')]
+
+
+....Batch 4919 / 5340 
+------------------
+[("Crohn's disease", 'coconut macaroon')]
+
+
+....Batch 4920 / 5340 
+------------------
+[]
+
+
+....Batch 4921 / 5340 
+------------------
+[("vitamin C you'd", 'scurvy'), ('scurvy', 'vitamin C')]
+
+
+....Batch 4922 / 5340 
+------------------
+[]
+
+
+....Batch 4923 / 5340 
+------------------
+[]
+
+
+....Batch 4924 / 5340 
+------------------
+[]
+
+
+....Batch 4925 / 5340 
+------------------
+[]
+
+
+....Batch 4926 / 5340 
+------------------
+[]
+
+
+....Batch 4927 / 5340 
+------------------
+[]
+
+
+....Batch 4928 / 5340 
+------------------
+[('disorientation delirium', 'infection'), ('Legionella', 'hypertension')]
+
+
+....Batch 4929 / 5340 
+------------------
+[('prostate tumor', 'starch'), ('starch', 'prostate cancer'), ('prostate cancer', 'testosterone'), ('testosterone', 'tumor'), ('kidney damage', 'testosterone')]
+
+
+....Batch 4930 / 5340 
+------------------
+[('vitamin D', 'tinnitus')]
+
+
+....Batch 4931 / 5340 
+------------------
+[]
+
+
+....Batch 4932 / 5340 
+------------------
+[('tinnitus', 'tinnitus salicylates aspirin'), ('naproxen', 'disc problem'), ('disc problem', 'pain'), ('pain', 'tinnitus')]
+
+
+....Batch 4933 / 5340 
+------------------
+[]
+
+
+....Batch 4934 / 5340 
+------------------
+[]
+
+
+....Batch 4935 / 5340 
+------------------
+[]
+
+
+....Batch 4936 / 5340 
+------------------
+[]
+
+
+....Batch 4937 / 5340 
+------------------
+[]
+
+
+....Batch 4938 / 5340 
+------------------
+[]
+
+
+....Batch 4939 / 5340 
+------------------
+[]
+
+
+....Batch 4940 / 5340 
+------------------
+[]
+
+
+....Batch 4941 / 5340 
+------------------
+[]
+
+
+....Batch 4942 / 5340 
+------------------
+[]
+
+
+....Batch 4943 / 5340 
+------------------
+[]
+
+
+....Batch 4944 / 5340 
+------------------
+[]
+
+
+....Batch 4945 / 5340 
+------------------
+[]
+
+
+....Batch 4946 / 5340 
+------------------
+[('tinnitus', 'caffeine'), ('caffeine', 'tinnitus')]
+
+
+....Batch 4947 / 5340 
+------------------
+[]
+
+
+....Batch 4948 / 5340 
+------------------
+[('tinnitus', 'Onyx')]
+
+
+....Batch 4949 / 5340 
+------------------
+[('tinnitus', 'fluttering'), ('fluttering', 'tinnitus')]
+
+
+....Batch 4950 / 5340 
+------------------
+[]
+
+
+....Batch 4951 / 5340 
+------------------
+[]
+
+
+....Batch 4952 / 5340 
+------------------
+[]
+
+
+....Batch 4953 / 5340 
+------------------
+[]
+
+
+....Batch 4954 / 5340 
+------------------
+[('toxoplasmosis', 'daraprim'), ('daraprim', 'parasitic infection'), ('dementia', 'agitation'), ('Haldol Seroquel', 'dementia'), ('dementia', 'infections'), ('infections', 'anti-psychotic'), ('anti-psychotic', 'dextromethorphan'), ('dextromethorphan', 'DM'), ('DM', 'Robitussin DM'), ('quinidine', 'heart rhythm abnormalities')]
+
+
+....Batch 4955 / 5340 
+------------------
+[('fluoxetine', 'fatigue diarrhea dizziness'), ('fatigue diarrhea dizziness', 'agitation'), ('agitation', "Alzheimer's disease"), ('heart disease', 'cholesterol'), ('cholesterol', 'heart failure'), ('heart failure', 'nitrate')]
+
+
+....Batch 4956 / 5340 
+------------------
+[]
+
+
+....Batch 4957 / 5340 
+------------------
+[]
+
+
+....Batch 4958 / 5340 
+------------------
+[]
+
+
+....Batch 4959 / 5340 
+------------------
+[]
+
+
+....Batch 4960 / 5340 
+------------------
+[]
+
+
+....Batch 4961 / 5340 
+------------------
+[]
+
+
+....Batch 4962 / 5340 
+------------------
+[]
+
+
+....Batch 4963 / 5340 
+------------------
+[]
+
+
+....Batch 4964 / 5340 
+------------------
+[]
+
+
+....Batch 4965 / 5340 
+------------------
+[]
+
+
+....Batch 4966 / 5340 
+------------------
+[]
+
+
+....Batch 4967 / 5340 
+------------------
+[]
+
+
+....Batch 4968 / 5340 
+------------------
+[]
+
+
+....Batch 4969 / 5340 
+------------------
+[]
+
+
+....Batch 4970 / 5340 
+------------------
+[]
+
+
+....Batch 4971 / 5340 
+------------------
+[]
+
+
+....Batch 4972 / 5340 
+------------------
+[]
+
+
+....Batch 4973 / 5340 
+------------------
+[]
+
+
+....Batch 4974 / 5340 
+------------------
+[]
+
+
+....Batch 4975 / 5340 
+------------------
+[]
+
+
+....Batch 4976 / 5340 
+------------------
+[('cancer', 'Cancer')]
+
+
+....Batch 4977 / 5340 
+------------------
+[('cancer', 'pain'), ('pain', 'Lyme disease')]
+
+
+....Batch 4978 / 5340 
+------------------
+[]
+
+
+....Batch 4979 / 5340 
+------------------
+[]
+
+
+....Batch 4980 / 5340 
+------------------
+[('cancer', 'infection'), ('infection', 'Lyme disease')]
+
+
+....Batch 4981 / 5340 
+------------------
+[]
+
+
+....Batch 4982 / 5340 
+------------------
+[('cancer', 'estrogen'), ('progestin estrogen', 'breast cancer'), ('breast cancer', 'estrogen'), ('hot flashes', 'night sweats')]
+
+
+....Batch 4983 / 5340 
+------------------
+[('HRT', 'breast cancer')]
+
+
+....Batch 4984 / 5340 
+------------------
+[('dementia', 'cognitive problems'), ('cognitive problems', 'dementia')]
+
+
+....Batch 4985 / 5340 
+------------------
+[]
+
+
+....Batch 4986 / 5340 
+------------------
+[('heart disease', 'cardiovascular disease'), ('cardiovascular disease', 'obesity')]
+
+
+....Batch 4987 / 5340 
+------------------
+[]
+
+
+....Batch 4988 / 5340 
+------------------
+[]
+
+
+....Batch 4989 / 5340 
+------------------
+[]
+
+
+....Batch 4990 / 5340 
+------------------
+[('type 2 diabetes', 'green leafy vegetables'), ('green leafy vegetables', 'type 2 diabetes'), ('prediabetes', 'sugar'), ('inflammation', 'allergic'), ('allergic', 'allergic reaction'), ('streptomycin', 'anaphylaxis')]
+
+
+....Batch 4991 / 5340 
+------------------
+[]
+
+
+....Batch 4992 / 5340 
+------------------
+[]
+
+
+....Batch 4993 / 5340 
+------------------
+[]
+
+
+....Batch 4994 / 5340 
+------------------
+[]
+
+
+....Batch 4995 / 5340 
+------------------
+[]
+
+
+....Batch 4996 / 5340 
+------------------
+[('pulmonary emboli', 'blood clots')]
+
+
+....Batch 4997 / 5340 
+------------------
+[]
+
+
+....Batch 4998 / 5340 
+------------------
+[('miscarriage', 'bleed')]
+
+
+....Batch 4999 / 5340 
+------------------
+[]
+
+
+....Batch 5000 / 5340 
+------------------
+[('diabetic retinopathy', 'pain'), ('pain', 'diabetic'), ('diabetic', 'Insulin')]
+
+
+....Batch 5001 / 5340 
+------------------
+[]
+
+
+....Batch 5002 / 5340 
+------------------
+[('heart attack.', 'Diabetes')]
+
+
+....Batch 5003 / 5340 
+------------------
+[]
+
+
+....Batch 5004 / 5340 
+------------------
+[('keytruda pembrolizumab', 'melanoma'), ('melanoma', 'cancer pd-1'), ('cancer pd-1', 'cancer')]
+
+
+....Batch 5005 / 5340 
+------------------
+[('cancer', 'scorpion venom'), ('scorpion venom', 'brain tumors')]
+
+
+....Batch 5006 / 5340 
+------------------
+[('cancer', 'scorpion toxin'), ('chlorotoxin Woodbine', 'cancer'), ('cancers', 'chloride ion'), ('chloride ion', 'tumor')]
+
+
+....Batch 5007 / 5340 
+------------------
+[('human tumors', 'cancer')]
+
+
+....Batch 5008 / 5340 
+------------------
+[]
+
+
+....Batch 5009 / 5340 
+------------------
+[('tumor', 'Violet'), ('Violet', 'brain cancer'), ('cancer', 'chills'), ('pancreatic or', 'cancer')]
+
+
+....Batch 5010 / 5340 
+------------------
+[]
+
+
+....Batch 5011 / 5340 
+------------------
+[('pain', 'depressed'), ('depressed', 'triglycerides')]
+
+
+....Batch 5012 / 5340 
+------------------
+[]
+
+
+....Batch 5013 / 5340 
+------------------
+[]
+
+
+....Batch 5014 / 5340 
+------------------
+[('antidepressants', 'depression'), ('depression', 'ketamine')]
+
+
+....Batch 5015 / 5340 
+------------------
+[('heart attack', 'pain'), ('naproxen', 'heart attack'), ('NSAID pain', 'peanut protein allergy'), ('peanut protein', 'peanut allergy'), ('peanut allergy', 'peanut'), ('peanut', 'allergy')]
+
+
+....Batch 5016 / 5340 
+------------------
+[('allergic', 'peanut allergy'), ('peanut allergy', 'peanut'), ('peanut', 'allergies'), ('asthma', 'EX,'), ('EX,', 'allergies')]
+
+
+....Batch 5017 / 5340 
+------------------
+[('ketamine', 'depression'), ('depression', 'ketamine')]
+
+
+....Batch 5018 / 5340 
+------------------
+[('ketamine', 'depression'), ('depression', 'depressive')]
+
+
+....Batch 5019 / 5340 
+------------------
+[('ketamine', 'depression'), ('depression', 'ketamine'), ('ketamine', 'depression'), ('depression', 'Suicidal'), ('Suicidal', 'depression'), ('depression', 'ketamine')]
+
+
+....Batch 5020 / 5340 
+------------------
+[]
+
+
+....Batch 5021 / 5340 
+------------------
+[]
+
+
+....Batch 5022 / 5340 
+------------------
+[('depressed', 'depression'), ('depression', 'antidepressants')]
+
+
+....Batch 5023 / 5340 
+------------------
+[('depression', 'pain')]
+
+
+....Batch 5024 / 5340 
+------------------
+[('depression', 'pain'), ('depressed', 'depression')]
+
+
+....Batch 5025 / 5340 
+------------------
+[]
+
+
+....Batch 5026 / 5340 
+------------------
+[('suicidal', 'depression')]
+
+
+....Batch 5027 / 5340 
+------------------
+[('depression', 'depressed')]
+
+
+....Batch 5028 / 5340 
+------------------
+[('depression anxiety', 'depressed'), ('headache', 'depression'), ('depression', 'fatigue')]
+
+
+....Batch 5029 / 5340 
+------------------
+[('anger', 'depression'), ('depression', 'Suicide')]
+
+
+....Batch 5030 / 5340 
+------------------
+[('depression', 'depressed'), ('depressed', 'depression'), ('depression', 'benzodiazepines'), ('Klonopin', 'depression'), ('depression', 'benzodiazepines')]
+
+
+....Batch 5031 / 5340 
+------------------
+[('depressed', 'depression')]
+
+
+....Batch 5032 / 5340 
+------------------
+[]
+
+
+....Batch 5033 / 5340 
+------------------
+[('depression', 'depressed'), ('depressed', 'depression-era'), ('depression-era', 'antidepressant'), ('antidepressant', 'depression')]
+
+
+....Batch 5034 / 5340 
+------------------
+[('dopamine', 'depression')]
+
+
+....Batch 5035 / 5340 
+------------------
+[]
+
+
+....Batch 5036 / 5340 
+------------------
+[]
+
+
+....Batch 5037 / 5340 
+------------------
+[]
+
+
+....Batch 5038 / 5340 
+------------------
+[('depression', 'depressed'), ('depressed', 'depression'), ('depression', 'flu'), ('flu', 'depression')]
+
+
+....Batch 5039 / 5340 
+------------------
+[]
+
+
+....Batch 5040 / 5340 
+------------------
+[]
+
+
+....Batch 5041 / 5340 
+------------------
+[('depression', 'depressed')]
+
+
+....Batch 5042 / 5340 
+------------------
+[('depression', 'urea')]
+
+
+....Batch 5043 / 5340 
+------------------
+[]
+
+
+....Batch 5044 / 5340 
+------------------
+[]
+
+
+....Batch 5045 / 5340 
+------------------
+[('asthma', 'cholesterol'), ('capsaicin', "Alzheimer's disease"), ('hip fracture', 'antidepressant')]
+
+
+....Batch 5046 / 5340 
+------------------
+[('colicky', 'crying'), ('crying', 'colicky'), ('hip knee foot or ankle arthritis', 'pain')]
+
+
+....Batch 5047 / 5340 
+------------------
+[('pain', 'osteoarthritis'), ('osteoarthritis', 'yoga'), ('yoga', 'paraplegia'), ('paraplegia', 'trauma')]
+
+
+....Batch 5048 / 5340 
+------------------
+[]
+
+
+....Batch 5049 / 5340 
+------------------
+[('coma', 'bruise')]
+
+
+....Batch 5050 / 5340 
+------------------
+[]
+
+
+....Batch 5051 / 5340 
+------------------
+[('yoga', 'paralysis')]
+
+
+....Batch 5052 / 5340 
+------------------
+[]
+
+
+....Batch 5053 / 5340 
+------------------
+[]
+
+
+....Batch 5054 / 5340 
+------------------
+[]
+
+
+....Batch 5055 / 5340 
+------------------
+[]
+
+
+....Batch 5056 / 5340 
+------------------
+[]
+
+
+....Batch 5057 / 5340 
+------------------
+[]
+
+
+....Batch 5058 / 5340 
+------------------
+[]
+
+
+....Batch 5059 / 5340 
+------------------
+[]
+
+
+....Batch 5060 / 5340 
+------------------
+[('trauma', 'arthritis pain')]
+
+
+....Batch 5061 / 5340 
+------------------
+[]
+
+
+....Batch 5062 / 5340 
+------------------
+[]
+
+
+....Batch 5063 / 5340 
+------------------
+[('arthritis', 'pain')]
+
+
+....Batch 5064 / 5340 
+------------------
+[('pain', 'chronic pain')]
+
+
+....Batch 5065 / 5340 
+------------------
+[('pain', "Parkinson's Disease")]
+
+
+....Batch 5066 / 5340 
+------------------
+[]
+
+
+....Batch 5067 / 5340 
+------------------
+[('osteoporosis', 'fracture')]
+
+
+....Batch 5068 / 5340 
+------------------
+[]
+
+
+....Batch 5069 / 5340 
+------------------
+[]
+
+
+....Batch 5070 / 5340 
+------------------
+[('urea', 'dementia')]
+
+
+....Batch 5071 / 5340 
+------------------
+[('artery disease testosterone', 'obesity'), ('obesity', 'testosterone')]
+
+
+....Batch 5072 / 5340 
+------------------
+[]
+
+
+....Batch 5073 / 5340 
+------------------
+[('ulcers', 'autoimmune disease'), ('autoimmune disease', 'obesity'), ('inflammatory bowel disease', 'dementia')]
+
+
+....Batch 5074 / 5340 
+------------------
+[]
+
+
+....Batch 5075 / 5340 
+------------------
+[]
+
+
+....Batch 5076 / 5340 
+------------------
+[('urinary incontinence', 'chlorpheniramine'), ('cimetidine', 'heartburn'), ('heartburn', 'Tylenol PM')]
+
+
+....Batch 5077 / 5340 
+------------------
+[('dementia', 'mouth constipation')]
+
+
+....Batch 5078 / 5340 
+------------------
+[('dementia', 'benzodiazepines'), ('benzodiazepines', 'dementia'), ('dementia', 'flu')]
+
+
+....Batch 5079 / 5340 
+------------------
+[]
+
+
+....Batch 5080 / 5340 
+------------------
+[]
+
+
+....Batch 5081 / 5340 
+------------------
+[('flu', 'pneumonia'), ('pneumonia', 'flu')]
+
+
+....Batch 5082 / 5340 
+------------------
+[]
+
+
+....Batch 5083 / 5340 
+------------------
+[('benzodiazepines', 'insomnia')]
+
+
+....Batch 5084 / 5340 
+------------------
+[('hallucinations', 'delirium'), ('delirium', 'psychiatric')]
+
+
+....Batch 5085 / 5340 
+------------------
+[]
+
+
+....Batch 5086 / 5340 
+------------------
+[('Listerine', 'stroke')]
+
+
+....Batch 5087 / 5340 
+------------------
+[('heart attack', 'morphine'), ('oxygen', 'stroke')]
+
+
+....Batch 5088 / 5340 
+------------------
+[('stroke', 'TPA'), ('ischemic stroke', 'stroke'), ('stroke', 'TPA')]
+
+
+....Batch 5089 / 5340 
+------------------
+[('ischemic stroke', 'bleeding'), ('bleeding', 'stroke'), ('stroke', 'weakness')]
+
+
+....Batch 5090 / 5340 
+------------------
+[('blood clots', 'stroke')]
+
+
+....Batch 5091 / 5340 
+------------------
+[('stroke', 'alcohol'), ('alcohol', 'stroke')]
+
+
+....Batch 5092 / 5340 
+------------------
+[('stroke', 'alcohol'), ('alcohol', 'stroke')]
+
+
+....Batch 5093 / 5340 
+------------------
+[]
+
+
+....Batch 5094 / 5340 
+------------------
+[('asthma', 'fructose')]
+
+
+....Batch 5095 / 5340 
+------------------
+[('diabetes', 'dementia'), ("Alzheimer's disease", 'urea')]
+
+
+....Batch 5096 / 5340 
+------------------
+[]
+
+
+....Batch 5097 / 5340 
+------------------
+[('cholesterol', 'heart disease'), ('dementia', 'cholesterol'), ('cholesterol', 'heart attacks'), ('heart attacks', 'Strokes'), ('saturated fat', 'coronary artery disease'), ('coronary artery disease', 'fatty acids')]
+
+
+....Batch 5098 / 5340 
+------------------
+[('Flavin', 'hemorrhagic bleeding stroke'), ('hemorrhagic bleeding stroke', 'TPA clot'), ('TPA', 'hemorrhagic stroke'), ('hemorrhagic stroke', 'bleeding'), ('TPA', 'ischemia')]
+
+
+....Batch 5099 / 5340 
+------------------
+[]
+
+
+....Batch 5100 / 5340 
+------------------
+[]
+
+
+....Batch 5101 / 5340 
+------------------
+[('heart disease', 'smoking'), ('smoking', 'heart disease obesity'), ('heart disease obesity', 'smoking'), ('smoking', 'heart disease')]
+
+
+....Batch 5102 / 5340 
+------------------
+[('estrogen', 'heart disease')]
+
+
+....Batch 5103 / 5340 
+------------------
+[('heart disease', 'estrogen'), ('estrogen', 'heart disease')]
+
+
+....Batch 5104 / 5340 
+------------------
+[('obesity', 'pain'), ('pain', 'obesity'), ('heart disease', 'cholesterol')]
+
+
+....Batch 5105 / 5340 
+------------------
+[('trans fats', 'heart attacks')]
+
+
+....Batch 5106 / 5340 
+------------------
+[('cholesterol', 'heart disease'), ('heart disease', 'cholesterol')]
+
+
+....Batch 5107 / 5340 
+------------------
+[('cholesterol', 'heart disease'), ('heart disease', 'cholesterol'), ('cholesterol', 'heart disease'), ('heart disease', 'Statin')]
+
+
+....Batch 5108 / 5340 
+------------------
+[]
+
+
+....Batch 5109 / 5340 
+------------------
+[('cholesterol', 'heart disease'), ('heart disease', 'smoking'), ('smoking', 'heart disease'), ('diabetes', 'cholesterol'), ('cholesterol', 'heart disease')]
+
+
+....Batch 5110 / 5340 
+------------------
+[('smoking', 'heart problems'), ('heart problems', 'blood clots')]
+
+
+....Batch 5111 / 5340 
+------------------
+[('aspirin', 'heart disease'), ('stroke', 'aspirin')]
+
+
+....Batch 5112 / 5340 
+------------------
+[('aspirin', 'heart disease'), ('heart disease', 'Aspirin'), ('Aspirin', 'bleeding stroke'), ('stroke', 'blood clot')]
+
+
+....Batch 5113 / 5340 
+------------------
+[]
+
+
+....Batch 5114 / 5340 
+------------------
+[]
+
+
+....Batch 5115 / 5340 
+------------------
+[('heart disease', 'statin'), ('Statin', 'diabetes'), ('diabetes', 'Statin'), ('statins', 'heart disease')]
+
+
+....Batch 5116 / 5340 
+------------------
+[('statins', 'heart disease')]
+
+
+....Batch 5117 / 5340 
+------------------
+[('anxiety', 'anger')]
+
+
+....Batch 5118 / 5340 
+------------------
+[]
+
+
+....Batch 5119 / 5340 
+------------------
+[('heart attack', 'heart attacks')]
+
+
+....Batch 5120 / 5340 
+------------------
+[]
+
+
+....Batch 5121 / 5340 
+------------------
+[('heart disease', 'cardiovascular disease')]
+
+
+....Batch 5122 / 5340 
+------------------
+[]
+
+
+....Batch 5123 / 5340 
+------------------
+[('anger', 'depression'), ('depression', 'depressed mood'), ('depressed mood', 'heart disease')]
+
+
+....Batch 5124 / 5340 
+------------------
+[('heart disease', 'urea')]
+
+
+....Batch 5125 / 5340 
+------------------
+[]
+
+
+....Batch 5126 / 5340 
+------------------
+[]
+
+
+....Batch 5127 / 5340 
+------------------
+[("Colon's", 'head injury'), ('head injury', 'concussions'), ('concussions', 'concussion')]
+
+
+....Batch 5128 / 5340 
+------------------
+[('choline', "Alzheimer's disease"), ("Alzheimer's disease", 'steel choline'), ('steel choline', 'cognitive impairment')]
+
+
+....Batch 5129 / 5340 
+------------------
+[('infertility', 'cancer'), ('cancer', 'endocrine disruption')]
+
+
+....Batch 5130 / 5340 
+------------------
+[]
+
+
+....Batch 5131 / 5340 
+------------------
+[]
+
+
+....Batch 5132 / 5340 
+------------------
+[('infertility', 'infertile'), ('infertile', 'thyroid problems'), ('PCOS', 'weight loss'), ('weight loss', 'PCOS'), ('PCOS', 'Clomid')]
+
+
+....Batch 5133 / 5340 
+------------------
+[('polycystic ovary', 'estrogen')]
+
+
+....Batch 5134 / 5340 
+------------------
+[('endocrine disruptors', 'infertility')]
+
+
+....Batch 5135 / 5340 
+------------------
+[('bisphenol a BPA', 'infertility'), ('infertility', 'cancer')]
+
+
+....Batch 5136 / 5340 
+------------------
+[]
+
+
+....Batch 5137 / 5340 
+------------------
+[]
+
+
+....Batch 5138 / 5340 
+------------------
+[('estrogen', 'menstrual disturbances')]
+
+
+....Batch 5139 / 5340 
+------------------
+[('infertility', 'endometriosis')]
+
+
+....Batch 5140 / 5340 
+------------------
+[]
+
+
+....Batch 5141 / 5340 
+------------------
+[]
+
+
+....Batch 5142 / 5340 
+------------------
+[]
+
+
+....Batch 5143 / 5340 
+------------------
+[('fibroids', 'tumors of the uterus'), ('tumors of the uterus', 'fibroids'), ('fibroids', 'bleeding pain')]
+
+
+....Batch 5144 / 5340 
+------------------
+[('endometriosis', 'pain'), ('pain', 'endometriosis')]
+
+
+....Batch 5145 / 5340 
+------------------
+[('endometriosis', 'bleeding'), ('bleeding', 'cysts'), ('cysts', 'pain')]
+
+
+....Batch 5146 / 5340 
+------------------
+[]
+
+
+....Batch 5147 / 5340 
+------------------
+[]
+
+
+....Batch 5148 / 5340 
+------------------
+[('Kathy quillet', 'infertility')]
+
+
+....Batch 5149 / 5340 
+------------------
+[('endometriosis', 'depression.'), ('depression', 'anxiety insomnia'), ('anxiety insomnia', 'loneliness')]
+
+
+....Batch 5150 / 5340 
+------------------
+[('infertility', 'miscarriage'), ('pain', 'infertility')]
+
+
+....Batch 5151 / 5340 
+------------------
+[]
+
+
+....Batch 5152 / 5340 
+------------------
+[]
+
+
+....Batch 5153 / 5340 
+------------------
+[]
+
+
+....Batch 5154 / 5340 
+------------------
+[("Kathy I'd", 'infertility')]
+
+
+....Batch 5155 / 5340 
+------------------
+[('miscarriage', 'pregnancy loss')]
+
+
+....Batch 5156 / 5340 
+------------------
+[]
+
+
+....Batch 5157 / 5340 
+------------------
+[('infertility', 'pain')]
+
+
+....Batch 5158 / 5340 
+------------------
+[]
+
+
+....Batch 5159 / 5340 
+------------------
+[]
+
+
+....Batch 5160 / 5340 
+------------------
+[('Vytorin', 'cancer')]
+
+
+....Batch 5161 / 5340 
+------------------
+[('homocysteine', 'heart attacks'), ('heart attacks', 'strokes'), ('vitamin B12', 'blood clots strokes'), ('heart attacks', 'B vitamins')]
+
+
+....Batch 5162 / 5340 
+------------------
+[]
+
+
+....Batch 5163 / 5340 
+------------------
+[]
+
+
+....Batch 5164 / 5340 
+------------------
+[]
+
+
+....Batch 5165 / 5340 
+------------------
+[]
+
+
+....Batch 5166 / 5340 
+------------------
+[]
+
+
+....Batch 5167 / 5340 
+------------------
+[('hypoactive sexual desire disorder', 'pain'), ('pain', 'sexual pain disorders'), ('sexual pain disorders', 'tremor')]
+
+
+....Batch 5168 / 5340 
+------------------
+[('yohimbine', 'orgasmic disorder'), ('orgasmic disorder', 'yohimbine')]
+
+
+....Batch 5169 / 5340 
+------------------
+[]
+
+
+....Batch 5170 / 5340 
+------------------
+[]
+
+
+....Batch 5171 / 5340 
+------------------
+[('erectile dysfunction', 'Viagra'), ('sexual dysfunction FSD', 'sexual dysfunction')]
+
+
+....Batch 5172 / 5340 
+------------------
+[('milia', 'sexual dysfunction')]
+
+
+....Batch 5173 / 5340 
+------------------
+[('serotonin', 'depression'), ('depression', 'depressed'), ('serotonin', 'depression'), ('depression', 'serotonin')]
+
+
+....Batch 5174 / 5340 
+------------------
+[('Viagra', 'infertility'), ('erectile dysfunction', 'premature ejaculation'), ('premature ejaculation', 'infertility')]
+
+
+....Batch 5175 / 5340 
+------------------
+[]
+
+
+....Batch 5176 / 5340 
+------------------
+[]
+
+
+....Batch 5177 / 5340 
+------------------
+[]
+
+
+....Batch 5178 / 5340 
+------------------
+[]
+
+
+....Batch 5179 / 5340 
+------------------
+[]
+
+
+....Batch 5180 / 5340 
+------------------
+[('sexual arousal disorder', 'SSRI')]
+
+
+....Batch 5181 / 5340 
+------------------
+[('PS4', 'arteriovenous malformations'), ('pelvic congestion', 'Trazodone'), ('dopamine', 'arthritis'), ('arthritis', 'pain'), ('Chantix', 'headache')]
+
+
+....Batch 5182 / 5340 
+------------------
+[('Chantix', 'migraine'), ('migraine', 'Viagra'), ('Viagra', 'migraine'), ('hyperthyroidism', 'early ejaculation')]
+
+
+....Batch 5183 / 5340 
+------------------
+[('pitocin', 'orgasmia'), ('orgasmia', 'oxytocin')]
+
+
+....Batch 5184 / 5340 
+------------------
+[('premature ejaculation', 'sexual dysfunction')]
+
+
+....Batch 5185 / 5340 
+------------------
+[]
+
+
+....Batch 5186 / 5340 
+------------------
+[('smoking Chantix', 'depression'), ('depression', 'hostility agitation')]
+
+
+....Batch 5187 / 5340 
+------------------
+[('nicotine', 'psychiatric illnesses'), ('psychiatric illnesses', 'Chantix'), ('Chantix', 'depression Suicidal')]
+
+
+....Batch 5188 / 5340 
+------------------
+[('infection', 'cancer')]
+
+
+....Batch 5189 / 5340 
+------------------
+[]
+
+
+....Batch 5190 / 5340 
+------------------
+[]
+
+
+....Batch 5191 / 5340 
+------------------
+[]
+
+
+....Batch 5192 / 5340 
+------------------
+[]
+
+
+....Batch 5193 / 5340 
+------------------
+[]
+
+
+....Batch 5194 / 5340 
+------------------
+[]
+
+
+....Batch 5195 / 5340 
+------------------
+[]
+
+
+....Batch 5196 / 5340 
+------------------
+[]
+
+
+....Batch 5197 / 5340 
+------------------
+[]
+
+
+....Batch 5198 / 5340 
+------------------
+[]
+
+
+....Batch 5199 / 5340 
+------------------
+[]
+
+
+....Batch 5200 / 5340 
+------------------
+[]
+
+
+....Batch 5201 / 5340 
+------------------
+[]
+
+
+....Batch 5202 / 5340 
+------------------
+[]
+
+
+....Batch 5203 / 5340 
+------------------
+[]
+
+
+....Batch 5204 / 5340 
+------------------
+[]
+
+
+....Batch 5205 / 5340 
+------------------
+[]
+
+
+....Batch 5206 / 5340 
+------------------
+[]
+
+
+....Batch 5207 / 5340 
+------------------
+[('Gluten', 'celiac disease'), ('wheat allergy', 'gluten')]
+
+
+....Batch 5208 / 5340 
+------------------
+[('allergy', 'autoimmunity'), ('autoimmunity', 'asthma'), ('ADHD', 'gluten')]
+
+
+....Batch 5209 / 5340 
+------------------
+[]
+
+
+....Batch 5210 / 5340 
+------------------
+[('hypertension', 'sodium')]
+
+
+....Batch 5211 / 5340 
+------------------
+[]
+
+
+....Batch 5212 / 5340 
+------------------
+[]
+
+
+....Batch 5213 / 5340 
+------------------
+[]
+
+
+....Batch 5214 / 5340 
+------------------
+[('influenza', 'aches'), ('aches', 'fatigue'), ('fatigue', 'fever'), ('fever', 'coughing'), ('flu', 'bacterial infections'), ('bacterial infections', 'flu'), ('influenza', 'flu infection'), ('flu infection', 'flu'), ('flu', 'diabetes'), ('diabetes', 'cholesterol')]
+
+
+....Batch 5215 / 5340 
+------------------
+[('fat', 'cardiovascular disease'), ('cardiovascular disease', 'sodium'), ('epinephrine', 'asthma'), ('asthma', 'yoga')]
+
+
+....Batch 5216 / 5340 
+------------------
+[]
+
+
+....Batch 5217 / 5340 
+------------------
+[]
+
+
+....Batch 5218 / 5340 
+------------------
+[]
+
+
+....Batch 5219 / 5340 
+------------------
+[('estrogen', 'breast cancer'), ('breast cancer', 'estrogen'), ('estrogen', 'breast cancer'), ('breast cancer', 'thyroid problems'), ('thyroid problems', 'cancers attention deficit disorder'), ('cancers attention deficit disorder', "I'd")]
+
+
+....Batch 5220 / 5340 
+------------------
+[]
+
+
+....Batch 5221 / 5340 
+------------------
+[]
+
+
+....Batch 5222 / 5340 
+------------------
+[]
+
+
+....Batch 5223 / 5340 
+------------------
+[]
+
+
+....Batch 5224 / 5340 
+------------------
+[]
+
+
+....Batch 5225 / 5340 
+------------------
+[]
+
+
+....Batch 5226 / 5340 
+------------------
+[('potassium', 'cancer')]
+
+
+....Batch 5227 / 5340 
+------------------
+[]
+
+
+....Batch 5228 / 5340 
+------------------
+[]
+
+
+....Batch 5229 / 5340 
+------------------
+[]
+
+
+....Batch 5230 / 5340 
+------------------
+[]
+
+
+....Batch 5231 / 5340 
+------------------
+[]
+
+
+....Batch 5232 / 5340 
+------------------
+[]
+
+
+....Batch 5233 / 5340 
+------------------
+[]
+
+
+....Batch 5234 / 5340 
+------------------
+[]
+
+
+....Batch 5235 / 5340 
+------------------
+[]
+
+
+....Batch 5236 / 5340 
+------------------
+[]
+
+
+....Batch 5237 / 5340 
+------------------
+[]
+
+
+....Batch 5238 / 5340 
+------------------
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    medical_term_strings = classifier.classify(filtered[i:i+batch_size])
+  File "/home/ryedida/csc830-drug-disease-discovery/scripts/pipeline/drugdiscovery/classification/twin_classifier.py", line 37, in classify
+    self.ner_model.predict(flair_sentence)
+  File "/usr/local/lib/python3.6/dist-packages/flair/models/sequence_tagger_model.py", line 335, in predict
+    feature: torch.Tensor = self.forward(batch)
+  File "/usr/local/lib/python3.6/dist-packages/flair/models/sequence_tagger_model.py", line 475, in forward
+    self.embeddings.embed(sentences)
+  File "/usr/local/lib/python3.6/dist-packages/flair/embeddings.py", line 171, in embed
+    embedding.embed(sentences)
+  File "/usr/local/lib/python3.6/dist-packages/flair/embeddings.py", line 90, in embed
+    self._add_embeddings_internal(sentences)
+  File "/usr/local/lib/python3.6/dist-packages/flair/embeddings.py", line 1915, in _add_embeddings_internal
+    self.context_embeddings.embed(sentences)
+  File "/usr/local/lib/python3.6/dist-packages/flair/embeddings.py", line 90, in embed
+    self._add_embeddings_internal(sentences)
+  File "/usr/local/lib/python3.6/dist-packages/flair/embeddings.py", line 1817, in _add_embeddings_internal
+    text_sentences, start_marker, end_marker, self.chars_per_chunk
+  File "/usr/local/lib/python3.6/dist-packages/flair/models/language_model.py", line 155, in get_representation
+    _, rnn_output, hidden = self.forward(batch, hidden)
+  File "/usr/local/lib/python3.6/dist-packages/flair/models/language_model.py", line 78, in forward
+    output, hidden = self.rnn(emb, hidden)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/rnn.py", line 564, in forward
+    return self.forward_tensor(input, hx)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/rnn.py", line 543, in forward_tensor
+    output, hidden = self.forward_impl(input, hx, batch_sizes, max_batch_size, sorted_indices)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/rnn.py", line 526, in forward_impl
+    self.dropout, self.training, self.bidirectional, self.batch_first)
+RuntimeError: CUDA out of memory. Tried to allocate 108.00 MiB (GPU 0; 16.00 GiB total capacity; 13.87 GiB already allocated; 98.79 MiB free; 250.21 MiB cached)

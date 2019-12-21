@@ -16,6 +16,9 @@ classifier = TwinClassifier(ner_dir='../../../', disease_dir='../../../BioFLAIR/
 print('Classifying', len(filtered), 'terms')
 batch_size = 2
 for i in range(0, len(filtered), batch_size):
+    # If CUDA runs out of memory, update the line below and restart
+    #if i // batch_size + 1 < 5238:
+    #    continue
     print('\n\n....Batch', i // batch_size + 1, '/', len(filtered) // batch_size, '\n------------------')
     medical_term_strings = classifier.classify(filtered[i:i+batch_size])
 
